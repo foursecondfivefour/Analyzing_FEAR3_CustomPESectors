@@ -1,0 +1,398 @@
+Selected static x86 instruction excerpts; end of excerpt is not necessarily end of function.
+All addresses are preferred VA for SHA-256 caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2.
+
+=== ResourceMgr2 object initialization excerpt: 00AFF210-00AFF2BB (end exclusive) ===
+00AFF210  8b 44 24 04                   mov      eax, dword ptr [esp + 4]
+00AFF214  83 ec 08                      sub      esp, 8
+00AFF217  53                            push     ebx
+00AFF218  55                            push     ebp
+00AFF219  56                            push     esi
+00AFF21A  8b f1                         mov      esi, ecx
+00AFF21C  c7 46 04 f8 1a 45 01          mov      dword ptr [esi + 4], 0x1451af8
+00AFF223  c7 06 8c 85 91 01             mov      dword ptr [esi], 0x191858c
+00AFF229  c7 46 04 80 85 91 01          mov      dword ptr [esi + 4], 0x1918580
+00AFF230  8b 00                         mov      eax, dword ptr [eax]
+00AFF232  57                            push     edi
+00AFF233  89 46 08                      mov      dword ptr [esi + 8], eax
+00AFF236  85 c0                         test     eax, eax
+00AFF238  74 0a                         je       0xaff244
+00AFF23A  83 c0 04                      add      eax, 4
+00AFF23D  50                            push     eax
+00AFF23E  ff 15 5c 02 3f 01             call     dword ptr [0x13f025c]
+00AFF244  8b 44 24 20                   mov      eax, dword ptr [esp + 0x20]
+00AFF248  8b 08                         mov      ecx, dword ptr [eax]
+00AFF24A  89 4e 0c                      mov      dword ptr [esi + 0xc], ecx
+00AFF24D  8b 48 04                      mov      ecx, dword ptr [eax + 4]
+00AFF250  89 4e 10                      mov      dword ptr [esi + 0x10], ecx
+00AFF253  85 c9                         test     ecx, ecx
+00AFF255  74 05                         je       0xaff25c
+00AFF257  e8 04 72 9e ff                call     0x4e6460
+00AFF25C  8b 7c 24 24                   mov      edi, dword ptr [esp + 0x24]
+00AFF260  8b 17                         mov      edx, dword ptr [edi]
+00AFF262  89 56 14                      mov      dword ptr [esi + 0x14], edx
+00AFF265  8b 47 04                      mov      eax, dword ptr [edi + 4]
+00AFF268  89 46 18                      mov      dword ptr [esi + 0x18], eax
+00AFF26B  85 c0                         test     eax, eax
+00AFF26D  74 07                         je       0xaff276
+00AFF26F  50                            push     eax
+00AFF270  ff 15 5c 02 3f 01             call     dword ptr [0x13f025c]
+00AFF276  8b 44 24 28                   mov      eax, dword ptr [esp + 0x28]
+00AFF27A  c7 46 1c 00 00 00 00          mov      dword ptr [esi + 0x1c], 0
+00AFF281  8d 5e 1c                      lea      ebx, [esi + 0x1c]
+00AFF284  8d 6e 20                      lea      ebp, [esi + 0x20]
+00AFF287  c7 45 00 00 00 00 00          mov      dword ptr [ebp], 0
+00AFF28E  c7 46 24 00 00 00 00          mov      dword ptr [esi + 0x24], 0
+00AFF295  8b 08                         mov      ecx, dword ptr [eax]
+00AFF297  89 4e 28                      mov      dword ptr [esi + 0x28], ecx
+00AFF29A  85 c9                         test     ecx, ecx
+00AFF29C  74 05                         je       0xaff2a3
+00AFF29E  e8 1d 31 92 ff                call     0x4223c0
+00AFF2A3  33 c0                         xor      eax, eax
+00AFF2A5  89 46 2c                      mov      dword ptr [esi + 0x2c], eax
+00AFF2A8  89 46 30                      mov      dword ptr [esi + 0x30], eax
+00AFF2AB  89 46 34                      mov      dword ptr [esi + 0x34], eax
+00AFF2AE  89 46 38                      mov      dword ptr [esi + 0x38], eax
+00AFF2B1  89 46 3c                      mov      dword ptr [esi + 0x3c], eax
+00AFF2B4  89 46 40                      mov      dword ptr [esi + 0x40], eax
+00AFF2B7  c6 46 44 01                   mov      byte ptr [esi + 0x44], 1
+
+=== ResourceMgr2 byte setter: 006AA760-006AA76A (end exclusive) ===
+006AA760  8a 44 24 04                   mov      al, byte ptr [esp + 4]
+006AA764  88 41 44                      mov      byte ptr [ecx + 0x44], al
+006AA767  c2 04 00                      ret      4
+
+=== ResourceMgr2 byte getter: 0069E000-0069E004 (end exclusive) ===
+0069E000  8a 41 44                      mov      al, byte ptr [ecx + 0x44]
+0069E003  c3                            ret
+
+=== ResourceMgr2 nested byte setter 1D: 006CEDB0-006CEDC0 (end exclusive) ===
+006CEDB0  8b 41 40                      mov      eax, dword ptr [ecx + 0x40]
+006CEDB3  8b 48 34                      mov      ecx, dword ptr [eax + 0x34]
+006CEDB6  8a 54 24 04                   mov      dl, byte ptr [esp + 4]
+006CEDBA  88 51 1d                      mov      byte ptr [ecx + 0x1d], dl
+006CEDBD  c2 04 00                      ret      4
+
+=== ResourceMgr2 nested byte getter 1D: 009F80E0-009F80EA (end exclusive) ===
+009F80E0  8b 41 40                      mov      eax, dword ptr [ecx + 0x40]
+009F80E3  8b 48 34                      mov      ecx, dword ptr [eax + 0x34]
+009F80E6  8a 41 1d                      mov      al, byte ptr [ecx + 0x1d]
+009F80E9  c3                            ret
+
+=== ResourceMgr2 nested byte setter 1E: 00CFC250-00CFC260 (end exclusive) ===
+00CFC250  8b 41 40                      mov      eax, dword ptr [ecx + 0x40]
+00CFC253  8b 48 34                      mov      ecx, dword ptr [eax + 0x34]
+00CFC256  8a 54 24 04                   mov      dl, byte ptr [esp + 4]
+00CFC25A  88 51 1e                      mov      byte ptr [ecx + 0x1e], dl
+00CFC25D  c2 04 00                      ret      4
+
+=== ResourceMgr2 nested byte getter 1E: 0067B130-0067B13A (end exclusive) ===
+0067B130  8b 41 40                      mov      eax, dword ptr [ecx + 0x40]
+0067B133  8b 48 34                      mov      ecx, dword ptr [eax + 0x34]
+0067B136  8a 41 1e                      mov      al, byte ptr [ecx + 0x1e]
+0067B139  c3                            ret
+
+=== ResourceMgr2 address-of-field accessor: 00C2D6F0-00C2D6F4 (end exclusive) ===
+00C2D6F0  8d 41 28                      lea      eax, [ecx + 0x28]
+00C2D6F3  c3                            ret
+
+=== ResourceJobWrapper dispatch: 006EFE90-006EFE98 (end exclusive) ===
+006EFE90  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+006EFE93  e9 58 db 74 00                jmp      0xe3d9f0
+
+=== Job dispatch target excerpt: 00E3D9F0-00E3DA61 (end exclusive) ===
+00E3D9F0  55                            push     ebp
+00E3D9F1  8b ec                         mov      ebp, esp
+00E3D9F3  83 e4 f8                      and      esp, 0xfffffff8
+00E3D9F6  83 ec 34                      sub      esp, 0x34
+00E3D9F9  55                            push     ebp
+00E3D9FA  56                            push     esi
+00E3D9FB  57                            push     edi
+00E3D9FC  8b f1                         mov      esi, ecx
+00E3D9FE  6a 01                         push     1
+00E3DA00  8d 4c 24 24                   lea      ecx, [esp + 0x24]
+00E3DA04  e8 b7 c8 85 ff                call     0x69a2c0
+00E3DA09  d9 ee                         fldz
+00E3DA0B  8b 2d 50 02 3f 01             mov      ebp, dword ptr [0x13f0250]
+00E3DA11  dd 5c 24 10                   fstp     qword ptr [esp + 0x10]
+00E3DA15  eb 09                         jmp      0xe3da20
+00E3DA17  8d a4 24 00 00 00 00          lea      esp, [esp]
+00E3DA1E  8b ff                         mov      edi, edi
+00E3DA20  8b 46 18                      mov      eax, dword ptr [esi + 0x18]
+00E3DA23  c7 44 24 0c 00 00 00 00       mov      dword ptr [esp + 0xc], 0
+00E3DA2B  8b 48 14                      mov      ecx, dword ptr [eax + 0x14]
+00E3DA2E  51                            push     ecx
+00E3DA2F  8b 48 04                      mov      ecx, dword ptr [eax + 4]
+00E3DA32  8d 54 24 10                   lea      edx, [esp + 0x10]
+00E3DA36  52                            push     edx
+00E3DA37  e8 34 3e 8c ff                call     0x701870
+00E3DA3C  84 c0                         test     al, al
+00E3DA3E  0f 84 8e 00 00 00             je       0xe3dad2
+00E3DA44  8d 44 24 0c                   lea      eax, [esp + 0xc]
+00E3DA48  50                            push     eax
+00E3DA49  8d 4c 24 1c                   lea      ecx, [esp + 0x1c]
+00E3DA4D  51                            push     ecx
+00E3DA4E  8b ce                         mov      ecx, esi
+00E3DA50  e8 bb 0a e1 ff                call     0xc4e510
+00E3DA55  8d 54 24 0c                   lea      edx, [esp + 0xc]
+00E3DA59  52                            push     edx
+00E3DA5A  8b ce                         mov      ecx, esi
+00E3DA5C  e8 cf 27 09 00                call     0xed0230
+
+=== Job diagnostic branch excerpt: 00E3DA61-00E3DAA0 (end exclusive) ===
+00E3DA61  8b 46 18                      mov      eax, dword ptr [esi + 0x18]
+00E3DA64  80 78 1e 00                   cmp      byte ptr [eax + 0x1e], 0
+00E3DA68  74 36                         je       0xe3daa0
+00E3DA6A  8d 4c 24 20                   lea      ecx, [esp + 0x20]
+00E3DA6E  e8 6d 38 06 00                call     0xea12e0
+00E3DA73  dd 44 24 10                   fld      qword ptr [esp + 0x10]
+00E3DA77  dc 05 48 d1 45 01             fadd     qword ptr [0x145d148]
+00E3DA7D  de d9                         fcompp
+00E3DA7F  df e0                         fnstsw   ax
+00E3DA81  f6 c4 05                      test     ah, 5
+00E3DA84  7a 1a                         jp       0xe3daa0
+00E3DA86  68 f4 86 91 01                push     0x19186f4
+00E3DA8B  e8 40 1d 98 ff                call     0x7bf7d0
+00E3DA90  83 c4 04                      add      esp, 4
+00E3DA93  8d 4c 24 20                   lea      ecx, [esp + 0x20]
+00E3DA97  e8 44 38 06 00                call     0xea12e0
+00E3DA9C  dd 5c 24 10                   fstp     qword ptr [esp + 0x10]
+
+=== FlexML path formatting excerpt: 008DD489-008DD4D4 (end exclusive) ===
+008DD489  8b 55 1c                      mov      edx, dword ptr [ebp + 0x1c]
+008DD48C  8b 42 1c                      mov      eax, dword ptr [edx + 0x1c]
+008DD48F  3b c6                         cmp      eax, esi
+008DD491  75 05                         jne      0x8dd498
+008DD493  b8 16 81 91 01                mov      eax, 0x1918116
+008DD498  50                            push     eax
+008DD499  a1 b8 86 91 01                mov      eax, dword ptr [0x19186b8]
+008DD49E  50                            push     eax
+008DD49F  8d 8c 24 3c 01 00 00          lea      ecx, [esp + 0x13c]
+008DD4A6  68 dc 86 91 01                push     0x19186dc
+008DD4AB  51                            push     ecx
+008DD4AC  e8 9f 59 06 00                call     0x942e50
+008DD4B1  8b f8                         mov      edi, eax
+008DD4B3  83 c7 04                      add      edi, 4
+008DD4B6  57                            push     edi
+008DD4B7  ff 15 48 04 3f 01             call     dword ptr [0x13f0448]
+008DD4BD  83 c4 14                      add      esp, 0x14
+008DD4C0  50                            push     eax
+008DD4C1  57                            push     edi
+008DD4C2  8d 8c 24 80 00 00 00          lea      ecx, [esp + 0x80]
+008DD4C9  e8 02 c1 39 00                call     0xc795d0
+008DD4CE  ff 05 b8 86 91 01             inc      dword ptr [0x19186b8]
+
+=== Variadic formatting helper: 00942E50-00942E84 (end exclusive) ===
+00942E50  8b 4c 24 08                   mov      ecx, dword ptr [esp + 8]
+00942E54  56                            push     esi
+00942E55  8b 74 24 08                   mov      esi, dword ptr [esp + 8]
+00942E59  8d 44 24 10                   lea      eax, [esp + 0x10]
+00942E5D  50                            push     eax
+00942E5E  51                            push     ecx
+00942E5F  8d 56 04                      lea      edx, [esi + 4]
+00942E62  68 ff 01 00 00                push     0x1ff
+00942E67  52                            push     edx
+00942E68  c7 06 00 00 00 00             mov      dword ptr [esi], 0
+00942E6E  ff 15 6c 06 3f 01             call     dword ptr [0x13f066c]
+00942E74  89 06                         mov      dword ptr [esi], eax
+00942E76  83 c4 10                      add      esp, 0x10
+00942E79  c6 86 03 02 00 00 00          mov      byte ptr [esi + 0x203], 0
+00942E80  8b c6                         mov      eax, esi
+00942E82  5e                            pop      esi
+00942E83  c3                            ret
+
+=== RenameStream name-holder initialization: 00552F80-00552FDB (end exclusive) ===
+00552F80  51                            push     ecx
+00552F81  8b 44 24 08                   mov      eax, dword ptr [esp + 8]
+00552F85  56                            push     esi
+00552F86  57                            push     edi
+00552F87  8b f9                         mov      edi, ecx
+00552F89  50                            push     eax
+00552F8A  8d 4c 24 14                   lea      ecx, [esp + 0x14]
+00552F8E  51                            push     ecx
+00552F8F  c7 07 00 00 00 00             mov      dword ptr [edi], 0
+00552F95  e8 16 c0 f2 ff                call     0x47efb0
+00552F9A  8b 30                         mov      esi, dword ptr [eax]
+00552F9C  83 c4 08                      add      esp, 8
+00552F9F  85 f6                         test     esi, esi
+00552FA1  74 0a                         je       0x552fad
+00552FA3  8d 56 28                      lea      edx, [esi + 0x28]
+00552FA6  52                            push     edx
+00552FA7  ff 15 5c 02 3f 01             call     dword ptr [0x13f025c]
+00552FAD  8d 44 24 08                   lea      eax, [esp + 8]
+00552FB1  3b c7                         cmp      eax, edi
+00552FB3  74 06                         je       0x552fbb
+00552FB5  8b c6                         mov      eax, esi
+00552FB7  8b 37                         mov      esi, dword ptr [edi]
+00552FB9  89 07                         mov      dword ptr [edi], eax
+00552FBB  85 f6                         test     esi, esi
+00552FBD  74 07                         je       0x552fc6
+00552FBF  8b ce                         mov      ecx, esi
+00552FC1  e8 da 42 2f 00                call     0x8472a0
+00552FC6  8b 4c 24 10                   mov      ecx, dword ptr [esp + 0x10]
+00552FCA  85 c9                         test     ecx, ecx
+00552FCC  74 05                         je       0x552fd3
+00552FCE  e8 cd 42 2f 00                call     0x8472a0
+00552FD3  8b c7                         mov      eax, edi
+00552FD5  5f                            pop      edi
+00552FD6  5e                            pop      esi
+00552FD7  59                            pop      ecx
+00552FD8  c2 04 00                      ret      4
+
+=== RenameStream creation excerpt: 008C6870-008C68CA (end exclusive) ===
+008C6870  53                            push     ebx
+008C6871  56                            push     esi
+008C6872  57                            push     edi
+008C6873  6a 10                         push     0x10
+008C6875  e8 46 26 fa ff                call     0x868ec0
+008C687A  8b 1d 5c 02 3f 01             mov      ebx, dword ptr [0x13f025c]
+008C6880  8b f0                         mov      esi, eax
+008C6882  83 c4 04                      add      esp, 4
+008C6885  85 f6                         test     esi, esi
+008C6887  74 2f                         je       0x8c68b8
+008C6889  8b ce                         mov      ecx, esi
+008C688B  e8 50 7c f5 ff                call     0x81e4e0
+008C6890  8b 44 24 14                   mov      eax, dword ptr [esp + 0x14]
+008C6894  c7 06 f0 87 91 01             mov      dword ptr [esi], 0x19187f0
+008C689A  8b 00                         mov      eax, dword ptr [eax]
+008C689C  89 46 08                      mov      dword ptr [esi + 8], eax
+008C689F  85 c0                         test     eax, eax
+008C68A1  74 06                         je       0x8c68a9
+008C68A3  83 c0 04                      add      eax, 4
+008C68A6  50                            push     eax
+008C68A7  ff d3                         call     ebx
+008C68A9  8b 4c 24 18                   mov      ecx, dword ptr [esp + 0x18]
+008C68AD  51                            push     ecx
+008C68AE  8d 4e 0c                      lea      ecx, [esi + 0xc]
+008C68B1  e8 ca c6 c8 ff                call     0x552f80
+008C68B6  eb 02                         jmp      0x8c68ba
+008C68B8  33 f6                         xor      esi, esi
+008C68BA  8b 7c 24 10                   mov      edi, dword ptr [esp + 0x10]
+008C68BE  89 37                         mov      dword ptr [edi], esi
+008C68C0  85 f6                         test     esi, esi
+008C68C2  74 06                         je       0x8c68ca
+008C68C4  83 c6 04                      add      esi, 4
+008C68C7  56                            push     esi
+008C68C8  ff d3                         call     ebx
+
+=== RenameStream destructor first slot: 00A2E4A0-00A2E4F3 (end exclusive) ===
+00A2E4A0  56                            push     esi
+00A2E4A1  8b f1                         mov      esi, ecx
+00A2E4A3  8b 4e 0c                      mov      ecx, dword ptr [esi + 0xc]
+00A2E4A6  85 c9                         test     ecx, ecx
+00A2E4A8  74 05                         je       0xa2e4af
+00A2E4AA  e8 f1 8d e1 ff                call     0x8472a0
+00A2E4AF  57                            push     edi
+00A2E4B0  8b 7e 08                      mov      edi, dword ptr [esi + 8]
+00A2E4B3  85 ff                         test     edi, edi
+00A2E4B5  74 18                         je       0xa2e4cf
+00A2E4B7  8d 47 04                      lea      eax, [edi + 4]
+00A2E4BA  50                            push     eax
+00A2E4BB  ff 15 50 02 3f 01             call     dword ptr [0x13f0250]
+00A2E4C1  85 c0                         test     eax, eax
+00A2E4C3  7f 0a                         jg       0xa2e4cf
+00A2E4C5  8b 17                         mov      edx, dword ptr [edi]
+00A2E4C7  8b 02                         mov      eax, dword ptr [edx]
+00A2E4C9  6a 01                         push     1
+00A2E4CB  8b cf                         mov      ecx, edi
+00A2E4CD  ff d0                         call     eax
+00A2E4CF  8b ce                         mov      ecx, esi
+00A2E4D1  c7 06 cc d5 7e 01             mov      dword ptr [esi], 0x17ed5cc
+00A2E4D7  e8 64 33 eb ff                call     0x8e1840
+00A2E4DC  f6 44 24 0c 01                test     byte ptr [esp + 0xc], 1
+00A2E4E1  5f                            pop      edi
+00A2E4E2  74 09                         je       0xa2e4ed
+00A2E4E4  56                            push     esi
+00A2E4E5  e8 36 d4 1b 00                call     0xbeb920
+00A2E4EA  83 c4 04                      add      esp, 4
+00A2E4ED  8b c6                         mov      eax, esi
+00A2E4EF  5e                            pop      esi
+00A2E4F0  c2 04 00                      ret      4
+
+=== RenameStream local accessor: 0052D1A0-0052D1A7 (end exclusive) ===
+0052D1A0  8b 41 0c                      mov      eax, dword ptr [ecx + 0xc]
+0052D1A3  83 c0 08                      add      eax, 8
+0052D1A6  c3                            ret
+
+=== FlexMLWrapperLoadResource output pointer: 00861060-0086106D (end exclusive) ===
+00861060  8b 44 24 04                   mov      eax, dword ptr [esp + 4]
+00861064  c7 00 50 87 91 01             mov      dword ptr [eax], 0x1918750
+0086106A  c2 04 00                      ret      4
+
+=== FlexMLWrapperLoadResource field setter: 00BEEDC0-00BEEDCA (end exclusive) ===
+00BEEDC0  8b 44 24 04                   mov      eax, dword ptr [esp + 4]
+00BEEDC4  89 41 08                      mov      dword ptr [ecx + 8], eax
+00BEEDC7  c2 04 00                      ret      4
+
+=== FlexMLWrapperLoadResource field getter: 00B530C0-00B530C4 (end exclusive) ===
+00B530C0  8b 41 08                      mov      eax, dword ptr [ecx + 8]
+00B530C3  c3                            ret
+
+=== FlexMLWrapperLoadResource constant zero: 00A71E30-00A71E33 (end exclusive) ===
+00A71E30  33 c0                         xor      eax, eax
+00A71E32  c3                            ret
+
+=== RenameStream slot +0x7F8, delegated slot +0x8: 0056ED90-0056ED9A (end exclusive) ===
+0056ED90  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+0056ED93  8b 01                         mov      eax, dword ptr [ecx]
+0056ED95  8b 50 08                      mov      edx, dword ptr [eax + 8]
+0056ED98  ff e2                         jmp      edx
+
+=== RenameStream slot +0x7FC, delegated slot +0xC: 006DDBC0-006DDBCA (end exclusive) ===
+006DDBC0  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+006DDBC3  8b 01                         mov      eax, dword ptr [ecx]
+006DDBC5  8b 50 0c                      mov      edx, dword ptr [eax + 0xc]
+006DDBC8  ff e2                         jmp      edx
+
+=== RenameStream slot +0x800, delegated slot +0x10: 00973F00-00973F0A (end exclusive) ===
+00973F00  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00973F03  8b 01                         mov      eax, dword ptr [ecx]
+00973F05  8b 50 10                      mov      edx, dword ptr [eax + 0x10]
+00973F08  ff e2                         jmp      edx
+
+=== RenameStream slot +0x804, delegated slot +0x14: 00DCD1B0-00DCD1BA (end exclusive) ===
+00DCD1B0  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00DCD1B3  8b 01                         mov      eax, dword ptr [ecx]
+00DCD1B5  8b 50 14                      mov      edx, dword ptr [eax + 0x14]
+00DCD1B8  ff e2                         jmp      edx
+
+=== RenameStream slot +0x808, delegated slot +0x18: 00C99A60-00C99A6A (end exclusive) ===
+00C99A60  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00C99A63  8b 01                         mov      eax, dword ptr [ecx]
+00C99A65  8b 40 18                      mov      eax, dword ptr [eax + 0x18]
+00C99A68  ff e0                         jmp      eax
+
+=== RenameStream slot +0x80C, delegated slot +0x1C: 004D61C0-004D61CA (end exclusive) ===
+004D61C0  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+004D61C3  8b 01                         mov      eax, dword ptr [ecx]
+004D61C5  8b 40 1c                      mov      eax, dword ptr [eax + 0x1c]
+004D61C8  ff e0                         jmp      eax
+
+=== RenameStream slot +0x810, delegated slot +0x20: 00554430-0055443A (end exclusive) ===
+00554430  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00554433  8b 01                         mov      eax, dword ptr [ecx]
+00554435  8b 40 20                      mov      eax, dword ptr [eax + 0x20]
+00554438  ff e0                         jmp      eax
+
+=== RenameStream slot +0x814, delegated slot +0x24: 00D1B030-00D1B03A (end exclusive) ===
+00D1B030  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00D1B033  8b 01                         mov      eax, dword ptr [ecx]
+00D1B035  8b 50 24                      mov      edx, dword ptr [eax + 0x24]
+00D1B038  ff e2                         jmp      edx
+
+=== RenameStream slot +0x818, delegated slot +0x28: 00C77180-00C7718A (end exclusive) ===
+00C77180  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00C77183  8b 01                         mov      eax, dword ptr [ecx]
+00C77185  8b 50 28                      mov      edx, dword ptr [eax + 0x28]
+00C77188  ff e2                         jmp      edx
+
+=== RenameStream slot +0x81C, delegated slot +0x2C: 00A58840-00A5884A (end exclusive) ===
+00A58840  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+00A58843  8b 01                         mov      eax, dword ptr [ecx]
+00A58845  8b 50 2c                      mov      edx, dword ptr [eax + 0x2c]
+00A58848  ff e2                         jmp      edx
+
+=== RenameStream slot +0x820, delegated slot +0x30: 006A0110-006A011A (end exclusive) ===
+006A0110  8b 49 08                      mov      ecx, dword ptr [ecx + 8]
+006A0113  8b 01                         mov      eax, dword ptr [ecx]
+006A0115  8b 50 30                      mov      edx, dword ptr [eax + 0x30]
+006A0118  ff e2                         jmp      edx

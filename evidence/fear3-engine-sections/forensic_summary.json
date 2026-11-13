@@ -1,0 +1,74 @@
+{
+  "file": "C:\\Games\\fear3-engine-sections\\05_dsIO.bin",
+  "sha256": "0918ad69b6349069ff566d72e3fc822c599e78cafd908e1303a9c53dadadae42",
+  "length": 8192,
+  "nonzero_bytes": 5795,
+  "entropy_bits_per_byte": 5.664125,
+  "trailing_zero_bytes": 293,
+  "printable_ascii_runs_min4": 168,
+  "image_pointer_candidates_aligned_u32": 898,
+  "idb_strings": 156,
+  "pe_imports_relevant": 24,
+  "findings": [
+    "Raw PE section bytes, not a standalone PE/DLL; no PE/ELF/archive signature at offset zero.",
+    "Mixed format strings, paths, diagnostics, class/vftable/RTTI-like data. Linear whole-section x86 disassembly is not reliable; IDA shows no function boundary inside the dsIO IDB segment.",
+    "Subsystems: FileMgr/IFileMgr, streams/StreamLocalFile, OS/Loose/MiniPack/PackFileSystem, FileCache/CacheStream, FlexMLBinary/MarkupSTL.",
+    "Relevant path/config data: /Localized/Audio/English.dsPack, /ResVersion.txt, /symbolicLinks.xml, /crc.map, .dsRedirector, .DSCACHE.",
+    "Pack diagnostic metadata advertises None/ZLib/Unknown and internal/external compression block modes, duplicate flags, counts/overheads; this section is labels and diagnostics, not a self-contained archive writer or codec implementation.",
+    "IDA segment EA and PE runtime VA differ in this IDB; extract by PE raw offset, do not treat IDA EA as source-file location."
+  ],
+  "functions_reviewed": [
+    {
+      "ea": "0x940230",
+      "summary": "CreateFileA open, parameters from stream object, GetFileSize, error diagnostics"
+    },
+    {
+      "ea": "0x9B4C30",
+      "summary": "Build localized Audio dsPack path and fallback to English"
+    },
+    {
+      "ea": "0xCED7B0",
+      "summary": "MiniPack init/path validation"
+    },
+    {
+      "ea": "0x8D1F40",
+      "summary": "PackFileSystem constructor; initializes 0x8000 block-related values and internal structures"
+    },
+    {
+      "ea": "0xA767C0",
+      "summary": "Pack file stats/report: flags, codec labels, size/count/overhead diagnostics"
+    },
+    {
+      "ea": "0x57AAB0",
+      "summary": "Grow/insert 24-byte PackFileSystem records"
+    },
+    {
+      "ea": "0x8B0A60",
+      "summary": "FileCache init and nofilecache/clearcache options"
+    },
+    {
+      "ea": "0x8AEB80",
+      "summary": "CacheStream accounting/destruction"
+    },
+    {
+      "ea": "0xDDB5A0",
+      "summary": "Enumerate OS directory entries into OSDir objects"
+    },
+    {
+      "ea": "0xD19420",
+      "summary": "MiniPackFileSystem teardown"
+    },
+    {
+      "ea": "0x8E6710",
+      "summary": "MiniPackFileSystem constructor"
+    },
+    {
+      "ea": "0x54BA40",
+      "summary": "LooseFileSystem teardown"
+    },
+    {
+      "ea": "0xA803F0",
+      "summary": "OSFileSystem teardown"
+    }
+  ]
+}

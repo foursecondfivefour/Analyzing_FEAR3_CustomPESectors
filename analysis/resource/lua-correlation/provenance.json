@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/foursecondfivefour/FEAR3-DespairEngineLuaAPI",
+  "commit": "4a7a7cf3d48f09dca446441d8af427f30556280d",
+  "codeload_sha256": "1f3aa0fb555a8e2bbb05b04b6464aa49951416baaed568e5963440b6ea2b80e6",
+  "snapshot_files": 622,
+  "recovered_lua_files": 271,
+  "manifest_hashes_verified": 271,
+  "original_bytecode_and_claimed_tree_comparison_independently_verified": false,
+  "resource_string_count": 34,
+  "rtti_class_count": 19,
+  "resource_literal_occurrences": 764,
+  "resource_related_lines": 74,
+  "api_candidates": 455,
+  "shared_accessor_raw_e8_candidates": 292,
+  "shared_accessor_raw_u32_occurrences": 46,
+  "exe_sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "resource_sha256": "6e4679833292366db29855d40f4f32734028740291142b9d1ffc2e62cb7e9ec6"
+}

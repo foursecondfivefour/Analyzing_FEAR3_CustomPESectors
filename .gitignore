@@ -1,0 +1,9 @@
+# Locally installed forensic toolkit (recreate with tooling/install.py)
+tooling/python/
+__pycache__/
+*.py[cod]
+# User-supplied game executable and archive; kept locally, not redistributed in Git.
+evidence/source-exe/
+
+# Third-party repository snapshot (no license supplied upstream)
+external/lua-api/

@@ -1,0 +1,192 @@
+=== Registration pair: StreamWorlds: 0127F9CE-0127F9E4 exclusive ===
+0127F9CE  33 c0                         xor      eax, eax
+0127F9D0  50                            push     eax
+0127F9D1  b8 a0 16 c3 00                mov      eax, 0xc316a0
+0127F9D6  50                            push     eax
+0127F9D7  68 a8 88 87 01                push     0x18788a8
+0127F9DC  e8 bf ca 5a ff                call     0x82c4a0
+0127F9E1  83 c4 0c                      add      esp, 0xc
+
+=== Registration pair: StreamWorldsWithSaveOverride: 0127FA01-0127FA17 exclusive ===
+0127FA01  33 c0                         xor      eax, eax
+0127FA03  50                            push     eax
+0127FA04  b8 70 a0 9d 00                mov      eax, 0x9da070
+0127FA09  50                            push     eax
+0127FA0A  68 88 88 87 01                push     0x1878888
+0127FA0F  e8 1c 33 22 ff                call     0x4a2d30
+0127FA14  83 c4 0c                      add      esp, 0xc
+
+=== StreamWorlds descriptor builder: 0082C4A0-0082C4EC exclusive ===
+0082C4A0  56                            push     esi
+0082C4A1  6a 28                         push     0x28
+0082C4A3  e8 18 fc e6 ff                call     0x69c0c0
+0082C4A8  8b f0                         mov      esi, eax
+0082C4AA  83 c4 04                      add      esp, 4
+0082C4AD  85 f6                         test     esi, esi
+0082C4AF  74 3b                         je       0x82c4ec
+0082C4B1  8d 4e 04                      lea      ecx, [esi + 4]
+0082C4B4  c7 06 f8 1a 45 01             mov      dword ptr [esi], 0x1451af8
+0082C4BA  e8 51 b5 e8 ff                call     0x6b7a10
+0082C4BF  8b 44 24 08                   mov      eax, dword ptr [esp + 8]
+0082C4C3  89 46 10                      mov      dword ptr [esi + 0x10], eax
+0082C4C6  c7 46 14 e8 62 87 01          mov      dword ptr [esi + 0x14], 0x18762e8
+0082C4CD  c7 46 18 00 00 00 00          mov      dword ptr [esi + 0x18], 0
+0082C4D4  c7 06 c8 b6 46 01             mov      dword ptr [esi], 0x146b6c8
+0082C4DA  8b 4c 24 0c                   mov      ecx, dword ptr [esp + 0xc]
+0082C4DE  89 4e 20                      mov      dword ptr [esi + 0x20], ecx
+0082C4E1  8b 54 24 10                   mov      edx, dword ptr [esp + 0x10]
+0082C4E5  89 56 24                      mov      dword ptr [esi + 0x24], edx
+0082C4E8  8b c6                         mov      eax, esi
+0082C4EA  5e                            pop      esi
+0082C4EB  c3                            ret
+
+=== StreamWorldsWithSaveOverride descriptor builder: 004A2D30-004A2D7C exclusive ===
+004A2D30  56                            push     esi
+004A2D31  6a 28                         push     0x28
+004A2D33  e8 88 93 1f 00                call     0x69c0c0
+004A2D38  8b f0                         mov      esi, eax
+004A2D3A  83 c4 04                      add      esp, 4
+004A2D3D  85 f6                         test     esi, esi
+004A2D3F  74 3b                         je       0x4a2d7c
+004A2D41  8d 4e 04                      lea      ecx, [esi + 4]
+004A2D44  c7 06 f8 1a 45 01             mov      dword ptr [esi], 0x1451af8
+004A2D4A  e8 c1 4c 21 00                call     0x6b7a10
+004A2D4F  8b 44 24 08                   mov      eax, dword ptr [esp + 8]
+004A2D53  89 46 10                      mov      dword ptr [esi + 0x10], eax
+004A2D56  c7 46 14 e8 62 87 01          mov      dword ptr [esi + 0x14], 0x18762e8
+004A2D5D  c7 46 18 00 00 00 00          mov      dword ptr [esi + 0x18], 0
+004A2D64  c7 06 e8 b6 46 01             mov      dword ptr [esi], 0x146b6e8
+004A2D6A  8b 4c 24 0c                   mov      ecx, dword ptr [esp + 0xc]
+004A2D6E  89 4e 20                      mov      dword ptr [esi + 0x20], ecx
+004A2D71  8b 54 24 10                   mov      edx, dword ptr [esp + 0x10]
+004A2D75  89 56 24                      mov      dword ptr [esi + 0x24], edx
+004A2D78  8b c6                         mov      eax, esi
+004A2D7A  5e                            pop      esi
+004A2D7B  c3                            ret
+
+=== StreamWorlds wrapper: 00C316A0-00C316B4 exclusive ===
+00C316A0  8b 44 24 08                   mov      eax, dword ptr [esp + 8]
+00C316A4  8b 54 24 04                   mov      edx, dword ptr [esp + 4]
+00C316A8  6a 00                         push     0
+00C316AA  50                            push     eax
+00C316AB  52                            push     edx
+00C316AC  e8 bf 89 da ff                call     0x9da070
+00C316B1  c2 08 00                      ret      8
+
+=== Early branches and provenance of EBX: 009DA0AD-009DA12D exclusive ===
+009DA0AD  e8 0e 31 c7 ff                call     0x64d1c0
+009DA0B2  8b 00                         mov      eax, dword ptr [eax]
+009DA0B4  83 c4 10                      add      esp, 0x10
+009DA0B7  3b 05 48 e0 7c 01             cmp      eax, dword ptr [0x17ce048]
+009DA0BD  0f 85 89 02 00 00             jne      0x9da34c
+009DA0C3  39 6c 24 10                   cmp      dword ptr [esp + 0x10], ebp
+009DA0C7  0f 84 7f 02 00 00             je       0x9da34c
+009DA0CD  8b 7c 24 7c                   mov      edi, dword ptr [esp + 0x7c]
+009DA0D1  57                            push     edi
+009DA0D2  56                            push     esi
+009DA0D3  8d 44 24 1c                   lea      eax, [esp + 0x1c]
+009DA0D7  50                            push     eax
+009DA0D8  8d 8c 24 84 00 00 00          lea      ecx, [esp + 0x84]
+009DA0DF  51                            push     ecx
+009DA0E0  e8 db 30 c7 ff                call     0x64d1c0
+009DA0E5  8b 00                         mov      eax, dword ptr [eax]
+009DA0E7  83 c4 10                      add      esp, 0x10
+009DA0EA  3b 05 48 e0 7c 01             cmp      eax, dword ptr [0x17ce048]
+009DA0F0  0f 85 0a 02 00 00             jne      0x9da300
+009DA0F6  39 6c 24 14                   cmp      dword ptr [esp + 0x14], ebp
+009DA0FA  0f 84 00 02 00 00             je       0x9da300
+009DA100  56                            push     esi
+009DA101  e8 4a 88 33 00                call     0xd12950
+009DA106  8b d8                         mov      ebx, eax
+009DA108  83 c4 04                      add      esp, 4
+009DA10B  85 db                         test     ebx, ebx
+009DA10D  74 0b                         je       0x9da11a
+009DA10F  8b cb                         mov      ecx, ebx
+009DA111  e8 ea 6d d2 ff                call     0x700f00
+009DA116  8b e8                         mov      ebp, eax
+009DA118  eb 02                         jmp      0x9da11c
+009DA11A  33 ed                         xor      ebp, ebp
+009DA11C  8d 4c 24 3c                   lea      ecx, [esp + 0x3c]
+009DA120  e8 3b e4 f0 ff                call     0x8e8560
+009DA125  85 ed                         test     ebp, ebp
+009DA127  0f 84 11 01 00 00             je       0x9da23e
+
+=== Conditional path to shared accessor: 009DA1D6-009DA1F4 exclusive ===
+009DA1D6  8b 74 24 50                   mov      esi, dword ptr [esp + 0x50]
+009DA1DA  8b cb                         mov      ecx, ebx
+009DA1DC  e8 0f 35 25 00                call     0xc2d6f0
+009DA1E1  8b 0d 08 36 45 01             mov      ecx, dword ptr [0x1453608]
+009DA1E7  51                            push     ecx
+009DA1E8  6a 00                         push     0
+009DA1EA  50                            push     eax
+009DA1EB  8d 4c 24 48                   lea      ecx, [esp + 0x48]
+009DA1EF  e8 ac d8 42 00                call     0xe07aa0
+
+=== Shared accessor in ResourceMgr2 vtable: 00C2D6F0-00C2D6F4 exclusive ===
+00C2D6F0  8d 41 28                      lea      eax, [ecx + 0x28]
+00C2D6F3  c3                            ret
+
+=== Registration pair: SetAnimationGraphResource: 0127F197-0127F1AD exclusive ===
+0127F197  33 c0                         xor      eax, eax
+0127F199  50                            push     eax
+0127F19A  b8 90 cc 93 00                mov      eax, 0x93cc90
+0127F19F  50                            push     eax
+0127F1A0  68 bc 8c 87 01                push     0x1878cbc
+0127F1A5  e8 76 c6 3f ff                call     0x67b820
+0127F1AA  83 c4 0c                      add      esp, 0xc
+
+=== SetAnimationGraphResource descriptor builder: 0067B820-0067B86C exclusive ===
+0067B820  56                            push     esi
+0067B821  6a 28                         push     0x28
+0067B823  e8 98 08 02 00                call     0x69c0c0
+0067B828  8b f0                         mov      esi, eax
+0067B82A  83 c4 04                      add      esp, 4
+0067B82D  85 f6                         test     esi, esi
+0067B82F  74 3b                         je       0x67b86c
+0067B831  8d 4e 04                      lea      ecx, [esi + 4]
+0067B834  c7 06 f8 1a 45 01             mov      dword ptr [esi], 0x1451af8
+0067B83A  e8 d1 c1 03 00                call     0x6b7a10
+0067B83F  8b 44 24 08                   mov      eax, dword ptr [esp + 8]
+0067B843  89 46 10                      mov      dword ptr [esi + 0x10], eax
+0067B846  c7 46 14 e8 62 87 01          mov      dword ptr [esi + 0x14], 0x18762e8
+0067B84D  c7 46 18 00 00 00 00          mov      dword ptr [esi + 0x18], 0
+0067B854  c7 06 a8 b3 46 01             mov      dword ptr [esi], 0x146b3a8
+0067B85A  8b 4c 24 0c                   mov      ecx, dword ptr [esp + 0xc]
+0067B85E  89 4e 20                      mov      dword ptr [esi + 0x20], ecx
+0067B861  8b 54 24 10                   mov      edx, dword ptr [esp + 0x10]
+0067B865  89 56 24                      mov      dword ptr [esi + 0x24], edx
+0067B868  8b c6                         mov      eax, esi
+0067B86A  5e                            pop      esi
+0067B86B  c3                            ret
+
+=== SetAnimationGraphResource wrapper: 0093CC90-0093CCAE exclusive ===
+0093CC90  d9 05 d0 b2 45 01             fld      dword ptr [0x145b2d0]
+0093CC96  8b 44 24 08                   mov      eax, dword ptr [esp + 8]
+0093CC9A  8b 54 24 04                   mov      edx, dword ptr [esp + 4]
+0093CC9E  6a 00                         push     0
+0093CCA0  51                            push     ecx
+0093CCA1  d9 1c 24                      fstp     dword ptr [esp]
+0093CCA4  50                            push     eax
+0093CCA5  52                            push     edx
+0093CCA6  e8 45 b5 e2 ff                call     0x7681f0
+0093CCAB  c2 08 00                      ret      8
+
+=== Registration pair: RemoveAnimationGraphResource: 0127F1F7-0127F20D exclusive ===
+0127F1F7  33 c0                         xor      eax, eax
+0127F1F9  50                            push     eax
+0127F1FA  b8 20 60 43 00                mov      eax, 0x436020
+0127F1FF  50                            push     eax
+0127F200  68 78 8c 87 01                push     0x1878c78
+0127F205  e8 a6 5a 67 ff                call     0x8f4cb0
+0127F20A  83 c4 0c                      add      esp, 0xc
+
+=== RemoveAnimationGraphResource wrapper: 00436020-00436037 exclusive ===
+00436020  d9 05 d0 b2 45 01             fld      dword ptr [0x145b2d0]
+00436026  8b 44 24 04                   mov      eax, dword ptr [esp + 4]
+0043602A  51                            push     ecx
+0043602B  d9 1c 24                      fstp     dword ptr [esp]
+0043602E  50                            push     eax
+0043602F  e8 dc ed 5f 00                call     0xa34e10
+00436034  c2 04 00                      ret      4
+
+Float constant 0x145B2D0: cd cc 4c 3e = 0.20000000298023224 (IEEE-754 binary32)
