@@ -1,0 +1,2 @@
+# Evidence is an exact byte-for-byte copy; never normalize its line endings.
+evidence/fear3-engine-sections/** -text whitespace=cr-at-eol

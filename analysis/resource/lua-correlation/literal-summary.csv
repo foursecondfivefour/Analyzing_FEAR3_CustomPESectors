@@ -1,0 +1,35 @@
+resource_offset,literal_repr,length,occurrences,files
+0x60,'Resource\\RequestHandle',22,0,0
+0x78,'ResourceBase',12,0,0
+0xF0,'name',4,30,20
+0xF8,'file',4,1,1
+0x100,'soft',4,0,0
+0x108,'::',2,2,1
+0x10C,'\\',1,20,4
+0x110,'/',1,167,71
+0x114,':',1,526,94
+0x150,'IResource',9,0,0
+0x1C8,'Workspace',9,0,0
+0x200,'WorkspaceItem',13,0,0
+0x210,'params',6,2,1
+0x218,'items',5,1,1
+0x220,'itemSize',8,0,0
+0x22C,'tool',4,0,0
+0x234,'project',7,0,0
+0x318,'Resource\\ResourceHandle',23,0,0
+0x330,'ResourceHandle Uninitialized',28,0,0
+0x388,'UniqueResource',14,0,0
+0x398,'uniqueResourceId',16,0,0
+0x418,'ISerializeObject',16,0,0
+0x530,'Resource\\STL',12,0,0
+0x540,'Resource\\ResourceVector',23,0,0
+0x558,'Resource Loader Thread',22,0,0
+0x570,'ResourceMgr',11,0,0
+0x600,'ResourceMgr2',12,0,0
+0x610,'dvdEmulationEnabled',19,0,0
+0x630,'ResourceLoaderJob',17,0,0
+0x658,'Resource',8,15,3
+0x6DC,'/flexml/by/stream/%i.%s',23,0,0
+0x6F4,'\nResourceJob::Execute()',23,0,0
+0x730,'FlexMLWrapperLoadResource',25,0,0
+0x7CC,'Resource\\LoadRequest',20,0,0
