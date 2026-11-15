@@ -1,0 +1,81 @@
+path,term_case_insensitive,encoding,file_offset,preferred_va_exe_only,pe_section,line_if_text
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x12663E5,0x1667BE5,.data,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x12ABA44,0x16AD244,.data,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x12BE361,0x16BFB61,.data,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x12C79EC,0x16C91EC,.data,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x1311B69,0x1713369,.data,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x1345E38,0x1747638,.data,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x137858F,0x17EDB8F,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x13785A1,0x17EDBA1,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x13785C2,0x17EDBC2,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x137867A,0x17EDC7A,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x1378BA4,0x17EE1A4,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x13BE8B5,0x18344B5,Game_dat,
+evidence/source-exe/F.E.A.R. 3.exe,minipack,ascii,0x143B3D0,0x18B0FD0,Game_dat,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x10D03A2,0x14D0DA2,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x10D6A4A,0x14D744A,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x10DF128,0x14DFB28,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x10DF134,0x14DFB34,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x10DF148,0x14DFB48,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x122B5EB,0x162CDEB,.data,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x12CE9AB,0x16D01AB,.data,
+evidence/source-exe/F.E.A.R. 3.exe,zlib,ascii,0x1378B7C,0x17EE17C,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,lzd,ascii,0x1378B88,0x17EE188,dsIO,
+evidence/source-exe/F.E.A.R. 3.exe,lzx,ascii,0x1185050,0x1585A50,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,lzx,ascii,0x11850B0,0x1585AB0,.rdata,
+evidence/source-exe/F.E.A.R. 3.exe,lzx,ascii,0x1378B84,0x17EE184,dsIO,
+evidence/fear3-engine-sections/05_dsIO.bin,minipack,ascii,0xB8F,,,
+evidence/fear3-engine-sections/05_dsIO.bin,minipack,ascii,0xBA1,,,
+evidence/fear3-engine-sections/05_dsIO.bin,minipack,ascii,0xBC2,,,
+evidence/fear3-engine-sections/05_dsIO.bin,minipack,ascii,0xC7A,,,
+evidence/fear3-engine-sections/05_dsIO.bin,minipack,ascii,0x11A4,,,
+evidence/fear3-engine-sections/05_dsIO.bin,zlib,ascii,0x117C,,,
+evidence/fear3-engine-sections/05_dsIO.bin,lzd,ascii,0x1188,,,
+evidence/fear3-engine-sections/05_dsIO.bin,lzx,ascii,0x1184,,,
+evidence/fear3-engine-sections/09_Game_dat.bin,minipack,ascii,0x14B5,,,
+evidence/fear3-engine-sections/09_Game_dat.bin,minipack,ascii,0x7DFD0,,,
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x838F,,,1656
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x1A123,,,3993
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x26A34,,,5727
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x31247,,,7115
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x3E713,,,8873
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x51271,,,11387
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x5B942,,,12796
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x6DE97,,,15201
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x87E65,,,18701
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x8E7E1,,,19565
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0x957FA,,,20497
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0xA2BE0,,,22264
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0xB5538,,,24784
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0xC0B63,,,26258
+external/lua-api/snapshot/api/despair-api.json,minipack,ascii,0xCBC25,,,27712
+external/lua-api/snapshot/docs/reference/Despair.Bling.AutomationUtility.md,minipack,ascii,0x168C,,,215
+external/lua-api/snapshot/docs/reference/Despair.Burmester.AutomationUtility.md,minipack,ascii,0x1E71,,,299
+external/lua-api/snapshot/docs/reference/Despair.BusEditor.AutomationUtility.md,minipack,ascii,0x1E71,,,299
+external/lua-api/snapshot/docs/reference/Despair.ChopShop.AutomationUtility.md,minipack,ascii,0x1E65,,,299
+external/lua-api/snapshot/docs/reference/Despair.Facade.AutomationUtility.md,minipack,ascii,0x1E4D,,,299
+external/lua-api/snapshot/docs/reference/Despair.FontMaker.AutomationUtility.md,minipack,ascii,0x1E71,,,299
+external/lua-api/snapshot/docs/reference/Despair.Forge.AutomationUtility.md,minipack,ascii,0x1E41,,,299
+external/lua-api/snapshot/docs/reference/Despair.Landscape.AutomationUtility.md,minipack,ascii,0x1E71,,,299
+external/lua-api/snapshot/docs/reference/Despair.Librarian.AutomationUtility.md,minipack,ascii,0x1E71,,,299
+external/lua-api/snapshot/docs/reference/Despair.Moznosti.AutomationUtility.md,minipack,ascii,0x1E65,,,299
+external/lua-api/snapshot/docs/reference/Despair.Outtake.AutomationUtility.md,minipack,ascii,0x1E59,,,299
+external/lua-api/snapshot/docs/reference/Despair.Poise.AutomationUtility.md,minipack,ascii,0x1E41,,,299
+external/lua-api/snapshot/docs/reference/Despair.ProfileEditor.AutomationUtility.md,minipack,ascii,0x1EA1,,,299
+external/lua-api/snapshot/docs/reference/Despair.Smash.AutomationUtility.md,minipack,ascii,0x1E41,,,299
+external/lua-api/snapshot/docs/reference/Despair.Spectator.AutomationUtility.md,minipack,ascii,0x1E71,,,299
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x95C1,,,1031
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x28A90,,,4072
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x3EC7E,,,6272
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x52CC8,,,8239
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x6D92C,,,10892
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x8DA30,,,14026
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0xA2E06,,,16143
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x16F2F5,,,34627
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x196F7A,,,38480
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x1A2E1C,,,39639
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x1B1ED1,,,41137
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x1CB9B0,,,43657
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x1EBBAA,,,46796
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x1FFF69,,,48757
+external/lua-api/snapshot/luasense_bytecode_disassembly.txt,minipack,ascii,0x2161E7,,,50929

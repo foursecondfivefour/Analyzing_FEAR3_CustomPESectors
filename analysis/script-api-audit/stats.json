@@ -1,0 +1,27 @@
+{
+  "all_api_paths": 3879,
+  "reference_docs_verified": 330,
+  "all_pe_sections": 35,
+  "api_evidence_tiers": {
+    "exact-leaf-string-only": 1542,
+    "game-cfg-registration": 3,
+    "no-exact-nul-leaf": 2125,
+    "proxy-cfg-candidate": 209
+  },
+  "pattern_candidates": 209,
+  "cfg_anchored_pattern_candidates": 209,
+  "cfg_groups": 5,
+  "by_class": {
+    "GameScriptFEAR": 10,
+    "GameScriptGame": 158,
+    "GameScriptPhysics": 7,
+    "GameScriptPlayer": 23,
+    "GameScriptSupport": 11
+  },
+  "game_api_names": 161,
+  "game_registration_matches": 161,
+  "game_missing_api_names": [],
+  "game_proxy_vs_stub_arity_equal": 155,
+  "game_proxy_vs_stub_arity_different": 6,
+  "game_proxy_vs_stub_arity_unknown": 0
+}

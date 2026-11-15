@@ -1,0 +1,246 @@
+Reviewed instruction excerpts for six differing proxy/stub argument counts. Preferred VAs.
+
+=== AdjustPossessionVisionModeForCinema registration: 0x12800E1-0x12800FB ===
+012800E1  57                           push     edi
+012800E2  56                           push     esi
+012800E3  68 1c 85 87 01               push     0x187851c
+012800E8  e8 43 73 9b ff               call     0xc37430
+012800ED  83 c4 0c                     add      esp, 0xc
+012800F0  50                           push     eax
+012800F1  b9 e8 62 87 01               mov      ecx, 0x18762e8
+012800F6  e8 25 ab 4f ff               call     0x77ac20
+
+=== AdjustPossessionVisionModeForCinema proxy builder: 0xC37430-0xC3747C ===
+00C37430  56                           push     esi
+00C37431  6a 28                        push     0x28
+00C37433  e8 88 4c a6 ff               call     0x69c0c0
+00C37438  8b f0                        mov      esi, eax
+00C3743A  83 c4 04                     add      esp, 4
+00C3743D  85 f6                        test     esi, esi
+00C3743F  74 3b                        je       0xc3747c
+00C37441  8d 4e 04                     lea      ecx, [esi + 4]
+00C37444  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+00C3744A  e8 c1 05 a8 ff               call     0x6b7a10
+00C3744F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00C37453  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00C37456  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+00C3745D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00C37464  c7 06 28 b8 46 01            mov      dword ptr [esi], 0x146b828
+00C3746A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+00C3746E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00C37471  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00C37475  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00C37478  8b c6                        mov      eax, esi
+00C3747A  5e                           pop      esi
+00C3747B  c3                           ret
+vtable 0x146B828, COL 0x154321C, type descriptor 0x16616F8: .?AV?$ClassMethodProxy_void_2@XVGameScriptGame@Despair@@ABV?$weak_ptr@VEmpireObject@Despair@@VWeakObj@2@@2@H@Reflection@Despair@@
+
+=== DataMinerCheckpoint registration: 0x12800B5-0x12800CF ===
+012800B5  55                           push     ebp
+012800B6  53                           push     ebx
+012800B7  68 40 85 87 01               push     0x1878540
+012800BC  e8 8f 3c 5d ff               call     0x853d50
+012800C1  83 c4 0c                     add      esp, 0xc
+012800C4  50                           push     eax
+012800C5  b9 e8 62 87 01               mov      ecx, 0x18762e8
+012800CA  e8 51 ab 4f ff               call     0x77ac20
+
+=== DataMinerCheckpoint proxy builder: 0x853D50-0x853D9C ===
+00853D50  56                           push     esi
+00853D51  6a 28                        push     0x28
+00853D53  e8 68 83 e4 ff               call     0x69c0c0
+00853D58  8b f0                        mov      esi, eax
+00853D5A  83 c4 04                     add      esp, 4
+00853D5D  85 f6                        test     esi, esi
+00853D5F  74 3b                        je       0x853d9c
+00853D61  8d 4e 04                     lea      ecx, [esi + 4]
+00853D64  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+00853D6A  e8 a1 3c e6 ff               call     0x6b7a10
+00853D6F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00853D73  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00853D76  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+00853D7D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00853D84  c7 06 68 b4 46 01            mov      dword ptr [esi], 0x146b468
+00853D8A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+00853D8E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00853D91  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00853D95  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00853D98  8b c6                        mov      eax, esi
+00853D9A  5e                           pop      esi
+00853D9B  c3                           ret
+vtable 0x146B468, COL 0x1542754, type descriptor 0x163A4D8: .?AV?$ClassMethodProxy_void_const1@XVGameScriptGame@Despair@@ABV?$basic_string@DU?$char_traits@D@std@@V?$heapallocator@DVStringHeapHolder@Despair@@$0A@@Despair@@@std@@@Reflection@Despair@@
+
+=== KillAllObjectsInWeaponInventory registration: 0x127FB66-0x127FB87 ===
+0127FB66  33 c0                        xor      eax, eax
+0127FB68  50                           push     eax
+0127FB69  b8 80 75 68 00               mov      eax, 0x687580
+0127FB6E  50                           push     eax
+0127FB6F  68 d4 87 87 01               push     0x18787d4
+0127FB74  e8 37 51 67 ff               call     0x8f4cb0
+0127FB79  83 c4 0c                     add      esp, 0xc
+0127FB7C  50                           push     eax
+0127FB7D  b9 e8 62 87 01               mov      ecx, 0x18762e8
+0127FB82  e8 99 b0 4f ff               call     0x77ac20
+
+=== KillAllObjectsInWeaponInventory proxy builder: 0x8F4CB0-0x8F4CFC ===
+008F4CB0  56                           push     esi
+008F4CB1  6a 28                        push     0x28
+008F4CB3  e8 08 74 da ff               call     0x69c0c0
+008F4CB8  8b f0                        mov      esi, eax
+008F4CBA  83 c4 04                     add      esp, 4
+008F4CBD  85 f6                        test     esi, esi
+008F4CBF  74 3b                        je       0x8f4cfc
+008F4CC1  8d 4e 04                     lea      ecx, [esi + 4]
+008F4CC4  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+008F4CCA  e8 41 2d dc ff               call     0x6b7a10
+008F4CCF  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+008F4CD3  89 46 10                     mov      dword ptr [esi + 0x10], eax
+008F4CD6  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+008F4CDD  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+008F4CE4  c7 06 a8 af 46 01            mov      dword ptr [esi], 0x146afa8
+008F4CEA  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+008F4CEE  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+008F4CF1  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+008F4CF5  89 56 24                     mov      dword ptr [esi + 0x24], edx
+008F4CF8  8b c6                        mov      eax, esi
+008F4CFA  5e                           pop      esi
+008F4CFB  c3                           ret
+vtable 0x146AFA8, COL 0x15419AC, type descriptor 0x168D188: .?AV?$ClassMethodProxy_void_const1@XVGameScriptGame@Despair@@ABV?$weak_ptr@VEmpireObject@Despair@@VWeakObj@2@@2@@Reflection@Despair@@
+
+=== ShowLoadingScreenMovieStreamHint registration: 0x127F56C-0x127F58D ===
+0127F56C  33 c0                        xor      eax, eax
+0127F56E  50                           push     eax
+0127F56F  b8 70 a3 81 00               mov      eax, 0x81a370
+0127F574  50                           push     eax
+0127F575  68 f0 8a 87 01               push     0x1878af0
+0127F57A  e8 c1 91 79 ff               call     0xa18740
+0127F57F  83 c4 0c                     add      esp, 0xc
+0127F582  50                           push     eax
+0127F583  b9 e8 62 87 01               mov      ecx, 0x18762e8
+0127F588  e8 93 b6 4f ff               call     0x77ac20
+
+=== ShowLoadingScreenMovieStreamHint proxy builder: 0xA18740-0xA1878C ===
+00A18740  56                           push     esi
+00A18741  6a 28                        push     0x28
+00A18743  e8 78 39 c8 ff               call     0x69c0c0
+00A18748  8b f0                        mov      esi, eax
+00A1874A  83 c4 04                     add      esp, 4
+00A1874D  85 f6                        test     esi, esi
+00A1874F  74 3b                        je       0xa1878c
+00A18751  8d 4e 04                     lea      ecx, [esi + 4]
+00A18754  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+00A1875A  e8 b1 f2 c9 ff               call     0x6b7a10
+00A1875F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00A18763  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00A18766  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+00A1876D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00A18774  c7 06 e8 b4 46 01            mov      dword ptr [esi], 0x146b4e8
+00A1877A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+00A1877E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00A18781  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00A18785  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00A18788  8b c6                        mov      eax, esi
+00A1878A  5e                           pop      esi
+00A1878B  c3                           ret
+vtable 0x146B4E8, COL 0x15428C4, type descriptor 0x1687A90: .?AV?$ClassMethodProxy_void_const4@XVGameScriptGame@Despair@@HABV?$basic_string@DU?$char_traits@D@std@@V?$heapallocator@DVStringHeapHolder@Despair@@$0A@@Despair@@@std@@ABV34@ABV34@@Reflection@Despair@@
+
+=== ShowLoadingScreenMovieStreamHintWithMenu registration: 0x127F59F-0x127F5C0 ===
+0127F59F  33 c0                        xor      eax, eax
+0127F5A1  50                           push     eax
+0127F5A2  b8 30 1e de 00               mov      eax, 0xde1e30
+0127F5A7  50                           push     eax
+0127F5A8  68 c4 8a 87 01               push     0x1878ac4
+0127F5AD  e8 6e a4 99 ff               call     0xc19a20
+0127F5B2  83 c4 0c                     add      esp, 0xc
+0127F5B5  50                           push     eax
+0127F5B6  b9 e8 62 87 01               mov      ecx, 0x18762e8
+0127F5BB  e8 60 b6 4f ff               call     0x77ac20
+
+=== ShowLoadingScreenMovieStreamHintWithMenu proxy builder: 0xC19A20-0xC19A6C ===
+00C19A20  56                           push     esi
+00C19A21  6a 28                        push     0x28
+00C19A23  e8 98 26 a8 ff               call     0x69c0c0
+00C19A28  8b f0                        mov      esi, eax
+00C19A2A  83 c4 04                     add      esp, 4
+00C19A2D  85 f6                        test     esi, esi
+00C19A2F  74 3b                        je       0xc19a6c
+00C19A31  8d 4e 04                     lea      ecx, [esi + 4]
+00C19A34  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+00C19A3A  e8 d1 df a9 ff               call     0x6b7a10
+00C19A3F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00C19A43  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00C19A46  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+00C19A4D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00C19A54  c7 06 08 b5 46 01            mov      dword ptr [esi], 0x146b508
+00C19A5A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+00C19A5E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00C19A61  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00C19A65  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00C19A68  8b c6                        mov      eax, esi
+00C19A6A  5e                           pop      esi
+00C19A6B  c3                           ret
+vtable 0x146B508, COL 0x1542920, type descriptor 0x16D8A28: .?AV?$ClassMethodProxy_void_const5@XVGameScriptGame@Despair@@HABV?$basic_string@DU?$char_traits@D@std@@V?$heapallocator@DVStringHeapHolder@Despair@@$0A@@Despair@@@std@@ABV34@ABV34@ABV34@@Reflection@Despair@@
+
+=== ShowMovie registration: 0x127F4D3-0x127F4F4 ===
+0127F4D3  33 c0                        xor      eax, eax
+0127F4D5  50                           push     eax
+0127F4D6  b8 a0 e8 43 00               mov      eax, 0x43e8a0
+0127F4DB  50                           push     eax
+0127F4DC  68 4c 8b 87 01               push     0x1878b4c
+0127F4E1  e8 da 80 bf ff               call     0xe775c0
+0127F4E6  83 c4 0c                     add      esp, 0xc
+0127F4E9  50                           push     eax
+0127F4EA  b9 e8 62 87 01               mov      ecx, 0x18762e8
+0127F4EF  e8 2c b7 4f ff               call     0x77ac20
+
+=== ShowMovie proxy builder: 0xE775C0-0xE7760C ===
+00E775C0  56                           push     esi
+00E775C1  6a 28                        push     0x28
+00E775C3  e8 f8 4a 82 ff               call     0x69c0c0
+00E775C8  8b f0                        mov      esi, eax
+00E775CA  83 c4 04                     add      esp, 4
+00E775CD  85 f6                        test     esi, esi
+00E775CF  74 3b                        je       0xe7760c
+00E775D1  8d 4e 04                     lea      ecx, [esi + 4]
+00E775D4  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+00E775DA  e8 31 04 84 ff               call     0x6b7a10
+00E775DF  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00E775E3  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00E775E6  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+00E775ED  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00E775F4  c7 06 88 b4 46 01            mov      dword ptr [esi], 0x146b488
+00E775FA  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+00E775FE  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00E77601  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00E77605  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00E77608  8b c6                        mov      eax, esi
+00E7760A  5e                           pop      esi
+00E7760B  c3                           ret
+vtable 0x146B488, COL 0x15427B0, type descriptor 0x16EA3C0: .?AV?$ClassMethodProxy_void_const2@XVGameScriptGame@Despair@@ABV?$basic_string@DU?$char_traits@D@std@@V?$heapallocator@DVStringHeapHolder@Despair@@$0A@@Despair@@@std@@_N@Reflection@Despair@@
+
+=== ShowMovie target wrapper: 0x43E8A0-0x43E8B4 ===
+0043E8A0  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+0043E8A4  8b 54 24 04                  mov      edx, dword ptr [esp + 4]
+0043E8A8  6a 00                        push     0
+0043E8AA  50                           push     eax
+0043E8AB  52                           push     edx
+0043E8AC  e8 1f a4 69 00               call     0xad8cd0
+0043E8B1  c2 08 00                     ret      8
+
+=== Game registration entry and saved registers: 0x127DD20-0x127DD4F ===
+0127DD20  81 ec 90 02 00 00            sub      esp, 0x290
+0127DD26  33 c0                        xor      eax, eax
+0127DD28  53                           push     ebx
+0127DD29  55                           push     ebp
+0127DD2A  56                           push     esi
+0127DD2B  57                           push     edi
+0127DD2C  33 ff                        xor      edi, edi
+0127DD2E  89 84 24 84 02 00 00         mov      dword ptr [esp + 0x284], eax
+0127DD35  be 20 0e 73 00               mov      esi, 0x730e20
+0127DD3A  89 84 24 7c 02 00 00         mov      dword ptr [esp + 0x27c], eax
+0127DD41  bb c0 f4 b7 00               mov      ebx, 0xb7f4c0
+0127DD46  33 ed                        xor      ebp, ebp
+0127DD48  89 84 24 74 02 00 00         mov      dword ptr [esp + 0x274], eax
+
+=== Potential DataMiner target: 0xB7F4C0-0xB7F4C3 ===
+00B7F4C0  c2 04 00                     ret      4

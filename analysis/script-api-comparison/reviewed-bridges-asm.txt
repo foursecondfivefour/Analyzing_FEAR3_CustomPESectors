@@ -1,0 +1,145 @@
+Reviewed x86 instruction excerpts. Preferred VAs. Excerpt ends are exclusive.
+
+=== Game.StreamWorlds registration: 0127F9CE-0127F9EF ===
+0127F9CE  33 c0                        xor      eax, eax
+0127F9D0  50                           push     eax
+0127F9D1  b8 a0 16 c3 00               mov      eax, 0xc316a0
+0127F9D6  50                           push     eax
+0127F9D7  68 a8 88 87 01               push     0x18788a8
+0127F9DC  e8 bf ca 5a ff               call     0x82c4a0
+0127F9E1  83 c4 0c                     add      esp, 0xc
+0127F9E4  50                           push     eax
+0127F9E5  b9 e8 62 87 01               mov      ecx, 0x18762e8
+0127F9EA  e8 31 b2 4f ff               call     0x77ac20
+
+=== Game.StreamWorlds proxy constructor: 0082C4A0-0082C4EC ===
+0082C4A0  56                           push     esi
+0082C4A1  6a 28                        push     0x28
+0082C4A3  e8 18 fc e6 ff               call     0x69c0c0
+0082C4A8  8b f0                        mov      esi, eax
+0082C4AA  83 c4 04                     add      esp, 4
+0082C4AD  85 f6                        test     esi, esi
+0082C4AF  74 3b                        je       0x82c4ec
+0082C4B1  8d 4e 04                     lea      ecx, [esi + 4]
+0082C4B4  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+0082C4BA  e8 51 b5 e8 ff               call     0x6b7a10
+0082C4BF  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+0082C4C3  89 46 10                     mov      dword ptr [esi + 0x10], eax
+0082C4C6  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+0082C4CD  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+0082C4D4  c7 06 c8 b6 46 01            mov      dword ptr [esi], 0x146b6c8
+0082C4DA  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+0082C4DE  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+0082C4E1  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+0082C4E5  89 56 24                     mov      dword ptr [esi + 0x24], edx
+0082C4E8  8b c6                        mov      eax, esi
+0082C4EA  5e                           pop      esi
+0082C4EB  c3                           ret
+
+=== Game.SetAnimationGraphResource registration: 0127F197-0127F1B8 ===
+0127F197  33 c0                        xor      eax, eax
+0127F199  50                           push     eax
+0127F19A  b8 90 cc 93 00               mov      eax, 0x93cc90
+0127F19F  50                           push     eax
+0127F1A0  68 bc 8c 87 01               push     0x1878cbc
+0127F1A5  e8 76 c6 3f ff               call     0x67b820
+0127F1AA  83 c4 0c                     add      esp, 0xc
+0127F1AD  50                           push     eax
+0127F1AE  b9 e8 62 87 01               mov      ecx, 0x18762e8
+0127F1B3  e8 68 ba 4f ff               call     0x77ac20
+
+=== Game.SetAnimationGraphResource proxy constructor: 0067B820-0067B86C ===
+0067B820  56                           push     esi
+0067B821  6a 28                        push     0x28
+0067B823  e8 98 08 02 00               call     0x69c0c0
+0067B828  8b f0                        mov      esi, eax
+0067B82A  83 c4 04                     add      esp, 4
+0067B82D  85 f6                        test     esi, esi
+0067B82F  74 3b                        je       0x67b86c
+0067B831  8d 4e 04                     lea      ecx, [esi + 4]
+0067B834  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+0067B83A  e8 d1 c1 03 00               call     0x6b7a10
+0067B83F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+0067B843  89 46 10                     mov      dword ptr [esi + 0x10], eax
+0067B846  c7 46 14 e8 62 87 01         mov      dword ptr [esi + 0x14], 0x18762e8
+0067B84D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+0067B854  c7 06 a8 b3 46 01            mov      dword ptr [esi], 0x146b3a8
+0067B85A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+0067B85E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+0067B861  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+0067B865  89 56 24                     mov      dword ptr [esi + 0x24], edx
+0067B868  8b c6                        mov      eax, esi
+0067B86A  5e                           pop      esi
+0067B86B  c3                           ret
+
+=== Player.RevivePlayerInstant registration: 01272F2D-01272F4B ===
+01272F2D  33 c0                        xor      eax, eax
+01272F2F  50                           push     eax
+01272F30  b8 80 b0 97 00               mov      eax, 0x97b080
+01272F35  50                           push     eax
+01272F36  68 34 15 87 01               push     0x1871534
+01272F3B  e8 c0 f0 80 ff               call     0xa82000
+01272F40  83 c4 0c                     add      esp, 0xc
+01272F43  50                           push     eax
+01272F44  8b cd                        mov      ecx, ebp
+01272F46  e8 d5 7c 50 ff               call     0x77ac20
+
+=== Player.RevivePlayerInstant proxy constructor: 00A82000-00A8204C ===
+00A82000  56                           push     esi
+00A82001  6a 28                        push     0x28
+00A82003  e8 b8 a0 c1 ff               call     0x69c0c0
+00A82008  8b f0                        mov      esi, eax
+00A8200A  83 c4 04                     add      esp, 4
+00A8200D  85 f6                        test     esi, esi
+00A8200F  74 3b                        je       0xa8204c
+00A82011  8d 4e 04                     lea      ecx, [esi + 4]
+00A82014  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+00A8201A  e8 f1 59 c3 ff               call     0x6b7a10
+00A8201F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00A82023  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00A82026  c7 46 14 90 05 87 01         mov      dword ptr [esi + 0x14], 0x1870590
+00A8202D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00A82034  c7 06 60 97 46 01            mov      dword ptr [esi], 0x1469760
+00A8203A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+00A8203E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00A82041  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00A82045  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00A82048  8b c6                        mov      eax, esi
+00A8204A  5e                           pop      esi
+00A8204B  c3                           ret
+
+=== Support.RegisterAnimationGraphResourceVariable registration: 01275094-012750B2 ===
+01275094  33 c0                        xor      eax, eax
+01275096  50                           push     eax
+01275097  b8 90 77 d2 00               mov      eax, 0xd27790
+0127509C  50                           push     eax
+0127509D  68 7c 1f 87 01               push     0x1871f7c
+012750A2  e8 59 c2 70 ff               call     0x981300
+012750A7  83 c4 0c                     add      esp, 0xc
+012750AA  50                           push     eax
+012750AB  8b cd                        mov      ecx, ebp
+012750AD  e8 6e 5b 50 ff               call     0x77ac20
+
+=== Support.RegisterAnimationGraphResourceVariable proxy constructor: 00981300-0098134C ===
+00981300  56                           push     esi
+00981301  6a 28                        push     0x28
+00981303  e8 b8 ad d1 ff               call     0x69c0c0
+00981308  8b f0                        mov      esi, eax
+0098130A  83 c4 04                     add      esp, 4
+0098130D  85 f6                        test     esi, esi
+0098130F  74 3b                        je       0x98134c
+00981311  8d 4e 04                     lea      ecx, [esi + 4]
+00981314  c7 06 f8 1a 45 01            mov      dword ptr [esi], 0x1451af8
+0098131A  e8 f1 66 d3 ff               call     0x6b7a10
+0098131F  8b 44 24 08                  mov      eax, dword ptr [esp + 8]
+00981323  89 46 10                     mov      dword ptr [esi + 0x10], eax
+00981326  c7 46 14 d0 1a 87 01         mov      dword ptr [esi + 0x14], 0x1871ad0
+0098132D  c7 46 18 00 00 00 00         mov      dword ptr [esi + 0x18], 0
+00981334  c7 06 a0 9c 46 01            mov      dword ptr [esi], 0x1469ca0
+0098133A  8b 4c 24 0c                  mov      ecx, dword ptr [esp + 0xc]
+0098133E  89 4e 20                     mov      dword ptr [esi + 0x20], ecx
+00981341  8b 54 24 10                  mov      edx, dword ptr [esp + 0x10]
+00981345  89 56 24                     mov      dword ptr [esi + 0x24], edx
+00981348  8b c6                        mov      eax, esi
+0098134A  5e                           pop      esi
+0098134B  c3                           ret
