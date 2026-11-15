@@ -1,0 +1,6 @@
+section_index,entry_after_int3_candidate_va,scan_end_va,matching_sites,sites_reached,decoded_instructions,decode_errors,indirect_jumps_not_followed
+0,0x12721E0,0x1273332,23,23,1306,0,0
+0,0x12742F0,0x1275292,11,11,1180,0,0
+0,0x127AFC0,0x127BEF4,7,7,1148,0,0
+0,0x127DD20,0x1280122,158,158,2429,0,0
+0,0x12F5170,0x12F61BB,10,10,1220,0,0

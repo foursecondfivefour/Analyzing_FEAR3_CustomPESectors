@@ -54,3 +54,11 @@ PYTHONPATH=tooling/python python -c 'import pefile, lief, capstone, unicorn, key
 ## Разбор Resource
 
 Подробный статический отчёт и полный побайтовый реестр находятся в [`analysis/resource/REPORT.md`](analysis/resource/REPORT.md); результаты воспроизводятся командой `python tooling/analyze_resource.py`. Сопоставление с восстановленными Lua-скриптами и нативными таблицами имён — в [`analysis/resource/lua-correlation/REPORT.md`](analysis/resource/lua-correlation/REPORT.md).
+
+## MiniPack и сжатие
+
+Статические пути, поиск строк и идентификаторы ZLib/LZX/LZD — в [`analysis/compression/REPORT.md`](analysis/compression/REPORT.md). Поиск и выдержки воспроизводятся командой `python tooling/trace_compression.py` при наличии проверенного EXE и закреплённого Lua/API snapshot; инструкции и ограничения приведены в отчёте.
+
+## Классы, связанные со скриптами
+
+Реестр RTTI-типов и кандидатов в 35 PE-секциях — [`analysis/script-classes/CLASSES.md`](analysis/script-classes/CLASSES.md); методика и ограничения — [`analysis/script-classes/REPORT.md`](analysis/script-classes/REPORT.md). Реестр воспроизводится командой `python tooling/extract_script_classes.py` при наличии проверенного EXE. Сравнение типов и reflection-прокси со справочником Lua API находится в [`analysis/script-api-comparison/REPORT.md`](analysis/script-api-comparison/REPORT.md); для воспроизведения предназначен `python tooling/compare_script_api.py`. Расширенный аудит всех записей, CFG-кандидаты и ручная проверка расхождений — [`analysis/script-api-audit/REPORT.md`](analysis/script-api-audit/REPORT.md), скрипты `python tooling/audit_script_api.py` и `python tooling/test_script_api_audit.py`.

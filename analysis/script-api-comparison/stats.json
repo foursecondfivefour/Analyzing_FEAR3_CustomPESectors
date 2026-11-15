@@ -1,0 +1,28 @@
+{
+  "revision": "4a7a7cf3d48f09dca446441d8af427f30556280d",
+  "api_md_sha256": "6f6e8143cf8374ac24e7dd9301372a013b2be86fc3692bf8d29a83f76c902b58",
+  "archive_sha256": "1f3aa0fb555a8e2bbb05b04b6464aa49951416baaed568e5963440b6ea2b80e6",
+  "exe_sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "snapshot_files": 622,
+  "doc_index_namespaces": 330,
+  "api_entries": 3879,
+  "game_script_api_entries": 626,
+  "native_simple_script_classes": 149,
+  "classes_exact_api_path_component": 0,
+  "classes_with_suffix_namespace_candidates": 21,
+  "api_entries_with_exact_pe_leaf_string": 1754,
+  "game_script_entries_with_exact_pe_leaf_string": 625,
+  "typed_proxy_pattern_candidates": 179,
+  "typed_proxy_candidate_classes": {
+    "GameScriptFEAR": 10,
+    "GameScriptGame": 128,
+    "GameScriptPhysics": 7,
+    "GameScriptPlayer": 23,
+    "GameScriptSupport": 11
+  },
+  "game_debug_dump_raw_case_insensitive_exe_hits": {
+    "ascii": 0,
+    "utf-16le": 0,
+    "utf-16be": 0
+  }
+}

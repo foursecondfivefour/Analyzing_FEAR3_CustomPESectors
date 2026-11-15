@@ -1,0 +1,9 @@
+class,vtable_va,complete_object_locator_va,type_descriptor_va,decorated_name,slot_offset,slot_target_va
+MiniPackFileSystem,0x17EDBEC,0x150CFD8,0x16AD238,.?AVMiniPackFileSystem@Despair@@,,
+MiniPackFileSystem,0x17EDBEC,0x150CFD8,0x16AD238,.?AVMiniPackFileSystem@Despair@@,0x4,0x969750
+MiniPackFileSystem,0x17EDBEC,0x150CFD8,0x16AD238,.?AVMiniPackFileSystem@Despair@@,0x68,0x4C31B0
+PackFileSystem,0x17EE254,0x150D0B8,0x1642398,.?AVPackFileSystem@Despair@@,,
+PackFileSystem,0x17EE254,0x150D0B8,0x1642398,.?AVPackFileSystem@Despair@@,0x68,0xA767C0
+StreamCompression,0x17EE3B8,0x150D124,0x164EDB8,.?AVStreamCompression@Despair@@,,
+StreamCompression,0x17EE3B8,0x150D124,0x164EDB8,.?AVStreamCompression@Despair@@,0x18,0xC19890
+MiniPackFileDir,0x17EE594,0x150D304,0x16C91E0,.?AVMiniPackFileDir@Despair@@,,
