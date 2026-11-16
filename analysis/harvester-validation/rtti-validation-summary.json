@@ -1,0 +1,55 @@
+{
+  "exe_sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "section_count": 35,
+  "type_descriptors_checked": 11951,
+  "col_records_checked": 15473,
+  "hierarchies_checked": 9656,
+  "base_rows_checked": 38310,
+  "vtable_candidates_checked": 15473,
+  "vtable_rejected_checked": 1,
+  "candidate_first_slots_decoded_one_instruction": 15473,
+  "unique_candidate_first_slot_targets": 8078,
+  "undecoded_first_slots": [],
+  "no_col_types": 2295,
+  "no_col_with_base_hierarchy": 1540,
+  "no_col_with_raw_absolute_refs": 2295,
+  "no_col_without_base": 755,
+  "no_base_with_typeinfo_compare_raw": 754,
+  "no_base_with_typeinfo_compare_cfg": 511,
+  "no_base_with_initializer_raw": 753,
+  "no_base_with_initializer_cfg": 543,
+  "evidence_tiers": {
+    "code_byte_pattern_only": 68,
+    "exception_metadata_and_throw_sequence": 1,
+    "initializer_store_cfg_heuristic": 175,
+    "typeinfo_comparison_cfg_heuristic": 511,
+    "validated_base_descriptor_in_col_hierarchy": 1540
+  },
+  "rejected_vtable": [
+    {
+      "vtable_va": "0x7C8D99",
+      "col_va": "0x158247C",
+      "section": ".text",
+      "status": "rejected_unaligned_and_in_executable_section"
+    }
+  ],
+  "bad_cast_witness": {
+    "type_descriptor_va": "0x164167C",
+    "catchable_type_va": "0x16103E0",
+    "catchable_array_va": "0x16103D4",
+    "throw_info_va": "0x16103C4",
+    "throw_site_va": "0x887214",
+    "throw_thunk_va": "0xF3B346",
+    "iat_va": "0x13F0688",
+    "cfg_status": "reachable",
+    "cfg_entry_va": "0x8871B0",
+    "note": "Structure and candidate instructions checked statically; no runtime throw demonstrated."
+  },
+  "limitations": [
+    "Raw byte matches are not automatically instruction boundaries.",
+    "CFG entry is heuristic INT3 padding; indirect jumps, calls and external control flow are not followed.",
+    "A decoded first instruction does not establish a real function boundary or execution.",
+    "A missing COL under the existing rules does not prove a type has no vtable or implementation.",
+    "No static result proves runtime execution or covers every C++ class."
+  ]
+}

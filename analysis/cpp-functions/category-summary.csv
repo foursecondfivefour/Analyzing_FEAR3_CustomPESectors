@@ -1,0 +1,15 @@
+category,candidate_addresses
+audio_video,1987
+gameplay_ai,3713
+graphics_rendering,3729
+math_geometry,3078
+memory_containers,4121
+network_multiplayer,1447
+physics_animation,3949
+platform_system,810
+reflection_rtti,9500
+resource_io,2306
+script_api,3408
+threading_sync,685
+ui_menu,2443
+unknown,84912

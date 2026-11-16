@@ -1,0 +1,14 @@
+{
+  "exe_sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "sections_checked": 35,
+  "candidate_addresses_checked": 107875,
+  "raw_e8_sites_checked": 380192,
+  "decoded_edges_checked": 237775,
+  "vtable_words_checked": 92024,
+  "vtable_first_slots_checked": 15473,
+  "padding_candidates_checked": 84150,
+  "iat_jump_patterns_checked": 467,
+  "named_exports_checked": 197,
+  "import_slots_checked": 930,
+  "limits": "Verifies bytes and saved edge decodes, not global CFG reachability, function boundaries, names from runtime, or exhaustive functions."
+}

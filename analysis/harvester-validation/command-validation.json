@@ -1,0 +1,622 @@
+{
+  "exe_sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "commands": {
+    "doctor": {
+      "status": "pass",
+      "arguments": [
+        "--require-exe"
+      ]
+    },
+    "sections": {
+      "status": "pass",
+      "arguments": []
+    },
+    "overview": {
+      "status": "pass",
+      "arguments": []
+    },
+    "compare-sections": {
+      "status": "pass",
+      "arguments": []
+    },
+    "pe-headers": {
+      "status": "pass",
+      "arguments": []
+    },
+    "pe-exports": {
+      "status": "pass",
+      "arguments": [
+        "--limit",
+        "1"
+      ]
+    },
+    "pack": {
+      "status": "pass",
+      "arguments": [
+        "--layout",
+        "u32",
+        "--value",
+        "0x6c2d50"
+      ]
+    },
+    "tables": {
+      "status": "pass",
+      "arguments": []
+    },
+    "schema": {
+      "status": "pass",
+      "arguments": [
+        "analysis/cpp-classes/classes.csv"
+      ]
+    },
+    "table": {
+      "status": "pass",
+      "arguments": [
+        "analysis/cpp-classes/classes.csv",
+        "--where",
+        "type_descriptor_va",
+        "eq",
+        "0x169B418"
+      ]
+    },
+    "group": {
+      "status": "pass",
+      "arguments": [
+        "analysis/cpp-classes/classes.csv",
+        "--column",
+        "kind"
+      ]
+    },
+    "layout": {
+      "status": "pass",
+      "arguments": []
+    },
+    "int-info": {
+      "status": "pass",
+      "arguments": [
+        "0x6c2d50"
+      ]
+    },
+    "float-info": {
+      "status": "pass",
+      "arguments": [
+        "--bits",
+        "0x3f800000"
+      ]
+    },
+    "uses": {
+      "status": "pass",
+      "arguments": [
+        "Despair::GameScriptPlayer"
+      ]
+    },
+    "hierarchy": {
+      "status": "pass",
+      "arguments": [
+        "Despair::GameScriptPlayer"
+      ]
+    },
+    "derived": {
+      "status": "pass",
+      "arguments": [
+        "Despair::Reflection::Object",
+        "--direct",
+        "--limit",
+        "1"
+      ]
+    },
+    "imports": {
+      "status": "pass",
+      "arguments": [
+        "--dll",
+        "MSVCR90.dll",
+        "--limit",
+        "1"
+      ]
+    },
+    "cpp-exports": {
+      "status": "pass",
+      "arguments": [
+        "--limit",
+        "1"
+      ]
+    },
+    "triage": {
+      "status": "pass",
+      "arguments": [
+        "Despair::GameScriptPlayer",
+        "--bytes",
+        "exe",
+        "--limit",
+        "1"
+      ]
+    },
+    "search": {
+      "status": "pass",
+      "arguments": [
+        "GameScriptPlayer",
+        "--limit",
+        "1"
+      ]
+    },
+    "class": {
+      "status": "pass",
+      "arguments": [
+        "Despair::GameScriptPlayer"
+      ]
+    },
+    "api": {
+      "status": "pass",
+      "arguments": [
+        "GameScript.Game.ShowMovie"
+      ]
+    },
+    "map": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c"
+      ]
+    },
+    "at": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c"
+      ]
+    },
+    "signatures": {
+      "status": "pass",
+      "arguments": [
+        "--name",
+        "png",
+        "--limit",
+        "1"
+      ]
+    },
+    "windows": {
+      "status": "pass",
+      "arguments": [
+        "--section",
+        "Game_dat",
+        "--window",
+        "4096",
+        "--step",
+        "4096",
+        "--limit",
+        "1"
+      ]
+    },
+    "int-find": {
+      "status": "pass",
+      "arguments": [
+        "0x6c2d50",
+        "--section",
+        "Game_dat",
+        "--limit",
+        "1"
+      ]
+    },
+    "hash": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--size",
+        "8"
+      ]
+    },
+    "unpack": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--layout",
+        "ptr32,u32"
+      ]
+    },
+    "cstring": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1878b4c"
+      ]
+    },
+    "chain": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c"
+      ]
+    },
+    "probe": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--size",
+        "8"
+      ]
+    },
+    "transform": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--size",
+        "8",
+        "--operation",
+        "xor",
+        "--key",
+        "255"
+      ]
+    },
+    "xor-rank": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--size",
+        "8"
+      ]
+    },
+    "frequencies": {
+      "status": "pass",
+      "arguments": [
+        "--section",
+        "Game_dat",
+        "--limit",
+        "1"
+      ]
+    },
+    "runs": {
+      "status": "pass",
+      "arguments": [
+        "--section",
+        "Game_dat",
+        "--min-length",
+        "1000",
+        "--limit",
+        "1"
+      ]
+    },
+    "section-diff": {
+      "status": "pass",
+      "arguments": [
+        "--left",
+        "Game_dat",
+        "--right",
+        "Game_dat",
+        "--limit",
+        "1"
+      ]
+    },
+    "audit-class": {
+      "status": "pass",
+      "arguments": [
+        "Despair::GameScriptPlayer",
+        "--require-complete"
+      ]
+    },
+    "stats": {
+      "status": "pass",
+      "arguments": [
+        "--section",
+        "Game_dat"
+      ]
+    },
+    "strings": {
+      "status": "pass",
+      "arguments": [
+        "--section",
+        "Game_dat",
+        "--limit",
+        "1"
+      ]
+    },
+    "pattern": {
+      "status": "pass",
+      "arguments": [
+        "50 2D 6C 00",
+        "--section",
+        "Game_dat",
+        "--limit",
+        "1"
+      ]
+    },
+    "words": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--count",
+        "2"
+      ]
+    },
+    "vtable": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--count",
+        "2"
+      ]
+    },
+    "diff": {
+      "status": "pass",
+      "arguments": [
+        "--left",
+        "0x1870e7c",
+        "--right",
+        "0x1870e7c",
+        "--size",
+        "8"
+      ]
+    },
+    "disasm": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x6c2d50",
+        "--size",
+        "8"
+      ]
+    },
+    "dump": {
+      "status": "pass",
+      "arguments": [
+        "--va",
+        "0x1870e7c",
+        "--size",
+        "8"
+      ]
+    },
+    "find": {
+      "status": "pass",
+      "arguments": [
+        "--text",
+        "ShowMovie",
+        "--nul",
+        "--limit",
+        "1"
+      ]
+    },
+    "trace-string": {
+      "status": "pass",
+      "arguments": [
+        "--text",
+        "ShowMovie",
+        "--nul",
+        "--limit",
+        "1"
+      ]
+    },
+    "refs": {
+      "status": "pass",
+      "arguments": [
+        "0x1878b4c",
+        "--limit",
+        "1"
+      ]
+    }
+  },
+  "commands_passed": 50,
+  "section_find_crosschecks": [
+    {
+      "section_index": 0,
+      "bytes": 16707072,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 1,
+      "bytes": 2302464,
+      "pattern_length": 12,
+      "matches": 2
+    },
+    {
+      "section_index": 2,
+      "bytes": 1277952,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 3,
+      "bytes": 119296,
+      "pattern_length": 12,
+      "matches": 115973
+    },
+    {
+      "section_index": 4,
+      "bytes": 4096,
+      "pattern_length": 12,
+      "matches": 1466
+    },
+    {
+      "section_index": 5,
+      "bytes": 8192,
+      "pattern_length": 12,
+      "matches": 3
+    },
+    {
+      "section_index": 6,
+      "bytes": 18944,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 7,
+      "bytes": 20480,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 8,
+      "bytes": 237568,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 9,
+      "bytes": 743936,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 10,
+      "bytes": 512,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 11,
+      "bytes": 175616,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 12,
+      "bytes": 1024,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 13,
+      "bytes": 1536,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 14,
+      "bytes": 1024,
+      "pattern_length": 12,
+      "matches": 409
+    },
+    {
+      "section_index": 15,
+      "bytes": 2560,
+      "pattern_length": 12,
+      "matches": 1404
+    },
+    {
+      "section_index": 16,
+      "bytes": 18432,
+      "pattern_length": 12,
+      "matches": 560
+    },
+    {
+      "section_index": 17,
+      "bytes": 6144,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 18,
+      "bytes": 512,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 19,
+      "bytes": 49152,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 20,
+      "bytes": 5120,
+      "pattern_length": 12,
+      "matches": 3
+    },
+    {
+      "section_index": 21,
+      "bytes": 1536,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 22,
+      "bytes": 11776,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 23,
+      "bytes": 7680,
+      "pattern_length": 12,
+      "matches": 4826
+    },
+    {
+      "section_index": 24,
+      "bytes": 25088,
+      "pattern_length": 12,
+      "matches": 20083
+    },
+    {
+      "section_index": 25,
+      "bytes": 32768,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 26,
+      "bytes": 55808,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 27,
+      "bytes": 3072,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 28,
+      "bytes": 55296,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 29,
+      "bytes": 7680,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 30,
+      "bytes": 17408,
+      "pattern_length": 12,
+      "matches": 5322
+    },
+    {
+      "section_index": 31,
+      "bytes": 1024,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 32,
+      "bytes": 1536,
+      "pattern_length": 12,
+      "matches": 656
+    },
+    {
+      "section_index": 33,
+      "bytes": 2048,
+      "pattern_length": 12,
+      "matches": 1
+    },
+    {
+      "section_index": 34,
+      "bytes": 485376,
+      "pattern_length": 12,
+      "matches": 38
+    }
+  ],
+  "negative_cases_passed": 6,
+  "limitations": [
+    "One integration case per command is not exhaustive correctness proof.",
+    "Index-only commands and numeric pack/representation commands do not read PE bytes directly.",
+    "The per-section check samples a pattern from each section; it is not a full scan of all possible inputs."
+  ]
+}

@@ -1,0 +1,935 @@
+address,evidence,name,decorated
+0x404C20,proxy_builder (name correspondence only),GameScript.FEAR.GetGenericTimer,
+0x405000,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovieWithMenu,
+0x405000,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovieWithMenu,
+0x40A030,script_api_target (name correspondence only),GameScript.Support.GetRandomFactor,
+0x41C920,script_api_target (name correspondence only),GameScript.Game.OverRideRotateSceneObjectComponent,
+0x41C920,script_api_target (name correspondence only),GameScript.Game.OverRideRotateSceneObjectComponent,
+0x421890,script_api_target (name correspondence only),GameScript.Game.GetNumDesiredWorldsPending,
+0x421890,script_api_target (name correspondence only),GameScript.Game.GetNumDesiredWorldsPending,
+0x423C10,script_api_target (name correspondence only),GameScript.Game.SpawnWithRotation,
+0x423C10,script_api_target (name correspondence only),GameScript.Game.SpawnWithRotation,
+0x4248C0,script_api_target (name correspondence only),GameScript.Game.ShowMissionSummaryScreenNoPause,
+0x4248C0,script_api_target (name correspondence only),GameScript.Game.ShowMissionSummaryScreenNoPause,
+0x42A1A0,proxy_builder (name correspondence only),GameScript.Game.Spawn,
+0x42A1A0,proxy_builder (name correspondence only),GameScript.Game.Spawn,
+0x42DC40,script_api_target (name correspondence only),GameScript.Game.AttachToObject,
+0x42DC40,script_api_target (name correspondence only),GameScript.Game.AttachToObject,
+0x42F5A0,script_api_target (name correspondence only),GameScript.Game.IsSuspended,
+0x42F5A0,script_api_target (name correspondence only),GameScript.Game.IsSuspended,
+0x436020,script_api_target (name correspondence only),GameScript.Game.RemoveAnimationGraphResource,
+0x436020,script_api_target (name correspondence only),GameScript.Game.RemoveAnimationGraphResource,
+0x4363E0,script_api_target (name correspondence only),GameScript.Game.HideObject,
+0x4363E0,script_api_target (name correspondence only),GameScript.Game.HideObject,
+0x43DAD0,script_api_target (name correspondence only),GameScript.Support.TurnOnScriptUpdate,
+0x43E8A0,script_api_target (name correspondence only),GameScript.Game.ShowMovie,
+0x43E8A0,script_api_target (name correspondence only),GameScript.Game.ShowMovie,
+0x442FA0,proxy_builder (name correspondence only),GameScript.Game.Player.GetPossessingPlayerIndex,
+0x445A10,script_api_target (name correspondence only),GameScript.Support.RemoveFromWorldVectorVariable,
+0x44BDE0,script_api_target (name correspondence only),GameScript.Game.GetInventoryOwner,
+0x44BDE0,script_api_target (name correspondence only),GameScript.Game.GetInventoryOwner,
+0x44C260,proxy_builder (name correspondence only),GameScript.Game.TeleportObjectToPosition,
+0x44C260,proxy_builder (name correspondence only),GameScript.Game.TeleportObjectToPosition,
+0x44E660,PE named export,public: void __thiscall GSystem::`default constructor closure'(void),??_FGSystem@@QAEXXZ
+0x46DF20,script_api_target (name correspondence only),GameScript.FEAR.SetDLCInventoryGroupOption,
+0x46F9D0,script_api_target (name correspondence only),GameScript.Game.DamageWithInfo,
+0x46F9D0,script_api_target (name correspondence only),GameScript.Game.DamageWithInfo,
+0x4700C0,script_api_target (name correspondence only),GameScript.Game.SetAnimationGraphResourceOverTime,
+0x4700C0,script_api_target (name correspondence only),GameScript.Game.SetAnimationGraphResourceOverTime,
+0x4778B0,script_api_target (name correspondence only),GameScript.Game.Player.SetTetherSafeRadiusOverride,
+0x482580,script_api_target (name correspondence only),GameScript.Game.GetOwnerObjectChangeHandlingObject,
+0x482580,script_api_target (name correspondence only),GameScript.Game.GetOwnerObjectChangeHandlingObject,
+0x4891C0,script_api_target (name correspondence only),GameScript.Game.IsCrouched,
+0x4891C0,script_api_target (name correspondence only),GameScript.Game.IsCrouched,
+0x48C660,proxy_builder (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenu,
+0x48C660,proxy_builder (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenu,
+0x4A2D30,proxy_builder (name correspondence only),GameScript.Game.StreamWorldsWithSaveOverride,
+0x4A2D30,proxy_builder (name correspondence only),GameScript.Game.StreamWorldsWithSaveOverride,
+0x4B6D80,proxy_builder (name correspondence only),GameScript.Game.EnableComponent,
+0x4B6D80,proxy_builder (name correspondence only),GameScript.Game.EnableComponent,
+0x4BD8F0,script_api_target (name correspondence only),GameScript.Game.GetSceneNodePosition,
+0x4BD8F0,script_api_target (name correspondence only),GameScript.Game.GetSceneNodePosition,
+0x4CB820,script_api_target (name correspondence only),GameScript.Game.IsPauseMenuShowing,
+0x4CB820,script_api_target (name correspondence only),GameScript.Game.IsPauseMenuShowing,
+0x4D2D10,script_api_target (name correspondence only),GameScript.Game.StartScriptEventTarget,
+0x4D2D10,script_api_target (name correspondence only),GameScript.Game.StartScriptEventTarget,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.EnableAllEnableables,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.EnableAllEnableables,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.EnableAllUsables,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.EnableAllUsables,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.EnableVFXAnchor,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.EnableVFXAnchor,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.ForceStopRiding,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.ForceStopRiding,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.HideObject,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.HideObject,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.SetNeutral,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.SetNeutral,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.SetSprint,
+0x4D3C30,proxy_builder (name correspondence only),GameScript.Game.SetSprint,
+0x4E4240,proxy_builder (name correspondence only),GameScript.Game.Player.SetLocalTetherTimeoutPeriod,
+0x4E4240,proxy_builder (name correspondence only),GameScript.Game.Player.SetLocalTetherWarningPct,
+0x4E4240,proxy_builder (name correspondence only),GameScript.Game.Player.SetMaxPossessionTime,
+0x4E4240,proxy_builder (name correspondence only),GameScript.Game.Player.SetPossessionDelay,
+0x4E4240,proxy_builder (name correspondence only),GameScript.Game.Player.SetTetherSafeRadiusOverride,
+0x4FB930,proxy_builder (name correspondence only),GameScript.Support.GetStreamingWorldNames,
+0x4FC780,script_api_target (name correspondence only),GameScript.Game.Player.GetPossessingPlayerIndex,
+0x509150,proxy_builder (name correspondence only),GameScript.FEAR.GetGenericCounter,
+0x50ADD0,script_api_target (name correspondence only),GameScript.Game.Player.ResetPossessionTimer,
+0x50C3A0,proxy_builder (name correspondence only),GameScript.Game.EnableHitPointPriority,
+0x50C3A0,proxy_builder (name correspondence only),GameScript.Game.EnableHitPointPriority,
+0x50C3A0,proxy_builder (name correspondence only),GameScript.Game.SetHitPointPriorityInvulnerable,
+0x50C3A0,proxy_builder (name correspondence only),GameScript.Game.SetHitPointPriorityInvulnerable,
+0x512F30,script_api_target (name correspondence only),GameScript.Game.IsPossessed,
+0x512F30,script_api_target (name correspondence only),GameScript.Game.IsPossessed,
+0x5167A0,PE named export,public: void __thiscall GMatrix2D::Swap(class GMatrix2D *),?Swap@GMatrix2D@@QAEXPAV1@@Z
+0x519040,script_api_target (name correspondence only),GameScript.Game.IsLoaded,
+0x519040,script_api_target (name correspondence only),GameScript.Game.IsLoaded,
+0x5246C0,script_api_target (name correspondence only),GameScript.Game.GetEnvironmentalEffectObjects,
+0x5246C0,script_api_target (name correspondence only),GameScript.Game.GetEnvironmentalEffectObjects,
+0x5285F0,script_api_target (name correspondence only),GameScript.Game.SetHitPointPriorityInvulnerable,
+0x5285F0,script_api_target (name correspondence only),GameScript.Game.SetHitPointPriorityInvulnerable,
+0x529420,script_api_target (name correspondence only),GameScript.Game.SendGameEventMessage,
+0x529420,script_api_target (name correspondence only),GameScript.Game.SendGameEventMessage,
+0x530BC0,proxy_builder (name correspondence only),GameScript.Support.ExitScript,
+0x5387F0,proxy_builder (name correspondence only),GameScript.Game.TeleportObjectWithRotation,
+0x5387F0,proxy_builder (name correspondence only),GameScript.Game.TeleportObjectWithRotation,
+0x544700,script_api_target (name correspondence only),GameScript.Game.SetAnimationVariable,
+0x544700,script_api_target (name correspondence only),GameScript.Game.SetAnimationVariable,
+0x547DA0,script_api_target (name correspondence only),GameScript.Game.Player.PauseCurrentPossession,
+0x552C10,proxy_builder (name correspondence only),GameScript.Game.SpawnIntoInventory,
+0x552C10,proxy_builder (name correspondence only),GameScript.Game.SpawnIntoInventory,
+0x556440,script_api_target (name correspondence only),GameScript.Game.SaveGame,
+0x556440,script_api_target (name correspondence only),GameScript.Game.SaveGame,
+0x557EC0,PE named export,public: virtual void __thiscall GThread::OnExit(void),?OnExit@GThread@@UAEXXZ
+0x55EFA0,script_api_target (name correspondence only),GameScript.Game.GetHitPointPercent,
+0x55EFA0,script_api_target (name correspondence only),GameScript.Game.GetHitPointPercent,
+0x563340,script_api_target (name correspondence only),GameScript.Game.SetHitPointPercent,
+0x563340,script_api_target (name correspondence only),GameScript.Game.SetHitPointPercent,
+0x583680,proxy_builder (name correspondence only),GameScript.Game.DoesSceneNodeExist,
+0x583680,proxy_builder (name correspondence only),GameScript.Game.DoesSceneNodeExist,
+0x58B930,proxy_builder (name correspondence only),GameScript.Support.TurnOnScriptUpdate,
+0x59C010,proxy_builder (name correspondence only),GameScript.Game.Physics.SetClothWindStrength,
+0x5B7620,script_api_target (name correspondence only),GameScript.Game.AttachToSceneNode,
+0x5B7620,script_api_target (name correspondence only),GameScript.Game.AttachToSceneNode,
+0x5B9EC0,script_api_target (name correspondence only),GameScript.Game.GetSide,
+0x5B9EC0,script_api_target (name correspondence only),GameScript.Game.GetSide,
+0x5C1D80,script_api_target (name correspondence only),GameScript.Game.Player.ClearTetherSafeRadiusOverride,
+0x5DCDF0,script_api_target (name correspondence only),GameScript.Game.HideAllHUD,
+0x5DCDF0,script_api_target (name correspondence only),GameScript.Game.HideAllHUD,
+0x5E79A0,script_api_target (name correspondence only),GameScript.Game.Player.HasPlayerCollectedObject,
+0x5E8820,script_api_target (name correspondence only),GameScript.Game.EnableVFXAnchor,
+0x5E8820,script_api_target (name correspondence only),GameScript.Game.EnableVFXAnchor,
+0x5EA790,script_api_target (name correspondence only),GameScript.Game.CompleteCurrentLevel,
+0x5EA790,script_api_target (name correspondence only),GameScript.Game.CompleteCurrentLevel,
+0x5F7530,script_api_target (name correspondence only),GameScript.Game.SpawnerFinishedSpawning,
+0x5F7530,script_api_target (name correspondence only),GameScript.Game.SpawnerFinishedSpawning,
+0x5FABC0,script_api_target (name correspondence only),GameScript.Game.ShowChallengeSummaryScreen,
+0x5FABC0,script_api_target (name correspondence only),GameScript.Game.ShowChallengeSummaryScreen,
+0x600270,script_api_target (name correspondence only),GameScript.Game.RestoreCheckpointAnimGraph,
+0x600270,script_api_target (name correspondence only),GameScript.Game.RestoreCheckpointAnimGraph,
+0x600CA0,proxy_builder (name correspondence only),GameScript.Game.ForceRiderOutOfVehicle,
+0x600CA0,proxy_builder (name correspondence only),GameScript.Game.ForceRiderOutOfVehicle,
+0x600CA0,proxy_builder (name correspondence only),GameScript.Game.SetOwnerObject,
+0x600CA0,proxy_builder (name correspondence only),GameScript.Game.SetOwnerObject,
+0x60A200,proxy_builder (name correspondence only),GameScript.Game.GetInventoryItemsByTypeAndName,
+0x60A200,proxy_builder (name correspondence only),GameScript.Game.GetInventoryItemsByTypeAndName,
+0x616950,script_api_target (name correspondence only),GameScript.Game.HasPlayerStartedLevel,
+0x616950,script_api_target (name correspondence only),GameScript.Game.HasPlayerStartedLevel,
+0x62DCE0,proxy_builder (name correspondence only),GameScript.Game.GetMyObject,
+0x62DCE0,proxy_builder (name correspondence only),GameScript.Game.GetMyObject,
+0x62FC20,script_api_target (name correspondence only),GameScript.Game.DoesPosRotExist,
+0x62FC20,script_api_target (name correspondence only),GameScript.Game.DoesPosRotExist,
+0x62FD50,script_api_target (name correspondence only),GameScript.Game.SetCurrentTotalAmmoPercent,
+0x62FD50,script_api_target (name correspondence only),GameScript.Game.SetCurrentTotalAmmoPercent,
+0x634D30,proxy_builder (name correspondence only),GameScript.Game.SendGameEventMessage,
+0x634D30,proxy_builder (name correspondence only),GameScript.Game.SendGameEventMessage,
+0x63C150,script_api_target (name correspondence only),GameScript.Game.GetUp,
+0x63C150,script_api_target (name correspondence only),GameScript.Game.GetUp,
+0x649960,script_api_target (name correspondence only),GameScript.Game.Player.DisableTetherSpawnTagSet,
+0x64A760,script_api_target (name correspondence only),GameScript.Game.RippleWaterAtNode,
+0x64A760,script_api_target (name correspondence only),GameScript.Game.RippleWaterAtNode,
+0x652890,proxy_builder (name correspondence only),GameScript.Game.StartMultiUserInteraction,
+0x652890,proxy_builder (name correspondence only),GameScript.Game.StartMultiUserInteraction,
+0x65B640,proxy_builder (name correspondence only),GameScript.Game.EnableObjectInput,
+0x65B640,proxy_builder (name correspondence only),GameScript.Game.EnableObjectInput,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleCurrentState,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleCurrentState,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleFinalState,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleFinalState,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleInitialState,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleInitialState,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetLastMeleeAttack,
+0x65D300,proxy_builder (name correspondence only),GameScript.Game.GetLastMeleeAttack,
+0x6618B0,PE named export,public: __thiscall GSystem::~GSystem(void),??1GSystem@@QAE@XZ
+0x66A8F0,script_api_target (name correspondence only),GameScript.Game.Player.SetCrouch,
+0x676BA0,proxy_builder (name correspondence only),GameScript.Game.Physics.SetClothWindEnabled,
+0x6781A0,PE named export,public: void __thiscall GMutex::`default constructor closure'(void),??_FGMutex@@QAEXXZ
+0x67B820,proxy_builder (name correspondence only),GameScript.Game.SendTextMessage,
+0x67B820,proxy_builder (name correspondence only),GameScript.Game.SendTextMessage,
+0x67B820,proxy_builder (name correspondence only),GameScript.Game.SetAnimationGraphResource,
+0x67B820,proxy_builder (name correspondence only),GameScript.Game.SetAnimationGraphResource,
+0x687580,script_api_target (name correspondence only),GameScript.Game.KillAllObjectsInWeaponInventory,
+0x687580,script_api_target (name correspondence only),GameScript.Game.KillAllObjectsInWeaponInventory,
+0x688D30,proxy_builder (name correspondence only),GameScript.Game.HidePlayerView,
+0x688D30,proxy_builder (name correspondence only),GameScript.Game.HidePlayerView,
+0x688D30,proxy_builder (name correspondence only),GameScript.Game.ShowPlayerView,
+0x688D30,proxy_builder (name correspondence only),GameScript.Game.ShowPlayerView,
+0x68DE50,script_api_target (name correspondence only),GameScript.Game.AreAllRequiredWorldsSynchronized,
+0x68DE50,script_api_target (name correspondence only),GameScript.Game.AreAllRequiredWorldsSynchronized,
+0x696040,script_api_target (name correspondence only),GameScript.Game.StopMultiUserInteraction,
+0x696040,script_api_target (name correspondence only),GameScript.Game.StopMultiUserInteraction,
+0x6BF660,script_api_target (name correspondence only),GameScript.Game.Detach,
+0x6BF660,script_api_target (name correspondence only),GameScript.Game.Detach,
+0x6C33B0,script_api_target (name correspondence only),GameScript.Game.SetCurrentLevelId,
+0x6C33B0,script_api_target (name correspondence only),GameScript.Game.SetCurrentLevelId,
+0x6C7B10,proxy_builder (name correspondence only),GameScript.Game.EnableInput,
+0x6C7B10,proxy_builder (name correspondence only),GameScript.Game.EnableInput,
+0x6C8940,script_api_target (name correspondence only),GameScript.Game.Player.ClearTetherBreadcrumbs,
+0x6D1C60,script_api_target (name correspondence only),GameScript.Game.GetSuspendingObject,
+0x6D1C60,script_api_target (name correspondence only),GameScript.Game.GetSuspendingObject,
+0x6DE280,script_api_target (name correspondence only),GameScript.Game.GetDestructibleObjectHealthPercent,
+0x6DE280,script_api_target (name correspondence only),GameScript.Game.GetDestructibleObjectHealthPercent,
+0x6EBA00,proxy_builder (name correspondence only),GameScript.FEAR.BroadcastAnnoucementPacket,
+0x6EBA00,proxy_builder (name correspondence only),GameScript.FEAR.SendAnnoucementPacket,
+0x6EBA00,proxy_builder (name correspondence only),GameScript.FEAR.SetGenericCounter,
+0x6F7110,script_api_target (name correspondence only),GameScript.Support.GetRandomInteger,
+0x701810,script_api_target (name correspondence only),GameScript.FEAR.SetGenericTimer,
+0x7075A0,script_api_target (name correspondence only),GameScript.Game.SetPersonMaxSpeed,
+0x7075A0,script_api_target (name correspondence only),GameScript.Game.SetPersonMaxSpeed,
+0x70F710,script_api_target (name correspondence only),GameScript.Game.AttachToRigidBody,
+0x70F710,script_api_target (name correspondence only),GameScript.Game.AttachToRigidBody,
+0x7127E0,script_api_target (name correspondence only),GameScript.Game.Physics.ApplyImpulseToCloth,
+0x719140,script_api_target (name correspondence only),GameScript.FEAR.SetAnnoucementPacketTime,
+0x71CF90,script_api_target (name correspondence only),GameScript.Game.EnableHitPointPriority,
+0x71CF90,script_api_target (name correspondence only),GameScript.Game.EnableHitPointPriority,
+0x71EC20,script_api_target (name correspondence only),GameScript.Game.ShowMissionSummaryScreen,
+0x71EC20,script_api_target (name correspondence only),GameScript.Game.ShowMissionSummaryScreen,
+0x720180,script_api_target (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenuAndNode,
+0x720180,script_api_target (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenuAndNode,
+0x7222C0,script_api_target (name correspondence only),GameScript.Game.GetRotateSceneObjectSpeed,
+0x7222C0,script_api_target (name correspondence only),GameScript.Game.GetRotateSceneObjectSpeed,
+0x72BB10,script_api_target (name correspondence only),GameScript.Game.ShowPlayerView,
+0x72BB10,script_api_target (name correspondence only),GameScript.Game.ShowPlayerView,
+0x743220,proxy_builder (name correspondence only),GameScript.Game.GetAnimationVariable,
+0x743220,proxy_builder (name correspondence only),GameScript.Game.GetAnimationVariable,
+0x743220,proxy_builder (name correspondence only),GameScript.Game.GetSpecificHitPointPercent,
+0x743220,proxy_builder (name correspondence only),GameScript.Game.GetSpecificHitPointPercent,
+0x7569C0,script_api_target (name correspondence only),GameScript.Game.StartScriptEvent,
+0x7569C0,script_api_target (name correspondence only),GameScript.Game.StartScriptEvent,
+0x75BD00,script_api_target (name correspondence only),GameScript.Support.GetStreamingWorldNames,
+0x761F10,script_api_target (name correspondence only),GameScript.Game.RunCutscene,
+0x761F10,script_api_target (name correspondence only),GameScript.Game.RunCutscene,
+0x7681F0,script_api_target (name correspondence only),GameScript.Game.SetAnimGraphResource,
+0x7681F0,script_api_target (name correspondence only),GameScript.Game.SetAnimGraphResource,
+0x768C40,proxy_builder (name correspondence only),GameScript.Game.AreWorldsSynchronized,
+0x768C40,proxy_builder (name correspondence only),GameScript.Game.AreWorldsSynchronized,
+0x768C40,proxy_builder (name correspondence only),GameScript.Game.ShowGenericMenuScreen,
+0x768C40,proxy_builder (name correspondence only),GameScript.Game.ShowGenericMenuScreen,
+0x76F810,script_api_target (name correspondence only),GameScript.Game.ApplyStatusEffect,
+0x76F810,script_api_target (name correspondence only),GameScript.Game.ApplyStatusEffect,
+0x777460,script_api_target (name correspondence only),GameScript.FEAR.GetPlayerColor,
+0x777540,proxy_builder (name correspondence only),GameScript.Support.GetGameTime,
+0x777540,proxy_builder (name correspondence only),GameScript.Support.GetGameTimeDelta,
+0x785B60,script_api_target (name correspondence only),GameScript.Game.EnableInput,
+0x785B60,script_api_target (name correspondence only),GameScript.Game.EnableInput,
+0x78DA90,script_api_target (name correspondence only),GameScript.Game.Damage,
+0x78DA90,script_api_target (name correspondence only),GameScript.Game.Damage,
+0x78FC40,script_api_target (name correspondence only),GameScript.Support.ExitScript,
+0x791750,proxy_builder (name correspondence only),GameScript.Game.AwardAchievementOccurrence,
+0x791750,proxy_builder (name correspondence only),GameScript.Game.AwardAchievementOccurrence,
+0x79E870,script_api_target (name correspondence only),GameScript.Game.GetSpecificHitPointPercent,
+0x79E870,script_api_target (name correspondence only),GameScript.Game.GetSpecificHitPointPercent,
+0x7A20E0,script_api_target (name correspondence only),GameScript.Game.SetNeutral,
+0x7A20E0,script_api_target (name correspondence only),GameScript.Game.SetNeutral,
+0x7C3B20,script_api_target (name correspondence only),GameScript.Game.SendKillMessage,
+0x7C3B20,script_api_target (name correspondence only),GameScript.Game.SendKillMessage,
+0x7CB4D0,proxy_builder (name correspondence only),GameScript.Game.GetInventoryItems,
+0x7CB4D0,proxy_builder (name correspondence only),GameScript.Game.GetInventoryItems,
+0x7CC220,script_api_target (name correspondence only),GameScript.Game.IsJumping,
+0x7CC220,script_api_target (name correspondence only),GameScript.Game.IsJumping,
+0x7E15E0,script_api_target (name correspondence only),GameScript.Game.Player.GetPossessionDelay,
+0x7E8CC0,proxy_builder (name correspondence only),GameScript.Game.HasPlayerStartedLevel,
+0x7E8CC0,proxy_builder (name correspondence only),GameScript.Game.HasPlayerStartedLevel,
+0x7E8CC0,proxy_builder (name correspondence only),GameScript.Game.IsEnabled,
+0x7E8CC0,proxy_builder (name correspondence only),GameScript.Game.IsEnabled,
+0x800520,proxy_builder (name correspondence only),GameScript.Game.OverRideRotateSceneObjectComponent,
+0x800520,proxy_builder (name correspondence only),GameScript.Game.OverRideRotateSceneObjectComponent,
+0x804100,proxy_builder (name correspondence only),GameScript.Game.ForceRiderVehicleState,
+0x804100,proxy_builder (name correspondence only),GameScript.Game.ForceRiderVehicleState,
+0x80FB40,PE named export,public: static class GSysAlloc * __cdecl GSysAlloc_SingletonSupport<class GSysAllocWinAPI>::InitSystemSingleton(void),?InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ
+0x80FC10,script_api_target (name correspondence only),GameScript.Game.SetGameFailed,
+0x80FC10,script_api_target (name correspondence only),GameScript.Game.SetGameFailed,
+0x817070,script_api_target (name correspondence only),GameScript.Game.CopyNation,
+0x817070,script_api_target (name correspondence only),GameScript.Game.CopyNation,
+0x81A370,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHint,
+0x81A370,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHint,
+0x82C4A0,proxy_builder (name correspondence only),GameScript.Game.StreamWorlds,
+0x82C4A0,proxy_builder (name correspondence only),GameScript.Game.StreamWorlds,
+0x836D70,script_api_target (name correspondence only),GameScript.Game.SendTextMessage,
+0x836D70,script_api_target (name correspondence only),GameScript.Game.SendTextMessage,
+0x8506B0,PE named export,public: float __thiscall GMatrix2D::GetX(void)const ,?GetX@GMatrix2D@@QBEMXZ
+0x8521E0,script_api_target (name correspondence only),GameScript.Game.ShowGenericMenuScreen,
+0x8521E0,script_api_target (name correspondence only),GameScript.Game.ShowGenericMenuScreen,
+0x853D50,proxy_builder (name correspondence only),GameScript.Game.DataMinerCheckpoint,
+0x853D50,proxy_builder (name correspondence only),GameScript.Game.SetWorldsAsSavable,
+0x853D50,proxy_builder (name correspondence only),GameScript.Game.SetWorldsAsSavable,
+0x86C820,proxy_builder (name correspondence only),GameScript.Game.AreAllies,
+0x86C820,proxy_builder (name correspondence only),GameScript.Game.AreAllies,
+0x86C820,proxy_builder (name correspondence only),GameScript.Game.AreEnemies,
+0x86C820,proxy_builder (name correspondence only),GameScript.Game.AreEnemies,
+0x86C820,proxy_builder (name correspondence only),GameScript.Game.AttachToObject,
+0x86C820,proxy_builder (name correspondence only),GameScript.Game.AttachToObject,
+0x876330,proxy_builder (name correspondence only),GameScript.Game.HasAchievementBeenAchieved,
+0x876330,proxy_builder (name correspondence only),GameScript.Game.HasAchievementBeenAchieved,
+0x879EB0,script_api_target (name correspondence only),GameScript.Game.Player.SetLocalTetherTimeoutPeriod,
+0x8836F0,proxy_builder (name correspondence only),GameScript.Game.Physics.SetCollisionGroup,
+0x8920E0,script_api_target (name correspondence only),GameScript.Game.GetWorldName,
+0x8920E0,script_api_target (name correspondence only),GameScript.Game.GetWorldName,
+0x892700,script_api_target (name correspondence only),GameScript.Game.Physics.SetClothWindDirection,
+0x892800,script_api_target (name correspondence only),GameScript.Game.HidePlayerView,
+0x892800,script_api_target (name correspondence only),GameScript.Game.HidePlayerView,
+0x8963B0,script_api_target (name correspondence only),GameScript.Support.GetPlatform,
+0x89D330,script_api_target (name correspondence only),GameScript.Game.AreWorldsSynchronized,
+0x89D330,script_api_target (name correspondence only),GameScript.Game.AreWorldsSynchronized,
+0x8B1DD0,script_api_target (name correspondence only),GameScript.Support.GetGameTime,
+0x8B94F0,proxy_builder (name correspondence only),GameScript.FEAR.SetAnnoucementPacketTime,
+0x8BD630,proxy_builder (name correspondence only),GameScript.Game.IsObjectInState,
+0x8BD630,proxy_builder (name correspondence only),GameScript.Game.IsObjectInState,
+0x8BD630,proxy_builder (name correspondence only),GameScript.Game.StartScriptEvent,
+0x8BD630,proxy_builder (name correspondence only),GameScript.Game.StartScriptEvent,
+0x8C1060,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleObjectHealthPercent,
+0x8C1060,proxy_builder (name correspondence only),GameScript.Game.GetDestructibleObjectHealthPercent,
+0x8C1060,proxy_builder (name correspondence only),GameScript.Game.GetEnergyLevelPercent,
+0x8C1060,proxy_builder (name correspondence only),GameScript.Game.GetEnergyLevelPercent,
+0x8C1060,proxy_builder (name correspondence only),GameScript.Game.GetHitPointPercent,
+0x8C1060,proxy_builder (name correspondence only),GameScript.Game.GetHitPointPercent,
+0x8C44E0,script_api_target (name correspondence only),GameScript.Game.GetAllDestructibleObjects,
+0x8C44E0,script_api_target (name correspondence only),GameScript.Game.GetAllDestructibleObjects,
+0x8CA170,script_api_target (name correspondence only),GameScript.Game.SetAnimVarWeaponTypeFromInventory,
+0x8CA170,script_api_target (name correspondence only),GameScript.Game.SetAnimVarWeaponTypeFromInventory,
+0x8CE6E0,proxy_builder (name correspondence only),GameScript.Game.RestoreCheckpointAnimGraph,
+0x8CE6E0,proxy_builder (name correspondence only),GameScript.Game.RestoreCheckpointAnimGraph,
+0x8CE6E0,proxy_builder (name correspondence only),GameScript.Game.SetAnimationGraphResourceOverTime,
+0x8CE6E0,proxy_builder (name correspondence only),GameScript.Game.SetAnimationGraphResourceOverTime,
+0x8CE6E0,proxy_builder (name correspondence only),GameScript.Game.SetAnimationVariable,
+0x8CE6E0,proxy_builder (name correspondence only),GameScript.Game.SetAnimationVariable,
+0x8E7FC0,script_api_target (name correspondence only),GameScript.Game.IsObjectInState,
+0x8E7FC0,script_api_target (name correspondence only),GameScript.Game.IsObjectInState,
+0x8EE310,proxy_builder (name correspondence only),GameScript.Game.SelectInventory,
+0x8EE310,proxy_builder (name correspondence only),GameScript.Game.SelectInventory,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.Drop,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.Drop,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.KillAllObjectsInWeaponInventory,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.KillAllObjectsInWeaponInventory,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.RemoveAnimationGraphResource,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.RemoveAnimationGraphResource,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.SendCutsceneStopLoopMessage,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.SendCutsceneStopLoopMessage,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.SetAnimVarWeaponTypeFromInventory,
+0x8F4CB0,proxy_builder (name correspondence only),GameScript.Game.SetAnimVarWeaponTypeFromInventory,
+0x8FFF10,script_api_target (name correspondence only),GameScript.Game.GetRotation,
+0x8FFF10,script_api_target (name correspondence only),GameScript.Game.GetRotation,
+0x900DA0,script_api_target (name correspondence only),GameScript.Game.GetProjectileTarget,
+0x900DA0,script_api_target (name correspondence only),GameScript.Game.GetProjectileTarget,
+0x908BD0,script_api_target (name correspondence only),GameScript.Game.Drop,
+0x908BD0,script_api_target (name correspondence only),GameScript.Game.Drop,
+0x925D70,script_api_target (name correspondence only),GameScript.Game.GetName,
+0x925D70,script_api_target (name correspondence only),GameScript.Game.GetName,
+0x927F30,proxy_builder (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenuAndNode,
+0x927F30,proxy_builder (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenuAndNode,
+0x933610,script_api_target (name correspondence only),GameScript.Game.EnableComponent,
+0x933610,script_api_target (name correspondence only),GameScript.Game.EnableComponent,
+0x93CC90,script_api_target (name correspondence only),GameScript.Game.SetAnimationGraphResource,
+0x93CC90,script_api_target (name correspondence only),GameScript.Game.SetAnimationGraphResource,
+0x9437E0,script_api_target (name correspondence only),GameScript.Game.GetInteractionUser,
+0x9437E0,script_api_target (name correspondence only),GameScript.Game.GetInteractionUser,
+0x9494A0,script_api_target (name correspondence only),GameScript.Game.EnableGlowRendering,
+0x9494A0,script_api_target (name correspondence only),GameScript.Game.EnableGlowRendering,
+0x953140,proxy_builder (name correspondence only),GameScript.Game.Kill,
+0x953140,proxy_builder (name correspondence only),GameScript.Game.SendKillMessage,
+0x953140,proxy_builder (name correspondence only),GameScript.Game.SendKillMessage,
+0x953140,proxy_builder (name correspondence only),GameScript.Game.SetPersonMaxSpeed,
+0x953140,proxy_builder (name correspondence only),GameScript.Game.SetPersonMaxSpeed,
+0x95B510,PE named export,public: void __thiscall GSysAllocStatic::`default constructor closure'(void),??_FGSysAllocStatic@@QAEXXZ
+0x95FB80,script_api_target (name correspondence only),GameScript.Game.GetPosition,
+0x95FB80,script_api_target (name correspondence only),GameScript.Game.GetPosition,
+0x964360,script_api_target (name correspondence only),GameScript.Game.GetActiveDestructibleObject,
+0x964360,script_api_target (name correspondence only),GameScript.Game.GetActiveDestructibleObject,
+0x970880,proxy_builder (name correspondence only),GameScript.FEAR.SetDLCInventoryGroupOption,
+0x9720E0,script_api_target (name correspondence only),GameScript.Game.Physics.SetClothWindInterval,
+0x973AA0,script_api_target (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenu,
+0x973AA0,script_api_target (name correspondence only),GameScript.Game.ShowFullscreenMovieWithMenu,
+0x97B080,script_api_target (name correspondence only),GameScript.Game.Player.RevivePlayerInstant,
+0x97B630,proxy_builder (name correspondence only),GameScript.Game.GetSceneNodePosition,
+0x97B630,proxy_builder (name correspondence only),GameScript.Game.GetSceneNodePosition,
+0x981300,proxy_builder (name correspondence only),GameScript.Support.RegisterAnimationGraphResourceVariable,
+0x981300,proxy_builder (name correspondence only),GameScript.Support.RemoveFromWorldVectorVariable,
+0x9885F0,script_api_target (name correspondence only),GameScript.Game.GetSceneNodeRotation,
+0x9885F0,script_api_target (name correspondence only),GameScript.Game.GetSceneNodeRotation,
+0x996870,PE named export,"public: void __thiscall GMatrix3D::Transform(class GPoint3<float> *,class GPoint3<float> const &)const ",?Transform@GMatrix3D@@QBEXPAV?$GPoint3@M@@ABV2@@Z
+0x999260,proxy_builder (name correspondence only),GameScript.FEAR.GetPlayerColor,
+0x9A25F0,script_api_target (name correspondence only),GameScript.Game.SetWorldsAsSavable,
+0x9A25F0,script_api_target (name correspondence only),GameScript.Game.SetWorldsAsSavable,
+0x9A2800,script_api_target (name correspondence only),GameScript.Game.Physics.IsClothWindEnabled,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.Damage,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.Damage,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.RemoveAnimationGraphResourceOverTime,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.RemoveAnimationGraphResourceOverTime,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.SetCurrentTotalAmmoPercent,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.SetCurrentTotalAmmoPercent,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.SetHitPointPercent,
+0x9ABDB0,proxy_builder (name correspondence only),GameScript.Game.SetHitPointPercent,
+0x9B1020,script_api_target (name correspondence only),GameScript.Game.Player.TetherPlayer,
+0x9B3C40,proxy_builder (name correspondence only),GameScript.Game.StartInteraction,
+0x9B3C40,proxy_builder (name correspondence only),GameScript.Game.StartInteraction,
+0x9CF940,script_api_target (name correspondence only),GameScript.Game.Spawn,
+0x9CF940,script_api_target (name correspondence only),GameScript.Game.Spawn,
+0x9D79A0,script_api_target (name correspondence only),GameScript.Game.IsPlayerLookRotFacingObject,
+0x9D79A0,script_api_target (name correspondence only),GameScript.Game.IsPlayerLookRotFacingObject,
+0x9DA070,script_api_target (name correspondence only),GameScript.Game.StreamWorldsWithSaveOverride,
+0x9DA070,script_api_target (name correspondence only),GameScript.Game.StreamWorldsWithSaveOverride,
+0x9E1540,PE named export,public: __thiscall GImage::GImage(class GImageBase const &),??0GImage@@QAE@ABVGImageBase@@@Z
+0x9F3E50,proxy_builder (name correspondence only),GameScript.Game.SetRegeneratingHPDelay,
+0x9F3E50,proxy_builder (name correspondence only),GameScript.Game.SetRegeneratingHPDelay,
+0x9F6460,proxy_builder (name correspondence only),GameScript.Game.Player.GetMaxPossessionTime,
+0x9F6460,proxy_builder (name correspondence only),GameScript.Game.Player.GetPossessionDelay,
+0x9F8790,script_api_target (name correspondence only),GameScript.Game.GetDestructibleCurrentState,
+0x9F8790,script_api_target (name correspondence only),GameScript.Game.GetDestructibleCurrentState,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.ApplyStatusEffect,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.ApplyStatusEffect,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.CopyNation,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.CopyNation,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.RemoveStatusEffect,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.RemoveStatusEffect,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.RippleWater,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.RippleWater,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.StopInteraction,
+0xA0F5B0,proxy_builder (name correspondence only),GameScript.Game.StopInteraction,
+0xA107F0,script_api_target (name correspondence only),GameScript.Game.SetPlayerSpawnIndex,
+0xA107F0,script_api_target (name correspondence only),GameScript.Game.SetPlayerSpawnIndex,
+0xA18740,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHint,
+0xA18740,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHint,
+0xA1A190,script_api_target (name correspondence only),GameScript.Game.DoesSceneNodeExist,
+0xA1A190,script_api_target (name correspondence only),GameScript.Game.DoesSceneNodeExist,
+0xA34760,proxy_builder (name correspondence only),GameScript.Game.GetSceneNodeRotation,
+0xA34760,proxy_builder (name correspondence only),GameScript.Game.GetSceneNodeRotation,
+0xA34E10,script_api_target (name correspondence only),GameScript.Game.RemoveAnimationGraphResourceOverTime,
+0xA34E10,script_api_target (name correspondence only),GameScript.Game.RemoveAnimationGraphResourceOverTime,
+0xA371A0,script_api_target (name correspondence only),GameScript.FEAR.SetGlobalPerformanceValue,
+0xA37E30,script_api_target (name correspondence only),GameScript.Support.IsSplitScreen,
+0xA3B8C0,PE named export,public: __thiscall GSysAlloc::GSysAlloc(void),??0GSysAlloc@@QAE@XZ
+0xA3B910,script_api_target (name correspondence only),GameScript.Game.Player.GetMaxPossessionTime,
+0xA4A3F0,script_api_target (name correspondence only),GameScript.Game.Physics.SetClothWindEnabled,
+0xA4D3D0,script_api_target (name correspondence only),GameScript.Game.GetForward,
+0xA4D3D0,script_api_target (name correspondence only),GameScript.Game.GetForward,
+0xA52690,script_api_target (name correspondence only),GameScript.Game.GetDamageHistory,
+0xA52690,script_api_target (name correspondence only),GameScript.Game.GetDamageHistory,
+0xA5CE70,script_api_target (name correspondence only),GameScript.Game.HasAchievementBeenAchieved,
+0xA5CE70,script_api_target (name correspondence only),GameScript.Game.HasAchievementBeenAchieved,
+0xA645F0,proxy_builder (name correspondence only),GameScript.Game.DamageWithInfo,
+0xA645F0,proxy_builder (name correspondence only),GameScript.Game.DamageWithInfo,
+0xA82000,proxy_builder (name correspondence only),GameScript.Game.Player.ClearTetherBreadcrumbs,
+0xA82000,proxy_builder (name correspondence only),GameScript.Game.Player.ClearTetherSafeRadiusOverride,
+0xA82000,proxy_builder (name correspondence only),GameScript.Game.Player.ResetPossessionTimer,
+0xA82000,proxy_builder (name correspondence only),GameScript.Game.Player.RevivePlayerInstant,
+0xA82000,proxy_builder (name correspondence only),GameScript.Game.Player.SetPlayerGameComplete,
+0xA82000,proxy_builder (name correspondence only),GameScript.Game.Player.TetherPlayer,
+0xA83000,script_api_target (name correspondence only),GameScript.Game.DisplayText,
+0xA83000,script_api_target (name correspondence only),GameScript.Game.DisplayText,
+0xA8BF90,proxy_builder (name correspondence only),GameScript.Support.GetRandomInteger,
+0xA90390,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovieWithMenu,
+0xA90390,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovieWithMenu,
+0xA905A0,proxy_builder (name correspondence only),GameScript.Game.DisplayText,
+0xA905A0,proxy_builder (name correspondence only),GameScript.Game.DisplayText,
+0xA9BED0,proxy_builder (name correspondence only),GameScript.Game.RunCutscene,
+0xA9BED0,proxy_builder (name correspondence only),GameScript.Game.RunCutscene,
+0xAA80A0,proxy_builder (name correspondence only),GameScript.Game.Player.HasPlayerCollectedObject,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.HideAllHUD,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.HideAllHUD,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SaveGame,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SaveGame,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SetGameFailed,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SetGameFailed,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SetGameWon,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SetGameWon,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SetPlayersStartedLevel,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.SetPlayersStartedLevel,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.UnhideAllHUD,
+0xAC77C0,proxy_builder (name correspondence only),GameScript.Game.UnhideAllHUD,
+0xACD9E0,PE named export,public: void __thiscall GThread::`default constructor closure'(void),??_FGThread@@QAEXXZ
+0xAD1C20,script_api_target (name correspondence only),GameScript.Game.GetSpawnLocationsFromSpawner,
+0xAD1C20,script_api_target (name correspondence only),GameScript.Game.GetSpawnLocationsFromSpawner,
+0xAD8CD0,script_api_target (name correspondence only),GameScript.Game.ShowFullscreenMovie,
+0xAD8CD0,script_api_target (name correspondence only),GameScript.Game.ShowFullscreenMovie,
+0xADBC60,script_api_target (name correspondence only),GameScript.Game.Player.InhibitCurrentPossessionEnding,
+0xADDE30,PE named export,"public: __thiscall GSystem::GSystem(struct GMemoryHeap::HeapDesc const &,class GSysAlloc *)",??0GSystem@@QAE@ABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z
+0xAE8320,script_api_target (name correspondence only),GameScript.Game.IsActiveCoverOn,
+0xAE8320,script_api_target (name correspondence only),GameScript.Game.IsActiveCoverOn,
+0xAE8650,proxy_builder (name correspondence only),GameScript.Game.StartScriptEventTarget,
+0xAE8650,proxy_builder (name correspondence only),GameScript.Game.StartScriptEventTarget,
+0xB11880,script_api_target (name correspondence only),GameScript.Game.GetMyObject,
+0xB11880,script_api_target (name correspondence only),GameScript.Game.GetMyObject,
+0xB1B4C0,PE named export,public: virtual bool __thiscall GEvent::IsSignaled(void)const ,?IsSignaled@GEvent@@UBE_NXZ
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetActiveDestructibleObject,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetActiveDestructibleObject,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetInteractionUser,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetInteractionUser,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetInventoryOwner,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetInventoryOwner,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetObjectAttachedTo,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetObjectAttachedTo,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetOwnerObjectChangeHandlingObject,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetOwnerObjectChangeHandlingObject,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetProjectileTarget,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetProjectileTarget,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetSuspendingObject,
+0xB25260,proxy_builder (name correspondence only),GameScript.Game.GetSuspendingObject,
+0xB2A9B0,script_api_target (name correspondence only),GameScript.Game.GetAnimationVariable,
+0xB2A9B0,script_api_target (name correspondence only),GameScript.Game.GetAnimationVariable,
+0xB3EC00,script_api_target (name correspondence only),GameScript.Game.GetLastMeleeAttack,
+0xB3EC00,script_api_target (name correspondence only),GameScript.Game.GetLastMeleeAttack,
+0xB4DEE0,script_api_target (name correspondence only),GameScript.Game.Heal,
+0xB4DEE0,script_api_target (name correspondence only),GameScript.Game.Heal,
+0xB79DA0,proxy_builder (name correspondence only),GameScript.Game.Physics.IsClothWindEnabled,
+0xB8E300,script_api_target (name correspondence only),GameScript.FEAR.BroadcastAnnoucementPacket,
+0xB94E60,script_api_target (name correspondence only),GameScript.Game.SetCurrentLevel,
+0xB94E60,script_api_target (name correspondence only),GameScript.Game.SetCurrentLevel,
+0xB96EB0,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovie,
+0xB96EB0,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovie,
+0xB97E10,script_api_target (name correspondence only),GameScript.Game.Player.SetMaxPossessionTime,
+0xBAED40,script_api_target (name correspondence only),GameScript.Game.GetDestructibleInitialState,
+0xBAED40,script_api_target (name correspondence only),GameScript.Game.GetDestructibleInitialState,
+0xBB1020,script_api_target (name correspondence only),GameScript.Game.Player.SetPossessionDelay,
+0xBB2020,script_api_target (name correspondence only),GameScript.Game.GetInteractionObjects,
+0xBB2020,script_api_target (name correspondence only),GameScript.Game.GetInteractionObjects,
+0xBB9630,proxy_builder (name correspondence only),GameScript.Game.Physics.ApplyImpulseToCloth,
+0xBB9630,proxy_builder (name correspondence only),GameScript.Game.Physics.SetClothWindDirection,
+0xBBD030,script_api_target (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStream,
+0xBBD030,script_api_target (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStream,
+0xBC0B00,proxy_builder (name correspondence only),GameScript.Game.GetRandomVectorInCone,
+0xBC0B00,proxy_builder (name correspondence only),GameScript.Game.GetRandomVectorInCone,
+0xBC6C80,script_api_target (name correspondence only),GameScript.Game.TeleportObjectToPosition,
+0xBC6C80,script_api_target (name correspondence only),GameScript.Game.TeleportObjectToPosition,
+0xBC8160,script_api_target (name correspondence only),GameScript.Game.GetRandomVectorInCone,
+0xBC8160,script_api_target (name correspondence only),GameScript.Game.GetRandomVectorInCone,
+0xBCA790,proxy_builder (name correspondence only),GameScript.Support.IsSplitScreen,
+0xBE2420,proxy_builder (name correspondence only),GameScript.Game.SetLookDirection,
+0xBE2420,proxy_builder (name correspondence only),GameScript.Game.SetLookDirection,
+0xBED100,proxy_builder (name correspondence only),GameScript.Game.IsPlayerLookRotFacingObject,
+0xBED100,proxy_builder (name correspondence only),GameScript.Game.IsPlayerLookRotFacingObject,
+0xBF9A90,script_api_target (name correspondence only),GameScript.Game.HasHitPoints,
+0xBF9A90,script_api_target (name correspondence only),GameScript.Game.HasHitPoints,
+0xC04FE0,proxy_builder (name correspondence only),GameScript.Game.Player.DisableTetherSpawnTagSet,
+0xC04FE0,proxy_builder (name correspondence only),GameScript.Game.Player.EnableTetherSpawnTagSet,
+0xC05DA0,proxy_builder (name correspondence only),GameScript.Game.ShowFullscreenMovie,
+0xC05DA0,proxy_builder (name correspondence only),GameScript.Game.ShowFullscreenMovie,
+0xC06080,script_api_target (name correspondence only),GameScript.Game.GetDestructibleFinalState,
+0xC06080,script_api_target (name correspondence only),GameScript.Game.GetDestructibleFinalState,
+0xC0A0D0,PE named export,public: void __thiscall GEvent::`default constructor closure'(void),??_FGEvent@@QAEXXZ
+0xC19A20,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHintWithMenu,
+0xC19A20,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHintWithMenu,
+0xC247E0,script_api_target (name correspondence only),GameScript.Game.Player.SetPlayerGameComplete,
+0xC316A0,script_api_target (name correspondence only),GameScript.Game.StreamWorlds,
+0xC316A0,script_api_target (name correspondence only),GameScript.Game.StreamWorlds,
+0xC37430,proxy_builder (name correspondence only),GameScript.Game.AdjustPossessionVisionModeForCinema,
+0xC42B00,script_api_target (name correspondence only),GameScript.Game.StopInteraction,
+0xC42B00,script_api_target (name correspondence only),GameScript.Game.StopInteraction,
+0xC4C910,proxy_builder (name correspondence only),GameScript.Support.GetRandomFactor,
+0xC55740,script_api_target (name correspondence only),GameScript.Support.GetGameTimeDelta,
+0xC565A0,script_api_target (name correspondence only),GameScript.Game.GetInventoryItemsByTypeAndName,
+0xC565A0,script_api_target (name correspondence only),GameScript.Game.GetInventoryItemsByTypeAndName,
+0xC592E0,script_api_target (name correspondence only),GameScript.Game.ShowMissionSummaryScreenEx,
+0xC592E0,script_api_target (name correspondence only),GameScript.Game.ShowMissionSummaryScreenEx,
+0xC5D230,proxy_builder (name correspondence only),GameScript.Game.StopMultiUserInteraction,
+0xC5D230,proxy_builder (name correspondence only),GameScript.Game.StopMultiUserInteraction,
+0xC75D20,script_api_target (name correspondence only),GameScript.Game.SetLookDirection,
+0xC75D20,script_api_target (name correspondence only),GameScript.Game.SetLookDirection,
+0xC7A960,script_api_target (name correspondence only),GameScript.Game.IsEnabled,
+0xC7A960,script_api_target (name correspondence only),GameScript.Game.IsEnabled,
+0xC814F0,proxy_builder (name correspondence only),GameScript.Support.GetPlatform,
+0xC875D0,PE named export,public: __thiscall GImage::GImage(class GImage const &),??0GImage@@QAE@ABV0@@Z
+0xC89A60,script_api_target (name correspondence only),GameScript.Game.IsRiding,
+0xC89A60,script_api_target (name correspondence only),GameScript.Game.IsRiding,
+0xC8D8D0,script_api_target (name correspondence only),GameScript.Game.GetObjectAttachedTo,
+0xC8D8D0,script_api_target (name correspondence only),GameScript.Game.GetObjectAttachedTo,
+0xC9BD50,script_api_target (name correspondence only),GameScript.Game.GetDifficulty,
+0xC9BD50,script_api_target (name correspondence only),GameScript.Game.GetDifficulty,
+0xCA3D80,proxy_builder (name correspondence only),GameScript.Game.Heal,
+0xCA3D80,proxy_builder (name correspondence only),GameScript.Game.Heal,
+0xCA3D80,proxy_builder (name correspondence only),GameScript.Game.SetAnimGraphResource,
+0xCA3D80,proxy_builder (name correspondence only),GameScript.Game.SetAnimGraphResource,
+0xCA76D0,proxy_builder (name correspondence only),GameScript.Game.GetName,
+0xCA76D0,proxy_builder (name correspondence only),GameScript.Game.GetName,
+0xCA76D0,proxy_builder (name correspondence only),GameScript.Game.GetWorldName,
+0xCA76D0,proxy_builder (name correspondence only),GameScript.Game.GetWorldName,
+0xCAF770,script_api_target (name correspondence only),GameScript.Game.Physics.SetCollisionGroup,
+0xCB1520,proxy_builder (name correspondence only),GameScript.Game.Physics.SetClothWindInterval,
+0xCBCFB0,script_api_target (name correspondence only),GameScript.Game.Player.GetPlayerGameComplete,
+0xCBDF70,script_api_target (name correspondence only),GameScript.Game.SpawnIntoInventory,
+0xCBDF70,script_api_target (name correspondence only),GameScript.Game.SpawnIntoInventory,
+0xCC57A0,script_api_target (name correspondence only),GameScript.Game.SetRegeneratingHPDelay,
+0xCC57A0,script_api_target (name correspondence only),GameScript.Game.SetRegeneratingHPDelay,
+0xCC9510,script_api_target (name correspondence only),GameScript.Game.IsAirborne,
+0xCC9510,script_api_target (name correspondence only),GameScript.Game.IsAirborne,
+0xCCFCE0,PE named export,public: void __thiscall GSysAllocWinAPI::`default constructor closure'(void),??_FGSysAllocWinAPI@@QAEXXZ
+0xCE0410,proxy_builder (name correspondence only),GameScript.Game.GetRotateSceneObjectSpeed,
+0xCE0410,proxy_builder (name correspondence only),GameScript.Game.GetRotateSceneObjectSpeed,
+0xCE0410,proxy_builder (name correspondence only),GameScript.Game.GetRotation,
+0xCE0410,proxy_builder (name correspondence only),GameScript.Game.GetRotation,
+0xCE4B70,script_api_target (name correspondence only),GameScript.Game.SendCutsceneStopLoopMessage,
+0xCE4B70,script_api_target (name correspondence only),GameScript.Game.SendCutsceneStopLoopMessage,
+0xCF4A60,script_api_target (name correspondence only),GameScript.Game.SetSprint,
+0xCF4A60,script_api_target (name correspondence only),GameScript.Game.SetSprint,
+0xCF8010,proxy_builder (name correspondence only),GameScript.Game.Player.InhibitCurrentPossessionEnding,
+0xCF8010,proxy_builder (name correspondence only),GameScript.Game.Player.PauseCurrentPossession,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetAllDestructibleObjects,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetAllDestructibleObjects,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetEnvironmentalEffectObjects,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetEnvironmentalEffectObjects,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetInteractionObjects,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetInteractionObjects,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetSpawnLocationsFromSpawner,
+0xCFB1F0,proxy_builder (name correspondence only),GameScript.Game.GetSpawnLocationsFromSpawner,
+0xD0E1F0,script_api_target (name correspondence only),GameScript.Game.AwardAchievementOccurrence,
+0xD0E1F0,script_api_target (name correspondence only),GameScript.Game.AwardAchievementOccurrence,
+0xD13C60,script_api_target (name correspondence only),GameScript.Game.IsDestructibleInInitialState,
+0xD13C60,script_api_target (name correspondence only),GameScript.Game.IsDestructibleInInitialState,
+0xD20940,script_api_target (name correspondence only),GameScript.FEAR.GetGenericTimer,
+0xD27790,script_api_target (name correspondence only),GameScript.Support.RegisterAnimationGraphResourceVariable,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.CompleteCurrentLevel,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.CompleteCurrentLevel,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.SetCurrentLevel,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.SetCurrentLevel,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.SetCurrentLevelId,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.SetCurrentLevelId,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStream,
+0xD2E1F0,proxy_builder (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStream,
+0xD2E280,script_api_target (name correspondence only),GameScript.Game.SelectInventory,
+0xD2E280,script_api_target (name correspondence only),GameScript.Game.SelectInventory,
+0xD32920,proxy_builder (name correspondence only),GameScript.Game.AttachToRigidBody,
+0xD32920,proxy_builder (name correspondence only),GameScript.Game.AttachToRigidBody,
+0xD32920,proxy_builder (name correspondence only),GameScript.Game.AttachToSceneNode,
+0xD32920,proxy_builder (name correspondence only),GameScript.Game.AttachToSceneNode,
+0xD45F30,script_api_target (name correspondence only),GameScript.Game.UnhideAllHUD,
+0xD45F30,script_api_target (name correspondence only),GameScript.Game.UnhideAllHUD,
+0xD46EE0,script_api_target (name correspondence only),GameScript.Game.Player.SetLocalTetherZone,
+0xD47650,script_api_target (name correspondence only),GameScript.Game.Player.EnableTetherSpawnTagSet,
+0xD4BFB0,script_api_target (name correspondence only),GameScript.Game.EnableAllUsables,
+0xD4BFB0,script_api_target (name correspondence only),GameScript.Game.EnableAllUsables,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.AreAllRequiredWorldsSynchronized,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.AreAllRequiredWorldsSynchronized,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.IsPauseMenuShowing,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.IsPauseMenuShowing,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.ShowChallengeSummaryScreen,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.ShowChallengeSummaryScreen,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.ShowMissionSummaryScreen,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.ShowMissionSummaryScreen,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.ShowMissionSummaryScreenNoPause,
+0xD4EF80,proxy_builder (name correspondence only),GameScript.Game.ShowMissionSummaryScreenNoPause,
+0xD621C0,script_api_target (name correspondence only),GameScript.Game.GetInventoryItems,
+0xD621C0,script_api_target (name correspondence only),GameScript.Game.GetInventoryItems,
+0xD71640,script_api_target (name correspondence only),GameScript.Game.IsNeutral,
+0xD71640,script_api_target (name correspondence only),GameScript.Game.IsNeutral,
+0xD8BDE0,script_api_target (name correspondence only),GameScript.Game.Player.CanPlayerPossess,
+0xD9B6E0,proxy_builder (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStreamWithMenu,
+0xD9B6E0,proxy_builder (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStreamWithMenu,
+0xD9B6E0,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovie,
+0xD9B6E0,proxy_builder (name correspondence only),GameScript.Game.ShowLoadingScreenMovie,
+0xDA6BB0,script_api_target (name correspondence only),GameScript.Game.SendMissionEventMessage,
+0xDA6BB0,script_api_target (name correspondence only),GameScript.Game.SendMissionEventMessage,
+0xDA9920,script_api_target (name correspondence only),GameScript.Game.Player.SetLocalTetherWarningPct,
+0xDADCE0,script_api_target (name correspondence only),GameScript.Game.SetPlayersStartedLevel,
+0xDADCE0,script_api_target (name correspondence only),GameScript.Game.SetPlayersStartedLevel,
+0xDB6490,PE named export,"public: void __thiscall GMatrix3D::Transform(class GPoint<float> *,class GPoint<float> const &)const ",?Transform@GMatrix3D@@QBEXPAV?$GPoint@M@@ABV2@@Z
+0xDC06C0,script_api_target (name correspondence only),GameScript.Game.StartInteraction,
+0xDC06C0,script_api_target (name correspondence only),GameScript.Game.StartInteraction,
+0xDC0D40,script_api_target (name correspondence only),GameScript.FEAR.SetGenericCounter,
+0xDC30F0,script_api_target (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStreamWithMenu,
+0xDC30F0,script_api_target (name correspondence only),GameScript.Game.ShowIntroLoadingMovieAndStreamWithMenu,
+0xDCAF00,proxy_builder (name correspondence only),GameScript.Game.GetDamageHistory,
+0xDCAF00,proxy_builder (name correspondence only),GameScript.Game.GetDamageHistory,
+0xDDAAD0,proxy_builder (name correspondence only),GameScript.Game.SpawnWithRotation,
+0xDDAAD0,proxy_builder (name correspondence only),GameScript.Game.SpawnWithRotation,
+0xDDAC20,script_api_target (name correspondence only),GameScript.Game.GetEnergyLevelPercent,
+0xDDAC20,script_api_target (name correspondence only),GameScript.Game.GetEnergyLevelPercent,
+0xDDDF90,script_api_target (name correspondence only),GameScript.Game.RippleWater,
+0xDDDF90,script_api_target (name correspondence only),GameScript.Game.RippleWater,
+0xDE1E30,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHintWithMenu,
+0xDE1E30,script_api_target (name correspondence only),GameScript.Game.ShowLoadingScreenMovieStreamHintWithMenu,
+0xDE3820,script_api_target (name correspondence only),GameScript.Game.SetOwnerObject,
+0xDE3820,script_api_target (name correspondence only),GameScript.Game.SetOwnerObject,
+0xDEB6F0,script_api_target (name correspondence only),GameScript.Game.BroadcastMissionEventMessage,
+0xDEB6F0,script_api_target (name correspondence only),GameScript.Game.BroadcastMissionEventMessage,
+0xDED0F0,script_api_target (name correspondence only),GameScript.Game.ForceRiderOutOfVehicle,
+0xDED0F0,script_api_target (name correspondence only),GameScript.Game.ForceRiderOutOfVehicle,
+0xE01A00,script_api_target (name correspondence only),GameScript.Game.Physics.SetClothWindStrength,
+0xE048C0,proxy_builder (name correspondence only),GameScript.Game.BroadcastMissionEventMessage,
+0xE048C0,proxy_builder (name correspondence only),GameScript.Game.BroadcastMissionEventMessage,
+0xE048C0,proxy_builder (name correspondence only),GameScript.Game.SendMissionEventMessage,
+0xE048C0,proxy_builder (name correspondence only),GameScript.Game.SendMissionEventMessage,
+0xE0CAA0,script_api_target (name correspondence only),GameScript.Game.TeleportObjectWithRotation,
+0xE0CAA0,script_api_target (name correspondence only),GameScript.Game.TeleportObjectWithRotation,
+0xE19DE0,proxy_builder (name correspondence only),GameScript.Game.ShowMissionSummaryScreenEx,
+0xE19DE0,proxy_builder (name correspondence only),GameScript.Game.ShowMissionSummaryScreenEx,
+0xE2F8F0,script_api_target (name correspondence only),GameScript.Game.EnableObjectInput,
+0xE2F8F0,script_api_target (name correspondence only),GameScript.Game.EnableObjectInput,
+0xE35630,proxy_builder (name correspondence only),GameScript.Game.EnableGlowRendering,
+0xE35630,proxy_builder (name correspondence only),GameScript.Game.EnableGlowRendering,
+0xE3D340,proxy_builder (name correspondence only),GameScript.Game.RippleWaterAtNode,
+0xE3D340,proxy_builder (name correspondence only),GameScript.Game.RippleWaterAtNode,
+0xE41ED0,script_api_target (name correspondence only),GameScript.FEAR.SendAnnoucementPacket,
+0xE441A0,script_api_target (name correspondence only),GameScript.Game.StartMultiUserInteraction,
+0xE441A0,script_api_target (name correspondence only),GameScript.Game.StartMultiUserInteraction,
+0xE496F0,PE named export,public: virtual __thiscall GAcquireInterface::~GAcquireInterface(void),??1GAcquireInterface@@UAE@XZ
+0xE496F0,PE named export,public: virtual __thiscall GDefaultAcquireInterface::~GDefaultAcquireInterface(void),??1GDefaultAcquireInterface@@UAE@XZ
+0xE58AF0,PE named export,public: static void __cdecl GSystem::Init(class GSysAlloc *),?Init@GSystem@@SAXPAVGSysAlloc@@@Z
+0xE63E70,proxy_builder (name correspondence only),GameScript.FEAR.SetGlobalPerformanceValue,
+0xE69C60,script_api_target (name correspondence only),GameScript.Game.SetGameWon,
+0xE69C60,script_api_target (name correspondence only),GameScript.Game.SetGameWon,
+0xE775C0,proxy_builder (name correspondence only),GameScript.Game.ShowMovie,
+0xE775C0,proxy_builder (name correspondence only),GameScript.Game.ShowMovie,
+0xE840A0,proxy_builder (name correspondence only),GameScript.Game.Player.SetLocalTetherZone,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetForward,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetForward,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetPosition,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetPosition,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetSide,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetSide,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetUp,
+0xE88340,proxy_builder (name correspondence only),GameScript.Game.GetUp,
+0xE96690,PE named export,public: virtual bool __thiscall GAcquireInterface::CanAcquire(void),?CanAcquire@GAcquireInterface@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GAcquireInterface::TryAcquire(void),?TryAcquire@GAcquireInterface@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GAcquireInterface::TryAcquireCancel(void),?TryAcquireCancel@GAcquireInterface@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GAcquireInterface::TryAcquireCommit(void),?TryAcquireCommit@GAcquireInterface@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GEvent::TryAcquireCancel(void),?TryAcquireCancel@GEvent@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GMutex::TryAcquireCommit(void),?TryAcquireCommit@GMutex@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GSemaphore::TryAcquireCommit(void),?TryAcquireCommit@GSemaphore@@UAE_NXZ
+0xE96690,PE named export,public: virtual bool __thiscall GWaitable::IsSignaled(void)const ,?IsSignaled@GWaitable@@UBE_NXZ
+0xE986A0,proxy_builder (name correspondence only),GameScript.Game.GetDifficulty,
+0xE986A0,proxy_builder (name correspondence only),GameScript.Game.GetDifficulty,
+0xE986A0,proxy_builder (name correspondence only),GameScript.Game.GetNumDesiredWorldsPending,
+0xE986A0,proxy_builder (name correspondence only),GameScript.Game.GetNumDesiredWorldsPending,
+0xEA6900,script_api_target (name correspondence only),GameScript.Game.ForceStopRiding,
+0xEA6900,script_api_target (name correspondence only),GameScript.Game.ForceStopRiding,
+0xEA77E0,PE named export,public: __thiscall GSystem::GSystem(class GSysAlloc *),??0GSystem@@QAE@PAVGSysAlloc@@@Z
+0xEB0F50,proxy_builder (name correspondence only),GameScript.Game.SetPlayerSpawnIndex,
+0xEB0F50,proxy_builder (name correspondence only),GameScript.Game.SetPlayerSpawnIndex,
+0xEB3280,proxy_builder (name correspondence only),GameScript.Game.ForceRiderIntoVehicle,
+0xEB3280,proxy_builder (name correspondence only),GameScript.Game.ForceRiderIntoVehicle,
+0xEB92E0,proxy_builder (name correspondence only),GameScript.Game.Player.CanPlayerPossess,
+0xEB92E0,proxy_builder (name correspondence only),GameScript.Game.Player.GetPlayerGameComplete,
+0xEBB2A0,script_api_target (name correspondence only),GameScript.Game.IsDestructibleInFinalState,
+0xEBB2A0,script_api_target (name correspondence only),GameScript.Game.IsDestructibleInFinalState,
+0xEBC5C0,PE named export,public: void __thiscall GSemaphore::`default constructor closure'(void),??_FGSemaphore@@QAEXXZ
+0xEC12F0,script_api_target (name correspondence only),GameScript.Game.AreEnemies,
+0xEC12F0,script_api_target (name correspondence only),GameScript.Game.AreEnemies,
+0xEC2780,script_api_target (name correspondence only),GameScript.Game.ForceRiderIntoVehicle,
+0xEC2780,script_api_target (name correspondence only),GameScript.Game.ForceRiderIntoVehicle,
+0xECDB10,proxy_builder (name correspondence only),GameScript.Game.Player.SetCrouch,
+0xEDA080,script_api_target (name correspondence only),GameScript.Game.ForceRiderVehicleState,
+0xEDA080,script_api_target (name correspondence only),GameScript.Game.ForceRiderVehicleState,
+0xEDDFF0,script_api_target (name correspondence only),GameScript.Game.AreAllies,
+0xEDDFF0,script_api_target (name correspondence only),GameScript.Game.AreAllies,
+0xEF0240,proxy_builder (name correspondence only),GameScript.FEAR.SetGenericTimer,
+0xEF8EC0,script_api_target (name correspondence only),GameScript.Game.EnableAllEnableables,
+0xEF8EC0,script_api_target (name correspondence only),GameScript.Game.EnableAllEnableables,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.Detach,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.Detach,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.DoesPosRotExist,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.DoesPosRotExist,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.HasHitPoints,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.HasHitPoints,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsActiveCoverOn,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsActiveCoverOn,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsAirborne,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsAirborne,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsCrouched,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsCrouched,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsDestructibleInFinalState,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsDestructibleInFinalState,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsDestructibleInInitialState,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsDestructibleInInitialState,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsJumping,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsJumping,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsLoaded,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsLoaded,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsNeutral,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsNeutral,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsPossessed,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsPossessed,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsRiding,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsRiding,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsSuspended,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.IsSuspended,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.SpawnerFinishedSpawning,
+0xEFB7F0,proxy_builder (name correspondence only),GameScript.Game.SpawnerFinishedSpawning,
+0xEFB9F0,script_api_target (name correspondence only),GameScript.Game.RemoveStatusEffect,
+0xEFB9F0,script_api_target (name correspondence only),GameScript.Game.RemoveStatusEffect,
+0xEFE8C0,script_api_target (name correspondence only),GameScript.FEAR.GetGenericCounter,
+0x10791F0,PE named export,public: void __thiscall GRefCountImpl::AddRef(void),?AddRef@GRefCountImpl@@QAEXXZ
+0x1079F50,PE named export,public: virtual __thiscall GRefCountImplCore::~GRefCountImplCore(void),??1GRefCountImplCore@@UAE@XZ
+0x1079F60,PE named export,public: void __thiscall GRefCountNTSImpl::Release(void),?Release@GRefCountNTSImpl@@QAEXXZ
+0x1079F80,PE named export,public: void __thiscall GRefCountImpl::Release(void),?Release@GRefCountImpl@@QAEXXZ
+0x1079FB0,PE named export,public: virtual __thiscall GRefCountWeakSupportImpl::~GRefCountWeakSupportImpl(void),??1GRefCountWeakSupportImpl@@UAE@XZ
+0x107A0E0,PE named export,public: __thiscall GSysAllocStatic::GSysAllocStatic(unsigned int),??0GSysAllocStatic@@QAE@I@Z
+0x107A120,PE named export,"public: void __thiscall GSysAllocStatic::AddMemSegment(void *,unsigned int)",?AddMemSegment@GSysAllocStatic@@QAEXPAXI@Z
+0x107A370,PE named export,"public: __thiscall GSysAllocStatic::GSysAllocStatic(void *,unsigned int,void *,unsigned int,void *,unsigned int,void *,unsigned int)",??0GSysAllocStatic@@QAE@PAXI0I0I0I@Z
+0x107A4D0,PE named export,public: unsigned long const * __thiscall GSysAllocWinAPI::GetBitSet(unsigned int)const ,?GetBitSet@GSysAllocWinAPI@@QBEPBKI@Z
+0x107A510,PE named export,public: __thiscall GSysAlloc_SingletonSupport<class GSysAllocWinAPI>::GSysAlloc_SingletonSupport<class GSysAllocWinAPI>(void),??0?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@QAE@XZ
+0x107A570,PE named export,"public: __thiscall GSysAllocWinAPI::GSysAllocWinAPI(unsigned int,unsigned int)",??0GSysAllocWinAPI@@QAE@II@Z
+0x107B400,PE named export,"public: static void __cdecl GSystem::Init(struct GMemoryHeap::HeapDesc const &,class GSysAlloc *)",?Init@GSystem@@SAXABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z
+0x107B430,PE named export,public: static void __cdecl GSystem::Destroy(void),?Destroy@GSystem@@SAXXZ
+0x107B5A0,PE named export,public: bool __thiscall GEvent::Wait(unsigned int),?Wait@GEvent@@QAE_NI@Z
+0x107B620,PE named export,public: void __thiscall GEvent::ResetEvent(void),?ResetEvent@GEvent@@QAEXXZ
+0x107B640,PE named export,public: virtual bool __thiscall GEvent::TryAcquireCommit(void),?TryAcquireCommit@GEvent@@UAE_NXZ
+0x107B670,PE named export,"public: bool __thiscall GSemaphore::ObtainSemaphore(int,unsigned int)",?ObtainSemaphore@GSemaphore@@QAE_NHI@Z
+0x107B760,PE named export,public: int __thiscall GSemaphore::operator++(int),??EGSemaphore@@QAEHH@Z
+0x107B7B0,PE named export,public: int __thiscall GSemaphore::operator+=(int),??YGSemaphore@@QAEHH@Z
+0x107B800,PE named export,public: virtual bool __thiscall GSemaphore::CanAcquire(void),?CanAcquire@GSemaphore@@UAE_NXZ
+0x107B810,PE named export,public: virtual bool __thiscall GSemaphore::TryAcquire(void),?TryAcquire@GSemaphore@@UAE_NXZ
+0x107B850,PE named export,public: virtual bool __thiscall GSemaphore::IsSignaled(void)const ,?IsSignaled@GSemaphore@@UBE_NXZ
+0x107B860,PE named export,public: virtual class GAcquireInterface * __thiscall GEvent::GetAcquireInterface(void),?GetAcquireInterface@GEvent@@UAEPAVGAcquireInterface@@XZ
+0x107B860,PE named export,public: virtual class GAcquireInterface * __thiscall GSemaphore::GetAcquireInterface(void),?GetAcquireInterface@GSemaphore@@UAEPAVGAcquireInterface@@XZ
+0x107B910,PE named export,public: static class GDefaultAcquireInterface * __cdecl GDefaultAcquireInterface::GetDefaultAcquireInterface(void),?GetDefaultAcquireInterface@GDefaultAcquireInterface@@SAPAV1@XZ
+0x107B910,PE named export,public: virtual class GAcquireInterface * __thiscall GWaitable::GetAcquireInterface(void),?GetAcquireInterface@GWaitable@@UAEPAVGAcquireInterface@@XZ
+0x107BB40,PE named export,"public: bool __thiscall GWaitable::AddWaitHandler(void (__cdecl*)(void *),void *)",?AddWaitHandler@GWaitable@@QAE_NP6AXPAX@Z0@Z
+0x107BBF0,PE named export,"public: bool __thiscall GWaitable::RemoveWaitHandler(void (__cdecl*)(void *),void *)",?RemoveWaitHandler@GWaitable@@QAE_NP6AXPAX@Z0@Z
+0x107BCA0,PE named export,public: void __thiscall GWaitable::HandlerArray::Release(void),?Release@HandlerArray@GWaitable@@QAEXXZ
+0x107BCD0,PE named export,public: void __thiscall GWaitable::HandlerArray::CallWaitHandlers(void),?CallWaitHandlers@HandlerArray@GWaitable@@QAEXXZ
+0x107BD50,PE named export,public: void __thiscall GWaitable::CallWaitHandlers(void),?CallWaitHandlers@GWaitable@@QAEXXZ
+0x107BF10,PE named export,"public: __thiscall GEvent::GEvent(bool,bool)",??0GEvent@@QAE@_N0@Z
+0x107BF60,PE named export,public: virtual __thiscall GEvent::~GEvent(void),??1GEvent@@UAE@XZ
+0x107BFD0,PE named export,public: void __thiscall GEvent::PulseEvent(void),?PulseEvent@GEvent@@QAEXXZ
+0x107C040,PE named export,"public: __thiscall GSemaphore::GSemaphore(int,bool)",??0GSemaphore@@QAE@H_N@Z
+0x107C090,PE named export,public: virtual __thiscall GSemaphore::~GSemaphore(void),??1GSemaphore@@UAE@XZ
+0x107C100,PE named export,public: bool __thiscall GSemaphore::ReleaseSemaphore(int),?ReleaseSemaphore@GSemaphore@@QAE_NH@Z
+0x107C1A0,PE named export,public: int __thiscall GSemaphore::operator--(int),??FGSemaphore@@QAEHH@Z
+0x107C220,PE named export,public: int __thiscall GSemaphore::operator-=(int),??ZGSemaphore@@QAEHH@Z
+0x107C2B0,PE named export,public: virtual bool __thiscall GSemaphore::TryAcquireCancel(void),?TryAcquireCancel@GSemaphore@@UAE_NXZ
+0x107C4A0,PE named export,public: class GWaitable * __thiscall GSemaphore::CreateWaitableIncrement(int),?CreateWaitableIncrement@GSemaphore@@QAEPAVGWaitable@@H@Z
+0x107C710,PE named export,public: bool __thiscall GWaitable::Wait(unsigned int),?Wait@GWaitable@@QAE_NI@Z
+0x107C870,PE named export,"public: static bool __cdecl GAcquireInterface::AcquireMultipleObjects(class GWaitable * *,unsigned int,unsigned int)",?AcquireMultipleObjects@GAcquireInterface@@SA_NPAPAVGWaitable@@II@Z
+0x107CA60,PE named export,"public: static int __cdecl GAcquireInterface::AcquireOneOfMultipleObjects(class GWaitable * *,unsigned int,unsigned int)",?AcquireOneOfMultipleObjects@GAcquireInterface@@SAHPAPAVGWaitable@@II@Z
+0x107CBB0,PE named export,public: void __thiscall GEvent::SetEvent(void),?SetEvent@GEvent@@QAEXXZ
+0x107CC60,PE named export,public: bool __thiscall GWaitable::Acquire(unsigned int),?Acquire@GWaitable@@QAE_NI@Z
+0x107CCC0,PE named export,public: void __thiscall GMutex::Lock(void),?Lock@GMutex@@QAEXXZ
+0x107CCE0,PE named export,public: bool __thiscall GMutex::TryLock(void),?TryLock@GMutex@@QAE_NXZ
+0x107CD10,PE named export,public: virtual bool __thiscall GMutex::IsSignaled(void)const ,?IsSignaled@GMutex@@UBE_NXZ
+0x107CD20,PE named export,public: virtual bool __thiscall GMutex::TryAcquire(void),?TryAcquire@GMutex@@UAE_NXZ
+0x107CE60,PE named export,public: void __thiscall GWaitCondition::Notify(void),?Notify@GWaitCondition@@QAEXXZ
+0x107CE70,PE named export,public: void __thiscall GWaitCondition::NotifyAll(void),?NotifyAll@GWaitCondition@@QAEXXZ
+0x107CE80,PE named export,public: virtual int __thiscall GThread::Run(void),?Run@GThread@@UAEHXZ
+0x107CF00,PE named export,public: static bool __cdecl GThread::Sleep(unsigned int),?Sleep@GThread@@SA_NI@Z
+0x107CF20,PE named export,public: static bool __cdecl GThread::MSleep(unsigned int),?MSleep@GThread@@SA_NI@Z
+0x107CF30,PE named export,public: static int __cdecl GThread::GetCPUCount(void),?GetCPUCount@GThread@@SAHXZ
+0x107CF70,PE named export,"public: __thiscall GMutex::GMutex(bool,bool)",??0GMutex@@QAE@_N0@Z
+0x107D1D0,PE named export,public: __thiscall GWaitCondition::GWaitCondition(void),??0GWaitCondition@@QAE@XZ
+0x107D220,PE named export,"public: bool __thiscall GWaitCondition::Wait(class GMutex *,unsigned int)",?Wait@GWaitCondition@@QAE_NPAVGMutex@@I@Z
+0x107D230,PE named export,public: virtual __thiscall GThread::~GThread(void),??1GThread@@UAE@XZ
+0x107D270,PE named export,public: virtual bool __thiscall GEvent::CanAcquire(void),?CanAcquire@GEvent@@UAE_NXZ
+0x107D270,PE named export,public: virtual bool __thiscall GEvent::TryAcquire(void),?TryAcquire@GEvent@@UAE_NXZ
+0x107D280,PE named export,public: bool __thiscall GThread::IsFinished(void)const ,?IsFinished@GThread@@QBE_NXZ
+0x107D290,PE named export,public: bool __thiscall GThread::GetExitFlag(void)const ,?GetExitFlag@GThread@@QBE_NXZ
+0x107D2A0,PE named export,public: bool __thiscall GThread::IsSuspended(void)const ,?IsSuspended@GThread@@QBE_NXZ
+0x107D2B0,PE named export,public: enum GThread::ThreadState __thiscall GThread::GetThreadState(void)const ,?GetThreadState@GThread@@QBE?AW4ThreadState@1@XZ
+0x107D4A0,PE named export,public: virtual __thiscall GMutex::~GMutex(void),??1GMutex@@UAE@XZ
+0x107D4E0,PE named export,public: __thiscall GWaitCondition::~GWaitCondition(void),??1GWaitCondition@@QAE@XZ
+0x107D760,PE named export,public: bool __thiscall GThread::Resume(void),?Resume@GThread@@QAE_NXZ
+0x107D8E0,PE named export,public: void __thiscall GThread::SetExitFlag(bool),?SetExitFlag@GThread@@QAEX_N@Z
+0x107D910,PE named export,public: bool __thiscall GThread::Suspend(void),?Suspend@GThread@@QAE_NXZ
+0x107D9B0,PE named export,public: void __thiscall GMutex::Unlock(void),?Unlock@GMutex@@QAEXXZ
+0x107D9C0,PE named export,public: bool __thiscall GMutex::IsLockedByAnotherThread(void),?IsLockedByAnotherThread@GMutex@@QAE_NXZ
+0x107DA00,PE named export,public: virtual class GAcquireInterface * __thiscall GMutex::GetAcquireInterface(void),?GetAcquireInterface@GMutex@@UAEPAVGAcquireInterface@@XZ
+0x107DA40,PE named export,public: virtual bool __thiscall GMutex::CanAcquire(void),?CanAcquire@GMutex@@UAE_NXZ
+0x107DA90,PE named export,public: virtual bool __thiscall GMutex::TryAcquireCancel(void),?TryAcquireCancel@GMutex@@UAE_NXZ
+0x107DB50,PE named export,"public: __thiscall GThread::GThread(unsigned int,int)",??0GThread@@QAE@IH@Z
+0x107DBB0,PE named export,"public: __thiscall GThread::GThread(int (__cdecl*)(class GThread *,void *),void *,unsigned int,int,enum GThread::ThreadState)",??0GThread@@QAE@P6AHPAV0@PAX@Z1IHW4ThreadState@0@@Z
+0x107DC20,PE named export,public: __thiscall GThread::GThread(struct GThread::CreateParams const &),??0GThread@@QAE@ABUCreateParams@0@@Z
+0x107DD80,PE named export,public: static void __cdecl GThread::FinishAllThreads(void),?FinishAllThreads@GThread@@SAXXZ
+0x107DE60,PE named export,public: virtual bool __thiscall GThread::Start(enum GThread::ThreadState),?Start@GThread@@UAE_NW4ThreadState@1@@Z
+0x107DF20,PE named export,public: virtual void __thiscall GThread::Exit(int),?Exit@GThread@@UAEXH@Z
+0x107E8A0,PE named export,public: virtual __thiscall GImage::~GImage(void),??1GImage@@UAE@XZ
+0x107E8D0,PE named export,public: __thiscall GImage::GImage(void),??0GImage@@QAE@XZ
+0x107EA20,PE named export,"public: __thiscall GImage::GImage(enum GImageBase::ImageFormat,unsigned long,unsigned long)",??0GImage@@QAE@W4ImageFormat@GImageBase@@KK@Z
+0x10829B0,PE named export,public: virtual __thiscall GFxLoader::~GFxLoader(void),??1GFxLoader@@UAE@XZ
+0x10854F0,PE named export,public: bool __thiscall GMatrix2D::IsValid(void)const ,?IsValid@GMatrix2D@@QBE_NXZ
+0x10855B0,PE named export,public: void __thiscall GMatrix2D::SetIdentity(void),?SetIdentity@GMatrix2D@@QAEXXZ
+0x10855D0,PE named export,"public: void __thiscall GMatrix2D::SetLerp(class GMatrix2D const &,class GMatrix2D const &,float)",?SetLerp@GMatrix2D@@QAEXABV1@0M@Z
+0x1085680,PE named export,"public: void __thiscall GMatrix2D::Transform(class GPoint<float> *,class GPoint<float> const &)const ",?Transform@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z
+0x10856B0,PE named export,"public: void __thiscall GMatrix2D::TransformVector(class GPoint<float> *,class GPoint<float> const &)const ",?TransformVector@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z
+0x10856E0,PE named export,public: void __thiscall GMatrix2D::SetInverse(class GMatrix2D const &),?SetInverse@GMatrix2D@@QAEXABV1@@Z
+0x1085790,PE named export,public: bool __thiscall GMatrix2D::DoesFlip(void)const ,?DoesFlip@GMatrix2D@@QBE_NXZ
+0x10857C0,PE named export,public: float __thiscall GMatrix2D::GetDeterminant(void)const ,?GetDeterminant@GMatrix2D@@QBEMXZ
+0x10857E0,PE named export,public: float __thiscall GMatrix2D::GetY(void)const ,?GetY@GMatrix2D@@QBEMXZ
+0x10857F0,PE named export,public: double __thiscall GMatrix2D::GetXScale(void)const ,?GetXScale@GMatrix2D@@QBENXZ
+0x1085810,PE named export,public: double __thiscall GMatrix2D::GetYScale(void)const ,?GetYScale@GMatrix2D@@QBENXZ
+0x1085830,PE named export,public: double __thiscall GMatrix2D::GetRotation(void)const ,?GetRotation@GMatrix2D@@QBENXZ
+0x1085840,PE named export,public: class GMatrix2D & __thiscall GMatrix2D::Prepend(class GMatrix2D const &),?Prepend@GMatrix2D@@QAEAAV1@ABV1@@Z
+0x1085900,PE named export,public: class GMatrix2D & __thiscall GMatrix2D::Append(class GMatrix2D const &),?Append@GMatrix2D@@QAEAAV1@ABV1@@Z
+0x10859C0,PE named export,"public: void __thiscall GMatrix2D::TransformByInverse(class GPoint<float> *,class GPoint<float> const &)const ",?TransformByInverse@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z
+0x1085A70,PE named export,public: float __thiscall GMatrix2D::GetMaxScale(void)const ,?GetMaxScale@GMatrix2D@@QBEMXZ
+0x1085BF0,PE named export,"public: void __thiscall GMatrix2D::EncloseTransform(class GRect<float> *,class GRect<float> const &)const ",?EncloseTransform@GMatrix2D@@QBEXPAV?$GRect@M@@ABV2@@Z
+0x1085FD0,PE named export,public: void __thiscall GMatrix2D::Format(char *)const ,?Format@GMatrix2D@@QBEXPAD@Z
+0x1091DC0,PE named export,public: virtual int __thiscall GSysFile::GetErrorCode(void),?GetErrorCode@GSysFile@@UAEHXZ
+0x1091DE0,PE named export,public: virtual bool __thiscall GSysFile::IsValid(void),?IsValid@GSysFile@@UAE_NXZ
+0x1091F20,PE named export,public: __thiscall GSysFile::GSysFile(void),??0GSysFile@@QAE@XZ
+0x1091F80,PE named export,"public: bool __thiscall GSysFile::Open(class GString const &,int,int)",?Open@GSysFile@@QAE_NABVGString@@HH@Z
+0x1092050,PE named export,public: virtual bool __thiscall GSysFile::Close(void),?Close@GSysFile@@UAE_NXZ
+0x10920B0,PE named export,"public: __thiscall GSysFile::GSysFile(class GString const &,int,int)",??0GSysFile@@QAE@ABVGString@@HH@Z
+0x1092350,PE named export,public: __thiscall GMatrix3D::GMatrix3D(class GMatrix2D const &),??0GMatrix3D@@QAE@ABVGMatrix2D@@@Z
+0x10923A0,PE named export,public: bool __thiscall GMatrix3D::IsValid(void)const ,?IsValid@GMatrix3D@@QBE_NXZ
+0x10925A0,PE named export,public: void __thiscall GMatrix3D::SetIdentity(void),?SetIdentity@GMatrix3D@@QAEXXZ
+0x10925C0,PE named export,"public: void __thiscall GMatrix3D::MultiplyMatrix(class GMatrix3D const &,class GMatrix3D const &)",?MultiplyMatrix@GMatrix3D@@QAEXABV1@0@Z
+0x10929E0,PE named export,public: void __thiscall GMatrix3D::RotateX(float),?RotateX@GMatrix3D@@QAEXM@Z
+0x1092A60,PE named export,public: void __thiscall GMatrix3D::RotateY(float),?RotateY@GMatrix3D@@QAEXM@Z
+0x1092AE0,PE named export,public: void __thiscall GMatrix3D::RotateZ(float),?RotateZ@GMatrix3D@@QAEXM@Z
+0x1092B60,PE named export,"public: void __thiscall GMatrix3D::GetTranslation(float *,float *,float *)const ",?GetTranslation@GMatrix3D@@QBEXPAM00@Z
+0x1092B90,PE named export,"public: void __thiscall GMatrix3D::GetScale(float *,float *,float *)const ",?GetScale@GMatrix3D@@QBEXPAM00@Z
+0x1092C40,PE named export,"public: void __thiscall GMatrix3D::PerspectiveRH(float,float,float,float)",?PerspectiveRH@GMatrix3D@@QAEXMMMM@Z
+0x1092CE0,PE named export,"public: void __thiscall GMatrix3D::PerspectiveLH(float,float,float,float)",?PerspectiveLH@GMatrix3D@@QAEXMMMM@Z
+0x1092D80,PE named export,"public: void __thiscall GMatrix3D::PerspectiveViewVolRH(float,float,float,float)",?PerspectiveViewVolRH@GMatrix3D@@QAEXMMMM@Z
+0x1092DE0,PE named export,"public: void __thiscall GMatrix3D::PerspectiveViewVolLH(float,float,float,float)",?PerspectiveViewVolLH@GMatrix3D@@QAEXMMMM@Z
+0x1092E40,PE named export,"public: void __thiscall GMatrix3D::PerspectiveOffCenterRH(float,float,float,float,float,float)",?PerspectiveOffCenterRH@GMatrix3D@@QAEXMMMMMM@Z
+0x1092ED0,PE named export,"public: void __thiscall GMatrix3D::PerspectiveOffCenterLH(float,float,float,float,float,float)",?PerspectiveOffCenterLH@GMatrix3D@@QAEXMMMMMM@Z
+0x1092F60,PE named export,"public: void __thiscall GMatrix3D::OrthoRH(float,float,float,float)",?OrthoRH@GMatrix3D@@QAEXMMMM@Z
+0x1092FC0,PE named export,"public: void __thiscall GMatrix3D::OrthoLH(float,float,float,float)",?OrthoLH@GMatrix3D@@QAEXMMMM@Z
+0x1093020,PE named export,"public: void __thiscall GMatrix3D::OrthoOffCenterRH(float,float,float,float,float,float)",?OrthoOffCenterRH@GMatrix3D@@QAEXMMMMMM@Z
+0x10930B0,PE named export,"public: void __thiscall GMatrix3D::OrthoOffCenterLH(float,float,float,float,float,float)",?OrthoOffCenterLH@GMatrix3D@@QAEXMMMMMM@Z
+0x1093140,PE named export,public: void __thiscall GMatrix3D::Transpose(void),?Transpose@GMatrix3D@@QAEXXZ
+0x10931B0,PE named export,"public: void __thiscall GMatrix3D::ViewRH(class GPoint3<float> const &,class GPoint3<float> const &,class GPoint3<float> const &)",?ViewRH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z
+0x10933E0,PE named export,"public: void __thiscall GMatrix3D::ViewLH(class GPoint3<float> const &,class GPoint3<float> const &,class GPoint3<float> const &)",?ViewLH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z
+0x1093610,PE named export,"public: void __thiscall GMatrix3D::EncloseTransform(class GRect<float> *,class GRect<float> const &)const ",?EncloseTransform@GMatrix3D@@QBEXPAV?$GRect@M@@ABV2@@Z
+0x10DA520,PE named export,"public: static bool __cdecl GSysFile::GetFileStat(struct GFileStat *,class GString const &)",?GetFileStat@GSysFile@@SA_NPAUGFileStat@@ABVGString@@@Z
+0x10F21D0,PE named export,"public: virtual int __thiscall GBufferedFile::CopyFromStream(class GFile *,int)",?CopyFromStream@GBufferedFile@@UAEHPAVGFile@@H@Z
+0x10F22C0,PE named export,protected: void __thiscall GBufferedFile::FlushBuffer(void),?FlushBuffer@GBufferedFile@@IAEXXZ
+0x10F2330,PE named export,protected: void __thiscall GBufferedFile::LoadBuffer(void),?LoadBuffer@GBufferedFile@@IAEXXZ
+0x10F2370,PE named export,public: virtual int __thiscall GBufferedFile::Tell(void),?Tell@GBufferedFile@@UAEHXZ
+0x10F23A0,PE named export,public: virtual __int64 __thiscall GBufferedFile::LTell(void),?LTell@GBufferedFile@@UAE_JXZ
+0x10F23F0,PE named export,public: virtual int __thiscall GBufferedFile::GetLength(void),?GetLength@GBufferedFile@@UAEHXZ
+0x10F2430,PE named export,public: virtual __int64 __thiscall GBufferedFile::LGetLength(void),?LGetLength@GBufferedFile@@UAE_JXZ
+0x10F2480,PE named export,public: virtual int __thiscall GBufferedFile::SkipBytes(int),?SkipBytes@GBufferedFile@@UAEHH@Z
+0x10F24F0,PE named export,public: virtual int __thiscall GBufferedFile::BytesAvailable(void),?BytesAvailable@GBufferedFile@@UAEHXZ
+0x10F2520,PE named export,public: virtual bool __thiscall GBufferedFile::Flush(void),?Flush@GBufferedFile@@UAE_NXZ
+0x10F2540,PE named export,"public: virtual int __thiscall GBufferedFile::Seek(int,int)",?Seek@GBufferedFile@@UAEHHH@Z
+0x10F2600,PE named export,"public: virtual __int64 __thiscall GBufferedFile::LSeek(__int64,int)",?LSeek@GBufferedFile@@UAE_J_JH@Z
+0x10F26E0,PE named export,public: virtual bool __thiscall GBufferedFile::ChangeSize(int),?ChangeSize@GBufferedFile@@UAE_NH@Z
+0x10F2700,PE named export,public: virtual bool __thiscall GBufferedFile::Close(void),?Close@GBufferedFile@@UAE_NXZ
+0x10F2730,PE named export,public: virtual __thiscall GBufferedFile::~GBufferedFile(void),??1GBufferedFile@@UAE@XZ
+0x10F2770,PE named export,protected: bool __thiscall GBufferedFile::SetBufferMode(enum GBufferedFile::BufferModeType),?SetBufferMode@GBufferedFile@@IAE_NW4BufferModeType@1@@Z
+0x10F27D0,PE named export,"public: virtual int __thiscall GBufferedFile::Write(unsigned char const *,int)",?Write@GBufferedFile@@UAEHPBEH@Z
+0x10F2890,PE named export,"public: virtual int __thiscall GBufferedFile::Read(unsigned char *,int)",?Read@GBufferedFile@@UAEHPAEH@Z
+0x10F2AC0,PE named export,protected: __thiscall GBufferedFile::GBufferedFile(void),??0GBufferedFile@@IAE@XZ
+0x10F2B10,PE named export,public: __thiscall GBufferedFile::GBufferedFile(class GFile *),??0GBufferedFile@@QAE@PAVGFile@@@Z
+0x117C200,PE named export,"public: void __thiscall GColor::SetHSV(int,int,int)",?SetHSV@GColor@@QAEXHHH@Z
+0x117C360,PE named export,"public: void __thiscall GColor::SetHSV(float,float,float)",?SetHSV@GColor@@QAEXMMM@Z
+0x117C520,PE named export,"public: void __thiscall GColor::GetHSV(int *,int *,int *)const ",?GetHSV@GColor@@QBEXPAH00@Z
+0x117C6A0,PE named export,"public: static void __stdcall GColor::ConvertHSIToRGB(double,double,double,double *,double *,double *)",?ConvertHSIToRGB@GColor@@SGXNNNPAN00@Z
+0x117C840,PE named export,"public: static class GColor __stdcall GColor::Blend(class GColor,class GColor,float)",?Blend@GColor@@SG?AV1@V1@0M@Z
+0x117C9E0,PE named export,"public: void __thiscall GColor::GetHSV(float *,float *,float *)const ",?GetHSV@GColor@@QBEXPAM00@Z
+0x117CBC0,PE named export,"public: void __thiscall GColor::SetHSI(float,float,float)",?SetHSI@GColor@@QAEXMMM@Z
+0x117CCA0,PE named export,"public: static void __stdcall GColor::ConvertRGBToHSI(double,double,double,double *,double *,double *)",?ConvertRGBToHSI@GColor@@SGXNNNPAN00@Z
+0x117CD90,PE named export,"public: void __thiscall GColor::SetHSI(int,int,int)",?SetHSI@GColor@@QAEXHHH@Z
+0x117CDE0,PE named export,"public: void __thiscall GColor::GetHSI(float *,float *,float *)const ",?GetHSI@GColor@@QBEXPAM00@Z
+0x117CEA0,PE named export,"public: void __thiscall GColor::GetHSI(int *,int *,int *)const ",?GetHSI@GColor@@QBEXPAH00@Z
+0x117CFC0,PE named export,public: void __thiscall GColor::Format(char *)const ,?Format@GColor@@QBEXPAD@Z

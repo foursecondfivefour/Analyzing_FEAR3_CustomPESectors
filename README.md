@@ -66,3 +66,11 @@ PYTHONPATH=tooling/python python -c 'import pefile, lief, capstone, unicorn, key
 ## Инвентарь C++ по всем секциям
 
 Общий указатель имён и кандидатов: [`analysis/cpp-classes/names.csv`](analysis/cpp-classes/names.csv). RTTI с адресами, иерархиями и кандидатами vtable, а также ссылки на типы из экспортов/импортов — в [`analysis/cpp-classes/REPORT.md`](analysis/cpp-classes/REPORT.md). Воспроизведение: `python tooling/inventory_cpp_classes.py`, проверка: `python tooling/verify_cpp_classes.py`; установка деманглера и ограничения подробно описаны в отчёте. Это статический инвентарь сохранившихся свидетельств, а не доказательство всех исходных классов.
+
+## Комбайн для форензики
+
+[`tooling/forensic_harvester.py`](tooling/forensic_harvester.py) предоставляет 50 команд: поиск и запросы к CSV, профили и иерархии классов, проверку по байтам, разбор PE, строки и сигнатуры, анализ указателей, структур и кандидатов ссылок, ограниченные пробы сжатия и другие инструменты. Без EXE может явно сканировать 31 извлечённую секцию; для `disasm` нужен необязательный Capstone, остальные команды работают на стандартной библиотеке Python. Команды, проверка источников и ограничения — в [инструкции](tooling/FORENSIC_HARVESTER.md).
+
+## Кандидаты функций C++
+
+Каталог адресов, категорий, экспортов, связей с vtable и регистрациями: [`analysis/cpp-functions/REPORT.md`](analysis/cpp-functions/REPORT.md). Фильтрация: `python tooling/query_cpp_functions.py --category script_api --limit 20`. Это статические кандидаты, включая неименованный код и возможные ложные совпадения, а не доказанный полный список функций C++.

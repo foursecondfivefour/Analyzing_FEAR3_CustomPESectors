@@ -1,0 +1,317 @@
+{
+  "exe_sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "image_base": "0x400000",
+  "pe_entry": "0xF3B725",
+  "section_coverage": [
+    {
+      "index": 0,
+      "name": ".text",
+      "raw_size": 16707072,
+      "sha256": "3242651867f7d9fa9994e735a53397b665a77ab90608b5b400cbefd058e9105d",
+      "executable": true
+    },
+    {
+      "index": 1,
+      "name": ".rdata",
+      "raw_size": 2302464,
+      "sha256": "ac27f1ea57c25be482a6d74fafad6bfc341ffa7e47c9697f66bec2aed48ac303",
+      "executable": false
+    },
+    {
+      "index": 2,
+      "name": ".data",
+      "raw_size": 1277952,
+      "sha256": "71e6dd5d3fabf2ff6c32ac3a5b86e221e1aa5bf55c78f1458cbef817402daf7d",
+      "executable": false
+    },
+    {
+      "index": 3,
+      "name": "dsCore",
+      "raw_size": 119296,
+      "sha256": "fb642464333ce2f4286c40f412173689ba606adf4bef95bcc949d692b6408afe",
+      "executable": false
+    },
+    {
+      "index": 4,
+      "name": "dsUtil",
+      "raw_size": 4096,
+      "sha256": "49a8ba4f06df4fab8027e66b232b43fce7f7bf92ee1aac000fb9003f770a2cca",
+      "executable": false
+    },
+    {
+      "index": 5,
+      "name": "dsIO",
+      "raw_size": 8192,
+      "sha256": "0918ad69b6349069ff566d72e3fc822c599e78cafd908e1303a9c53dadadae42",
+      "executable": false
+    },
+    {
+      "index": 6,
+      "name": "Input_d",
+      "raw_size": 18944,
+      "sha256": "72ede6ddaf7faebbbf6b5c378f04d37a066a93a9df52e3d6c8b05f6a5eba4926",
+      "executable": false
+    },
+    {
+      "index": 7,
+      "name": "Net_data",
+      "raw_size": 20480,
+      "sha256": "d30f369ae1bf6a159922be4818d1c8ace344aabd18098282cd1b5528cf13e183",
+      "executable": false
+    },
+    {
+      "index": 8,
+      "name": "Device",
+      "raw_size": 237568,
+      "sha256": "cf961e984405f28bdfb5f3ca448307afa3b6c869185b31ce8bae2891dc5b4fbb",
+      "executable": false
+    },
+    {
+      "index": 9,
+      "name": "Game_dat",
+      "raw_size": 743936,
+      "sha256": "ff6664ddad2c717df22c1e96c740bf89691681545ad7c8be640fa9f5d0ca76ef",
+      "executable": false
+    },
+    {
+      "index": 10,
+      "name": ".version",
+      "raw_size": 512,
+      "sha256": "5b34596362f15cc94fa8afdedb18620b7b31ab86a28572af422bc6e92da738f1",
+      "executable": false
+    },
+    {
+      "index": 11,
+      "name": "Central_",
+      "raw_size": 175616,
+      "sha256": "8a4d6f1308c2954ca9cf4993e6b7c14dcc5e66b37f6ded78337cb900874203d9",
+      "executable": false
+    },
+    {
+      "index": 12,
+      "name": "dsConcur",
+      "raw_size": 1024,
+      "sha256": "cef6d2a799293345577da8f5207e37daeaa7a500c4febbb666de2c1cbdbe930f",
+      "executable": false
+    },
+    {
+      "index": 13,
+      "name": "dsMath",
+      "raw_size": 1536,
+      "sha256": "8c74594b737d3c4f3078db50c43c62261bbaa303ebc921c47c6260e316de31dc",
+      "executable": false
+    },
+    {
+      "index": 14,
+      "name": "DataFlow",
+      "raw_size": 1024,
+      "sha256": "f6aa307acf365b4a2b92dfb109078da44991f70548832331b16fca2b4f09ad06",
+      "executable": false
+    },
+    {
+      "index": 15,
+      "name": "Resource",
+      "raw_size": 2560,
+      "sha256": "6e4679833292366db29855d40f4f32734028740291142b9d1ffc2e62cb7e9ec6",
+      "executable": false
+    },
+    {
+      "index": 16,
+      "name": "CrssStch",
+      "raw_size": 18432,
+      "sha256": "982bd0222763f7d931cf20360822a95890b4870a15f1fd0aee84d2d1a86c2194",
+      "executable": false
+    },
+    {
+      "index": 17,
+      "name": "dsImage",
+      "raw_size": 6144,
+      "sha256": "9b2bb87454931721e829470d957d2f558c0af2ee84def55bd2f86aae46050773",
+      "executable": false
+    },
+    {
+      "index": 18,
+      "name": "SDS",
+      "raw_size": 512,
+      "sha256": "08a6a3561255d00cd1e0d00c52342c0f98dec808912aa2bb719a212faa8795df",
+      "executable": false
+    },
+    {
+      "index": 19,
+      "name": "dsText",
+      "raw_size": 49152,
+      "sha256": "ac2d277e9617827de4f8787c891e35b9d3e686e7118b4c9b600161d7599962af",
+      "executable": false
+    },
+    {
+      "index": 20,
+      "name": "Renderer",
+      "raw_size": 5120,
+      "sha256": "c54218d8b4d1508c29deda4fb627204b3a7f350fae2da4e60ba86043fcb7f9e8",
+      "executable": false
+    },
+    {
+      "index": 21,
+      "name": "Dependen",
+      "raw_size": 1536,
+      "sha256": "0a0b05766fe845afbb60cd74ce2d64a2402396460e91b0ac5a85ad0047436903",
+      "executable": false
+    },
+    {
+      "index": 22,
+      "name": "Scene_da",
+      "raw_size": 11776,
+      "sha256": "524bb2c5ab833bc6193479b2c24a39cef0d3bbfbc7f6772eb1c59f63c82dee90",
+      "executable": false
+    },
+    {
+      "index": 23,
+      "name": "Empire_d",
+      "raw_size": 7680,
+      "sha256": "6f7c445de6d5e6cf8eb37dc3e1818ce76fa30a4b44f6c00ffacd343ca649dbc0",
+      "executable": false
+    },
+    {
+      "index": 24,
+      "name": "AI_data",
+      "raw_size": 25088,
+      "sha256": "efad0cffbe8779e96624c7a936149c7052cafc18d980eeb2bd8d34a38b7e2f49",
+      "executable": false
+    },
+    {
+      "index": 25,
+      "name": "dsQuark",
+      "raw_size": 32768,
+      "sha256": "2cb73ae1e8b96b8c401aca19c3094324065fc39518f39f21f76372c180ee8e5e",
+      "executable": false
+    },
+    {
+      "index": 26,
+      "name": "Animatio",
+      "raw_size": 55808,
+      "sha256": "dea0964da5e062e8440fc8980be537e6682244ff628654c975395a8ecd723d4f",
+      "executable": false
+    },
+    {
+      "index": 27,
+      "name": "MenuFlow",
+      "raw_size": 3072,
+      "sha256": "1a0fdbef01dd86512ede68bb30300c98bb53d177e76dc0148be6682cc9f9ecce",
+      "executable": false
+    },
+    {
+      "index": 28,
+      "name": "GameAI_d",
+      "raw_size": 55296,
+      "sha256": "5a0dd2c06d7a9626b530835fc4b87740549edde99c7d97ae283a11881745744a",
+      "executable": false
+    },
+    {
+      "index": 29,
+      "name": "GameUI_d",
+      "raw_size": 7680,
+      "sha256": "22c1e6c29b0a0f9412f186704ae0bfd8fb75b8e9085fa5fbc15af8d4c6e7eb00",
+      "executable": false
+    },
+    {
+      "index": 30,
+      "name": "NetConne",
+      "raw_size": 17408,
+      "sha256": "c12b577ac5f1a0359f0d5c226893365ced7d6994c90d8b7908e4a1c8db753920",
+      "executable": false
+    },
+    {
+      "index": 31,
+      "name": "InputExp",
+      "raw_size": 1024,
+      "sha256": "6a306ab178a16fcb348a1662987f098c2c63784e8a0cbe3da80130aaad4b77f2",
+      "executable": false
+    },
+    {
+      "index": 32,
+      "name": "StateFlo",
+      "raw_size": 1536,
+      "sha256": "bea8a6d5482d0f2e263843dd10a777f501ebed8c70ead33ff759fd9a2212a1f5",
+      "executable": false
+    },
+    {
+      "index": 33,
+      "name": "Helper3d",
+      "raw_size": 2048,
+      "sha256": "5a921e5e82a87cd2d15c1429aac7d670f0e36e76511e822af61f918e5e46aee9",
+      "executable": false
+    },
+    {
+      "index": 34,
+      "name": ".rsrc",
+      "raw_size": 485376,
+      "sha256": "4dc02346208ac45588c56bff05d1c3ed632b13af682f77a9066cbf11c3a5d4fc",
+      "executable": false
+    }
+  ],
+  "function_candidate_addresses": 107875,
+  "candidate_tiers": {
+    "cfg_direct_call_target_candidate": 32664,
+    "cfg_iat_jump_site_candidate": 62,
+    "named_export": 186,
+    "pe_entry_point": 1,
+    "post_int3_padding_candidate": 32911,
+    "raw_e8_target_only": 3694,
+    "raw_iat_jmp_pattern_only": 73,
+    "script_proxy_builder_candidate": 112,
+    "script_registration_candidate": 209,
+    "validated_vtable_first_slot": 8072,
+    "vtable_later_word_candidate": 29891
+  },
+  "category_counts_multilabel": {
+    "audio_video": 1987,
+    "gameplay_ai": 3713,
+    "graphics_rendering": 3729,
+    "math_geometry": 3078,
+    "memory_containers": 4121,
+    "network_multiplayer": 1447,
+    "physics_animation": 3949,
+    "platform_system": 810,
+    "reflection_rtti": 9500,
+    "resource_io": 2306,
+    "script_api": 3408,
+    "threading_sync": 685,
+    "ui_menu": 2443,
+    "unknown": 84912
+  },
+  "named_evidence_rows": 934,
+  "external_import_slots": 930,
+  "vtable_word_evidence_rows": 92024,
+  "vtable_first_slot_rows": 15473,
+  "raw_e8_sites_with_executable_targets": 380192,
+  "post_int3_padding_candidates": 84150,
+  "iat_jump_patterns": 467,
+  "iat_jump_patterns_cfg_reached": 393,
+  "cfg_seeds": 39324,
+  "cfg": {
+    "decoded_instructions": 3481839,
+    "visited_addresses_including_failures": 3481889,
+    "decode_failures": 3,
+    "overlapping_instruction_starts_rejected": 47,
+    "indirect_calls_unresolved_including_iat": 94458,
+    "indirect_jumps_not_followed_including_iat": 2045,
+    "decoded_byte_coverage_per_executable_section": {
+      "0": 10235905
+    }
+  },
+  "cfg_edge_kinds": {
+    "direct_call": 213043,
+    "indirect_call_iat": 24339,
+    "indirect_jump_iat": 393
+  },
+  "limitations": [
+    "Functions cannot be enumerated completely from this stripped PE alone.",
+    "Raw E8 and FF25 can be embedded data, misaligned, or part of another instruction.",
+    "INT3 runs and following decoded instructions do not prove function entries.",
+    "Vtable later words are candidates, not proven table members or boundaries.",
+    "CFG seeds are heuristic; overlapping decodes and indirect branches are not exhaustively explored.",
+    "A vtable owner is a type association, not proof the target is implemented by that class.",
+    "Names and category tags are associations or pattern-based labels, not verified semantics.",
+    "External imports list IAT slots and do not contain external implementations."
+  ]
+}
