@@ -1,0 +1,639 @@
+symbol_id,origin,dll,role,class_name_candidate,matched_rtti_type_descriptor_va
+export::1:??0?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@QAE@XZ,export,,explicit_type_mention,GSysAllocWinAPI,
+export::1:??0?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@QAE@XZ,export,,member_owner,GSysAlloc_SingletonSupport<class GSysAllocWinAPI>,
+export::2:??0GBufferedFile@@IAE@XZ,export,,member_owner,GBufferedFile,
+export::3:??0GBufferedFile@@QAE@PAVGFile@@@Z,export,,explicit_type_mention,GFile,0x16F8154
+export::3:??0GBufferedFile@@QAE@PAVGFile@@@Z,export,,member_owner,GBufferedFile,
+export::4:??0GEvent@@QAE@_N0@Z,export,,member_owner,GEvent,
+export::5:??0GImage@@QAE@ABV0@@Z,export,,explicit_type_mention,GImage,0x16EF938
+export::5:??0GImage@@QAE@ABV0@@Z,export,,member_owner,GImage,0x16EF938
+export::6:??0GImage@@QAE@ABVGImageBase@@@Z,export,,explicit_type_mention,GImageBase,0x1681BA0
+export::6:??0GImage@@QAE@ABVGImageBase@@@Z,export,,member_owner,GImage,0x16EF938
+export::7:??0GImage@@QAE@W4ImageFormat@GImageBase@@KK@Z,export,,member_owner,GImage,0x16EF938
+export::8:??0GImage@@QAE@XZ,export,,member_owner,GImage,0x16EF938
+export::9:??0GMatrix3D@@QAE@ABVGMatrix2D@@@Z,export,,explicit_type_mention,GMatrix2D,
+export::9:??0GMatrix3D@@QAE@ABVGMatrix2D@@@Z,export,,member_owner,GMatrix3D,
+export::10:??0GMutex@@QAE@_N0@Z,export,,member_owner,GMutex,
+export::11:??0GSemaphore@@QAE@H_N@Z,export,,member_owner,GSemaphore,
+export::12:??0GSysAlloc@@QAE@XZ,export,,member_owner,GSysAlloc,0x16DD470
+export::13:??0GSysAllocStatic@@QAE@I@Z,export,,member_owner,GSysAllocStatic,
+export::14:??0GSysAllocStatic@@QAE@PAXI0I0I0I@Z,export,,member_owner,GSysAllocStatic,
+export::15:??0GSysAllocWinAPI@@QAE@II@Z,export,,member_owner,GSysAllocWinAPI,
+export::16:??0GSysFile@@QAE@ABVGString@@HH@Z,export,,explicit_type_mention,GString,
+export::16:??0GSysFile@@QAE@ABVGString@@HH@Z,export,,member_owner,GSysFile,
+export::17:??0GSysFile@@QAE@XZ,export,,member_owner,GSysFile,
+export::18:??0GSystem@@QAE@ABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z,export,,explicit_type_mention,GMemoryHeap::HeapDesc,
+export::18:??0GSystem@@QAE@ABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z,export,,explicit_type_mention,GSysAlloc,0x16DD470
+export::18:??0GSystem@@QAE@ABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z,export,,member_owner,GSystem,
+export::19:??0GSystem@@QAE@PAVGSysAlloc@@@Z,export,,explicit_type_mention,GSysAlloc,0x16DD470
+export::19:??0GSystem@@QAE@PAVGSysAlloc@@@Z,export,,member_owner,GSystem,
+export::20:??0GThread@@QAE@ABUCreateParams@0@@Z,export,,explicit_type_mention,GThread::CreateParams,
+export::20:??0GThread@@QAE@ABUCreateParams@0@@Z,export,,member_owner,GThread,
+export::21:??0GThread@@QAE@IH@Z,export,,member_owner,GThread,
+export::22:??0GThread@@QAE@P6AHPAV0@PAX@Z1IHW4ThreadState@0@@Z,export,,explicit_type_mention,GThread,
+export::22:??0GThread@@QAE@P6AHPAV0@PAX@Z1IHW4ThreadState@0@@Z,export,,member_owner,GThread,
+export::23:??0GWaitCondition@@QAE@XZ,export,,member_owner,GWaitCondition,
+export::24:??1GAcquireInterface@@UAE@XZ,export,,member_owner,GAcquireInterface,0x16B3194
+export::25:??1GBufferedFile@@UAE@XZ,export,,member_owner,GBufferedFile,
+export::26:??1GDefaultAcquireInterface@@UAE@XZ,export,,member_owner,GDefaultAcquireInterface,
+export::27:??1GEvent@@UAE@XZ,export,,member_owner,GEvent,
+export::28:??1GFxLoader@@UAE@XZ,export,,member_owner,GFxLoader,
+export::29:??1GImage@@UAE@XZ,export,,member_owner,GImage,0x16EF938
+export::30:??1GMutex@@UAE@XZ,export,,member_owner,GMutex,
+export::31:??1GRefCountImplCore@@UAE@XZ,export,,member_owner,GRefCountImplCore,0x16D637C
+export::32:??1GRefCountWeakSupportImpl@@UAE@XZ,export,,member_owner,GRefCountWeakSupportImpl,
+export::33:??1GSemaphore@@UAE@XZ,export,,member_owner,GSemaphore,
+export::34:??1GSystem@@QAE@XZ,export,,member_owner,GSystem,
+export::35:??1GThread@@UAE@XZ,export,,member_owner,GThread,
+export::36:??1GWaitCondition@@QAE@XZ,export,,member_owner,GWaitCondition,
+export::37:??EGSemaphore@@QAEHH@Z,export,,member_owner,GSemaphore,
+export::38:??FGSemaphore@@QAEHH@Z,export,,member_owner,GSemaphore,
+export::39:??YGSemaphore@@QAEHH@Z,export,,member_owner,GSemaphore,
+export::40:??ZGSemaphore@@QAEHH@Z,export,,member_owner,GSemaphore,
+export::42:??_FGEvent@@QAEXXZ,export,,member_owner,GEvent,
+export::43:??_FGMutex@@QAEXXZ,export,,member_owner,GMutex,
+export::44:??_FGSemaphore@@QAEXXZ,export,,member_owner,GSemaphore,
+export::45:??_FGSysAllocStatic@@QAEXXZ,export,,member_owner,GSysAllocStatic,
+export::46:??_FGSysAllocWinAPI@@QAEXXZ,export,,member_owner,GSysAllocWinAPI,
+export::47:??_FGSystem@@QAEXXZ,export,,member_owner,GSystem,
+export::48:??_FGThread@@QAEXXZ,export,,member_owner,GThread,
+export::49:?Acquire@GWaitable@@QAE_NI@Z,export,,member_owner,GWaitable,
+export::50:?AcquireMultipleObjects@GAcquireInterface@@SA_NPAPAVGWaitable@@II@Z,export,,explicit_type_mention,GWaitable,
+export::50:?AcquireMultipleObjects@GAcquireInterface@@SA_NPAPAVGWaitable@@II@Z,export,,member_owner,GAcquireInterface,0x16B3194
+export::51:?AcquireOneOfMultipleObjects@GAcquireInterface@@SAHPAPAVGWaitable@@II@Z,export,,explicit_type_mention,GWaitable,
+export::51:?AcquireOneOfMultipleObjects@GAcquireInterface@@SAHPAPAVGWaitable@@II@Z,export,,member_owner,GAcquireInterface,0x16B3194
+export::52:?AddMemSegment@GSysAllocStatic@@QAEXPAXI@Z,export,,member_owner,GSysAllocStatic,
+export::53:?AddRef@GRefCountImpl@@QAEXXZ,export,,member_owner,GRefCountImpl,0x1634C64
+export::54:?AddWaitHandler@GWaitable@@QAE_NP6AXPAX@Z0@Z,export,,member_owner,GWaitable,
+export::55:?Append@GMatrix2D@@QAEAAV1@ABV1@@Z,export,,explicit_type_mention,GMatrix2D,
+export::55:?Append@GMatrix2D@@QAEAAV1@ABV1@@Z,export,,member_owner,GMatrix2D,
+export::56:?Blend@GColor@@SG?AV1@V1@0M@Z,export,,explicit_type_mention,GColor,
+export::56:?Blend@GColor@@SG?AV1@V1@0M@Z,export,,member_owner,GColor,
+export::57:?BytesAvailable@GBufferedFile@@UAEHXZ,export,,member_owner,GBufferedFile,
+export::58:?CallWaitHandlers@GWaitable@@QAEXXZ,export,,member_owner,GWaitable,
+export::59:?CallWaitHandlers@HandlerArray@GWaitable@@QAEXXZ,export,,member_owner,GWaitable::HandlerArray,
+export::60:?CanAcquire@GAcquireInterface@@UAE_NXZ,export,,member_owner,GAcquireInterface,0x16B3194
+export::61:?CanAcquire@GEvent@@UAE_NXZ,export,,member_owner,GEvent,
+export::62:?CanAcquire@GMutex@@UAE_NXZ,export,,member_owner,GMutex,
+export::63:?CanAcquire@GSemaphore@@UAE_NXZ,export,,member_owner,GSemaphore,
+export::64:?ChangeSize@GBufferedFile@@UAE_NH@Z,export,,member_owner,GBufferedFile,
+export::65:?Close@GBufferedFile@@UAE_NXZ,export,,member_owner,GBufferedFile,
+export::66:?Close@GSysFile@@UAE_NXZ,export,,member_owner,GSysFile,
+export::67:?Container@?1??InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ@4USysAllocContainer@2@A,export,,explicit_type_mention,GSysAlloc,0x16DD470
+export::67:?Container@?1??InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ@4USysAllocContainer@2@A,export,,explicit_type_mention,GSysAllocWinAPI,
+export::67:?Container@?1??InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ@4USysAllocContainer@2@A,export,,explicit_type_mention,GSysAlloc_SingletonSupport<class GSysAllocWinAPI>::SysAllocContainer,
+export::68:?ConvertHSIToRGB@GColor@@SGXNNNPAN00@Z,export,,member_owner,GColor,
+export::69:?ConvertRGBToHSI@GColor@@SGXNNNPAN00@Z,export,,member_owner,GColor,
+export::70:?CopyFromStream@GBufferedFile@@UAEHPAVGFile@@H@Z,export,,explicit_type_mention,GFile,0x16F8154
+export::70:?CopyFromStream@GBufferedFile@@UAEHPAVGFile@@H@Z,export,,member_owner,GBufferedFile,
+export::71:?CreateWaitableIncrement@GSemaphore@@QAEPAVGWaitable@@H@Z,export,,explicit_type_mention,GWaitable,
+export::71:?CreateWaitableIncrement@GSemaphore@@QAEPAVGWaitable@@H@Z,export,,member_owner,GSemaphore,
+export::72:?Destroy@GSystem@@SAXXZ,export,,member_owner,GSystem,
+export::73:?DoesFlip@GMatrix2D@@QBE_NXZ,export,,member_owner,GMatrix2D,
+export::74:?EncloseTransform@GMatrix2D@@QBEXPAV?$GRect@M@@ABV2@@Z,export,,explicit_type_mention,GRect<float>,
+export::74:?EncloseTransform@GMatrix2D@@QBEXPAV?$GRect@M@@ABV2@@Z,export,,member_owner,GMatrix2D,
+export::75:?EncloseTransform@GMatrix3D@@QBEXPAV?$GRect@M@@ABV2@@Z,export,,explicit_type_mention,GRect<float>,
+export::75:?EncloseTransform@GMatrix3D@@QBEXPAV?$GRect@M@@ABV2@@Z,export,,member_owner,GMatrix3D,
+export::76:?Exit@GThread@@UAEXH@Z,export,,member_owner,GThread,
+export::77:?FinishAllThreads@GThread@@SAXXZ,export,,member_owner,GThread,
+export::78:?Flush@GBufferedFile@@UAE_NXZ,export,,member_owner,GBufferedFile,
+export::79:?FlushBuffer@GBufferedFile@@IAEXXZ,export,,member_owner,GBufferedFile,
+export::80:?Format@GColor@@QBEXPAD@Z,export,,member_owner,GColor,
+export::81:?Format@GMatrix2D@@QBEXPAD@Z,export,,member_owner,GMatrix2D,
+export::82:?GetAcquireInterface@GEvent@@UAEPAVGAcquireInterface@@XZ,export,,explicit_type_mention,GAcquireInterface,0x16B3194
+export::82:?GetAcquireInterface@GEvent@@UAEPAVGAcquireInterface@@XZ,export,,member_owner,GEvent,
+export::83:?GetAcquireInterface@GMutex@@UAEPAVGAcquireInterface@@XZ,export,,explicit_type_mention,GAcquireInterface,0x16B3194
+export::83:?GetAcquireInterface@GMutex@@UAEPAVGAcquireInterface@@XZ,export,,member_owner,GMutex,
+export::84:?GetAcquireInterface@GSemaphore@@UAEPAVGAcquireInterface@@XZ,export,,explicit_type_mention,GAcquireInterface,0x16B3194
+export::84:?GetAcquireInterface@GSemaphore@@UAEPAVGAcquireInterface@@XZ,export,,member_owner,GSemaphore,
+export::85:?GetAcquireInterface@GWaitable@@UAEPAVGAcquireInterface@@XZ,export,,explicit_type_mention,GAcquireInterface,0x16B3194
+export::85:?GetAcquireInterface@GWaitable@@UAEPAVGAcquireInterface@@XZ,export,,member_owner,GWaitable,
+export::86:?GetBitSet@GSysAllocWinAPI@@QBEPBKI@Z,export,,member_owner,GSysAllocWinAPI,
+export::87:?GetCPUCount@GThread@@SAHXZ,export,,member_owner,GThread,
+export::88:?GetDefaultAcquireInterface@GDefaultAcquireInterface@@SAPAV1@XZ,export,,explicit_type_mention,GDefaultAcquireInterface,
+export::88:?GetDefaultAcquireInterface@GDefaultAcquireInterface@@SAPAV1@XZ,export,,member_owner,GDefaultAcquireInterface,
+export::89:?GetDeterminant@GMatrix2D@@QBEMXZ,export,,member_owner,GMatrix2D,
+export::90:?GetErrorCode@GSysFile@@UAEHXZ,export,,member_owner,GSysFile,
+export::91:?GetExitFlag@GThread@@QBE_NXZ,export,,member_owner,GThread,
+export::92:?GetFileStat@GSysFile@@SA_NPAUGFileStat@@ABVGString@@@Z,export,,explicit_type_mention,GFileStat,
+export::92:?GetFileStat@GSysFile@@SA_NPAUGFileStat@@ABVGString@@@Z,export,,explicit_type_mention,GString,
+export::92:?GetFileStat@GSysFile@@SA_NPAUGFileStat@@ABVGString@@@Z,export,,member_owner,GSysFile,
+export::93:?GetHSI@GColor@@QBEXPAH00@Z,export,,member_owner,GColor,
+export::94:?GetHSI@GColor@@QBEXPAM00@Z,export,,member_owner,GColor,
+export::95:?GetHSV@GColor@@QBEXPAH00@Z,export,,member_owner,GColor,
+export::96:?GetHSV@GColor@@QBEXPAM00@Z,export,,member_owner,GColor,
+export::97:?GetLength@GBufferedFile@@UAEHXZ,export,,member_owner,GBufferedFile,
+export::98:?GetMaxScale@GMatrix2D@@QBEMXZ,export,,member_owner,GMatrix2D,
+export::99:?GetRotation@GMatrix2D@@QBENXZ,export,,member_owner,GMatrix2D,
+export::100:?GetScale@GMatrix3D@@QBEXPAM00@Z,export,,member_owner,GMatrix3D,
+export::101:?GetThreadState@GThread@@QBE?AW4ThreadState@1@XZ,export,,member_owner,GThread,
+export::102:?GetTranslation@GMatrix3D@@QBEXPAM00@Z,export,,member_owner,GMatrix3D,
+export::103:?GetX@GMatrix2D@@QBEMXZ,export,,member_owner,GMatrix2D,
+export::104:?GetXScale@GMatrix2D@@QBENXZ,export,,member_owner,GMatrix2D,
+export::105:?GetY@GMatrix2D@@QBEMXZ,export,,member_owner,GMatrix2D,
+export::106:?GetYScale@GMatrix2D@@QBENXZ,export,,member_owner,GMatrix2D,
+export::107:?Init@GSystem@@SAXABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z,export,,explicit_type_mention,GMemoryHeap::HeapDesc,
+export::107:?Init@GSystem@@SAXABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z,export,,explicit_type_mention,GSysAlloc,0x16DD470
+export::107:?Init@GSystem@@SAXABUHeapDesc@GMemoryHeap@@PAVGSysAlloc@@@Z,export,,member_owner,GSystem,
+export::108:?Init@GSystem@@SAXPAVGSysAlloc@@@Z,export,,explicit_type_mention,GSysAlloc,0x16DD470
+export::108:?Init@GSystem@@SAXPAVGSysAlloc@@@Z,export,,member_owner,GSystem,
+export::109:?InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ,export,,explicit_type_mention,GSysAlloc,0x16DD470
+export::109:?InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ,export,,explicit_type_mention,GSysAllocWinAPI,
+export::109:?InitSystemSingleton@?$GSysAlloc_SingletonSupport@VGSysAllocWinAPI@@@@SAPAVGSysAlloc@@XZ,export,,member_owner,GSysAlloc_SingletonSupport<class GSysAllocWinAPI>,
+export::110:?IsFinished@GThread@@QBE_NXZ,export,,member_owner,GThread,
+export::111:?IsLockedByAnotherThread@GMutex@@QAE_NXZ,export,,member_owner,GMutex,
+export::112:?IsSignaled@GEvent@@UBE_NXZ,export,,member_owner,GEvent,
+export::113:?IsSignaled@GMutex@@UBE_NXZ,export,,member_owner,GMutex,
+export::114:?IsSignaled@GSemaphore@@UBE_NXZ,export,,member_owner,GSemaphore,
+export::115:?IsSignaled@GWaitable@@UBE_NXZ,export,,member_owner,GWaitable,
+export::116:?IsSuspended@GThread@@QBE_NXZ,export,,member_owner,GThread,
+export::117:?IsValid@GMatrix2D@@QBE_NXZ,export,,member_owner,GMatrix2D,
+export::118:?IsValid@GMatrix3D@@QBE_NXZ,export,,member_owner,GMatrix3D,
+export::119:?IsValid@GSysFile@@UAE_NXZ,export,,member_owner,GSysFile,
+export::120:?LGetLength@GBufferedFile@@UAE_JXZ,export,,member_owner,GBufferedFile,
+export::121:?LSeek@GBufferedFile@@UAE_J_JH@Z,export,,member_owner,GBufferedFile,
+export::122:?LTell@GBufferedFile@@UAE_JXZ,export,,member_owner,GBufferedFile,
+export::123:?LoadBuffer@GBufferedFile@@IAEXXZ,export,,member_owner,GBufferedFile,
+export::124:?Lock@GMutex@@QAEXXZ,export,,member_owner,GMutex,
+export::125:?MSleep@GThread@@SA_NI@Z,export,,member_owner,GThread,
+export::126:?MultiplyMatrix@GMatrix3D@@QAEXABV1@0@Z,export,,explicit_type_mention,GMatrix3D,
+export::126:?MultiplyMatrix@GMatrix3D@@QAEXABV1@0@Z,export,,member_owner,GMatrix3D,
+export::127:?Notify@GWaitCondition@@QAEXXZ,export,,member_owner,GWaitCondition,
+export::128:?NotifyAll@GWaitCondition@@QAEXXZ,export,,member_owner,GWaitCondition,
+export::129:?ObtainSemaphore@GSemaphore@@QAE_NHI@Z,export,,member_owner,GSemaphore,
+export::130:?OnExit@GThread@@UAEXXZ,export,,member_owner,GThread,
+export::131:?Open@GSysFile@@QAE_NABVGString@@HH@Z,export,,explicit_type_mention,GString,
+export::131:?Open@GSysFile@@QAE_NABVGString@@HH@Z,export,,member_owner,GSysFile,
+export::132:?OrthoLH@GMatrix3D@@QAEXMMMM@Z,export,,member_owner,GMatrix3D,
+export::133:?OrthoOffCenterLH@GMatrix3D@@QAEXMMMMMM@Z,export,,member_owner,GMatrix3D,
+export::134:?OrthoOffCenterRH@GMatrix3D@@QAEXMMMMMM@Z,export,,member_owner,GMatrix3D,
+export::135:?OrthoRH@GMatrix3D@@QAEXMMMM@Z,export,,member_owner,GMatrix3D,
+export::136:?PerspectiveLH@GMatrix3D@@QAEXMMMM@Z,export,,member_owner,GMatrix3D,
+export::137:?PerspectiveOffCenterLH@GMatrix3D@@QAEXMMMMMM@Z,export,,member_owner,GMatrix3D,
+export::138:?PerspectiveOffCenterRH@GMatrix3D@@QAEXMMMMMM@Z,export,,member_owner,GMatrix3D,
+export::139:?PerspectiveRH@GMatrix3D@@QAEXMMMM@Z,export,,member_owner,GMatrix3D,
+export::140:?PerspectiveViewVolLH@GMatrix3D@@QAEXMMMM@Z,export,,member_owner,GMatrix3D,
+export::141:?PerspectiveViewVolRH@GMatrix3D@@QAEXMMMM@Z,export,,member_owner,GMatrix3D,
+export::142:?Prepend@GMatrix2D@@QAEAAV1@ABV1@@Z,export,,explicit_type_mention,GMatrix2D,
+export::142:?Prepend@GMatrix2D@@QAEAAV1@ABV1@@Z,export,,member_owner,GMatrix2D,
+export::143:?PulseEvent@GEvent@@QAEXXZ,export,,member_owner,GEvent,
+export::144:?Read@GBufferedFile@@UAEHPAEH@Z,export,,member_owner,GBufferedFile,
+export::145:?Release@GRefCountImpl@@QAEXXZ,export,,member_owner,GRefCountImpl,0x1634C64
+export::146:?Release@GRefCountNTSImpl@@QAEXXZ,export,,member_owner,GRefCountNTSImpl,0x16312EC
+export::147:?Release@HandlerArray@GWaitable@@QAEXXZ,export,,member_owner,GWaitable::HandlerArray,
+export::148:?ReleaseSemaphore@GSemaphore@@QAE_NH@Z,export,,member_owner,GSemaphore,
+export::149:?RemoveWaitHandler@GWaitable@@QAE_NP6AXPAX@Z0@Z,export,,member_owner,GWaitable,
+export::150:?ResetEvent@GEvent@@QAEXXZ,export,,member_owner,GEvent,
+export::151:?Resume@GThread@@QAE_NXZ,export,,member_owner,GThread,
+export::152:?RotateX@GMatrix3D@@QAEXM@Z,export,,member_owner,GMatrix3D,
+export::153:?RotateY@GMatrix3D@@QAEXM@Z,export,,member_owner,GMatrix3D,
+export::154:?RotateZ@GMatrix3D@@QAEXM@Z,export,,member_owner,GMatrix3D,
+export::155:?Run@GThread@@UAEHXZ,export,,member_owner,GThread,
+export::156:?Seek@GBufferedFile@@UAEHHH@Z,export,,member_owner,GBufferedFile,
+export::157:?SetBufferMode@GBufferedFile@@IAE_NW4BufferModeType@1@@Z,export,,member_owner,GBufferedFile,
+export::158:?SetEvent@GEvent@@QAEXXZ,export,,member_owner,GEvent,
+export::159:?SetExitFlag@GThread@@QAEX_N@Z,export,,member_owner,GThread,
+export::160:?SetHSI@GColor@@QAEXHHH@Z,export,,member_owner,GColor,
+export::161:?SetHSI@GColor@@QAEXMMM@Z,export,,member_owner,GColor,
+export::162:?SetHSV@GColor@@QAEXHHH@Z,export,,member_owner,GColor,
+export::163:?SetHSV@GColor@@QAEXMMM@Z,export,,member_owner,GColor,
+export::164:?SetIdentity@GMatrix2D@@QAEXXZ,export,,member_owner,GMatrix2D,
+export::165:?SetIdentity@GMatrix3D@@QAEXXZ,export,,member_owner,GMatrix3D,
+export::166:?SetInverse@GMatrix2D@@QAEXABV1@@Z,export,,explicit_type_mention,GMatrix2D,
+export::166:?SetInverse@GMatrix2D@@QAEXABV1@@Z,export,,member_owner,GMatrix2D,
+export::167:?SetLerp@GMatrix2D@@QAEXABV1@0M@Z,export,,explicit_type_mention,GMatrix2D,
+export::167:?SetLerp@GMatrix2D@@QAEXABV1@0M@Z,export,,member_owner,GMatrix2D,
+export::168:?SkipBytes@GBufferedFile@@UAEHH@Z,export,,member_owner,GBufferedFile,
+export::169:?Sleep@GThread@@SA_NI@Z,export,,member_owner,GThread,
+export::170:?Start@GThread@@UAE_NW4ThreadState@1@@Z,export,,member_owner,GThread,
+export::171:?Suspend@GThread@@QAE_NXZ,export,,member_owner,GThread,
+export::172:?Swap@GMatrix2D@@QAEXPAV1@@Z,export,,explicit_type_mention,GMatrix2D,
+export::172:?Swap@GMatrix2D@@QAEXPAV1@@Z,export,,member_owner,GMatrix2D,
+export::173:?Tell@GBufferedFile@@UAEHXZ,export,,member_owner,GBufferedFile,
+export::174:?Transform@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,explicit_type_mention,GPoint<float>,
+export::174:?Transform@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,member_owner,GMatrix2D,
+export::175:?Transform@GMatrix3D@@QBEXPAV?$GPoint3@M@@ABV2@@Z,export,,explicit_type_mention,GPoint3<float>,
+export::175:?Transform@GMatrix3D@@QBEXPAV?$GPoint3@M@@ABV2@@Z,export,,member_owner,GMatrix3D,
+export::176:?Transform@GMatrix3D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,explicit_type_mention,GPoint<float>,
+export::176:?Transform@GMatrix3D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,member_owner,GMatrix3D,
+export::177:?TransformByInverse@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,explicit_type_mention,GPoint<float>,
+export::177:?TransformByInverse@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,member_owner,GMatrix2D,
+export::178:?TransformVector@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,explicit_type_mention,GPoint<float>,
+export::178:?TransformVector@GMatrix2D@@QBEXPAV?$GPoint@M@@ABV2@@Z,export,,member_owner,GMatrix2D,
+export::179:?Transpose@GMatrix3D@@QAEXXZ,export,,member_owner,GMatrix3D,
+export::180:?TryAcquire@GAcquireInterface@@UAE_NXZ,export,,member_owner,GAcquireInterface,0x16B3194
+export::181:?TryAcquire@GEvent@@UAE_NXZ,export,,member_owner,GEvent,
+export::182:?TryAcquire@GMutex@@UAE_NXZ,export,,member_owner,GMutex,
+export::183:?TryAcquire@GSemaphore@@UAE_NXZ,export,,member_owner,GSemaphore,
+export::184:?TryAcquireCancel@GAcquireInterface@@UAE_NXZ,export,,member_owner,GAcquireInterface,0x16B3194
+export::185:?TryAcquireCancel@GEvent@@UAE_NXZ,export,,member_owner,GEvent,
+export::186:?TryAcquireCancel@GMutex@@UAE_NXZ,export,,member_owner,GMutex,
+export::187:?TryAcquireCancel@GSemaphore@@UAE_NXZ,export,,member_owner,GSemaphore,
+export::188:?TryAcquireCommit@GAcquireInterface@@UAE_NXZ,export,,member_owner,GAcquireInterface,0x16B3194
+export::189:?TryAcquireCommit@GEvent@@UAE_NXZ,export,,member_owner,GEvent,
+export::190:?TryAcquireCommit@GMutex@@UAE_NXZ,export,,member_owner,GMutex,
+export::191:?TryAcquireCommit@GSemaphore@@UAE_NXZ,export,,member_owner,GSemaphore,
+export::192:?TryLock@GMutex@@QAE_NXZ,export,,member_owner,GMutex,
+export::193:?Unlock@GMutex@@QAEXXZ,export,,member_owner,GMutex,
+export::194:?ViewLH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z,export,,explicit_type_mention,GPoint3<float>,
+export::194:?ViewLH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z,export,,member_owner,GMatrix3D,
+export::195:?ViewRH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z,export,,explicit_type_mention,GPoint3<float>,
+export::195:?ViewRH@GMatrix3D@@QAEXABV?$GPoint3@M@@00@Z,export,,member_owner,GMatrix3D,
+export::196:?Wait@GEvent@@QAE_NI@Z,export,,member_owner,GEvent,
+export::197:?Wait@GWaitCondition@@QAE_NPAVGMutex@@I@Z,export,,explicit_type_mention,GMutex,
+export::197:?Wait@GWaitCondition@@QAE_NPAVGMutex@@I@Z,export,,member_owner,GWaitCondition,
+export::198:?Wait@GWaitable@@QAE_NI@Z,export,,member_owner,GWaitable,
+export::199:?Write@GBufferedFile@@UAEHPBEH@Z,export,,member_owner,GBufferedFile,
+import:MSVCP90.dll:0x13F0264:?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0264:?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F0268:?exceptions@ios_base@std@@QAEXH@Z,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F026C:?flags@ios_base@std@@QAEHH@Z,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0270:??4locale@std@@QAEAAV01@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,std::locale,
+import:MSVCP90.dll:0x13F0270:??4locale@std@@QAEAAV01@ABV01@@Z,import,MSVCP90.dll,member_owner,std::locale,
+import:MSVCP90.dll:0x13F0274:?copy@?$char_traits@D@std@@SAPADPADPBDI@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0278:?widen@?$ctype@D@std@@QBEDD@Z,import,MSVCP90.dll,member_owner,std::ctype<char>,
+import:MSVCP90.dll:0x13F027C:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PBX@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F027C:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@PBX@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0280:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0280:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0284:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0284:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0288:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_K@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0288:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_K@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F028C:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_J@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F028C:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_J@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0290:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@K@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0290:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@K@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0294:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@J@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0294:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@J@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0298:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0298:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F029C:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@F@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F029C:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@F@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02A0:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F02A0:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02A4:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F02A4:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02A8:??0_Lockit@std@@QAE@H@Z,import,MSVCP90.dll,member_owner,std::_Lockit,
+import:MSVCP90.dll:0x13F02AC:?id@?$ctype@D@std@@2V0locale@2@A,import,MSVCP90.dll,explicit_type_mention,std::locale::id,
+import:MSVCP90.dll:0x13F02B0:??Bid@locale@std@@QAEIXZ,import,MSVCP90.dll,member_owner,std::locale::id,
+import:MSVCP90.dll:0x13F02B4:?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z,import,MSVCP90.dll,explicit_type_mention,std::locale::facet,
+import:MSVCP90.dll:0x13F02B4:?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z,import,MSVCP90.dll,member_owner,std::locale,
+import:MSVCP90.dll:0x13F02B8:?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z,import,MSVCP90.dll,explicit_type_mention,std::locale,
+import:MSVCP90.dll:0x13F02B8:?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z,import,MSVCP90.dll,explicit_type_mention,std::locale::facet,
+import:MSVCP90.dll:0x13F02B8:?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z,import,MSVCP90.dll,member_owner,std::ctype<char>,
+import:MSVCP90.dll:0x13F02BC:?_Incref@facet@locale@std@@QAEXXZ,import,MSVCP90.dll,member_owner,std::locale::facet,
+import:MSVCP90.dll:0x13F02C0:??1_Lockit@std@@QAE@XZ,import,MSVCP90.dll,member_owner,std::_Lockit,
+import:MSVCP90.dll:0x13F02C4:?narrow@?$ctype@D@std@@QBEDDD@Z,import,MSVCP90.dll,member_owner,std::ctype<char>,
+import:MSVCP90.dll:0x13F02C8:?is@?$ctype@D@std@@QBE_NFD@Z,import,MSVCP90.dll,member_owner,std::ctype<char>,
+import:MSVCP90.dll:0x13F02CC:??0locale@std@@QAE@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,std::locale,
+import:MSVCP90.dll:0x13F02CC:??0locale@std@@QAE@ABV01@@Z,import,MSVCP90.dll,member_owner,std::locale,
+import:MSVCP90.dll:0x13F02D0:?max@?$numeric_limits@H@std@@SAHXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<int>,
+import:MSVCP90.dll:0x13F02D4:??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02D4:??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z,import,MSVCP90.dll,member_owner,"std::basic_ifstream<char,struct std::char_traits<char> >",
+import:MSVCP90.dll:0x13F02D8:??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02D8:??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,member_owner,"std::basic_ifstream<char,struct std::char_traits<char> >",
+import:MSVCP90.dll:0x13F02DC:?eof@ios_base@std@@QBE_NXZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F02E0:?close@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02E0:?close@?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,member_owner,"std::basic_ifstream<char,struct std::char_traits<char> >",
+import:MSVCP90.dll:0x13F02E4:?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02E4:?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F02E8:?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02E8:?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F02EC:?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02EC:?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F02F0:?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02F0:?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F02F4:?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02F4:?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z,import,MSVCP90.dll,member_owner,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F02F8:?precision@ios_base@std@@QAEHH@Z,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F02FC:??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F02FC:??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0300:??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0300:??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0300:??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z,import,MSVCP90.dll,member_owner,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0304:?setf@ios_base@std@@QAEHHH@Z,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0308:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_K@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0308:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_K@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F030C:?setw@std@@YA?AU?$_Smanip@H@1@H@Z,import,MSVCP90.dll,explicit_type_mention,std::_Smanip<int>,
+import:MSVCP90.dll:0x13F0310:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0310:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0310:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z,import,MSVCP90.dll,explicit_type_mention,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0314:?max@?$numeric_limits@J@std@@SAJXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<long>,
+import:MSVCP90.dll:0x13F0318:?max@?$numeric_limits@G@std@@SAGXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<unsigned short>,
+import:MSVCP90.dll:0x13F031C:?setf@ios_base@std@@QAEHH@Z,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0320:?getloc@ios_base@std@@QBE?AVlocale@2@XZ,import,MSVCP90.dll,explicit_type_mention,std::locale,
+import:MSVCP90.dll:0x13F0320:?getloc@ios_base@std@@QBE?AVlocale@2@XZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0324:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0324:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0328:?ws@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@1@AAV21@@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0328:?ws@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@1@AAV21@@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F032C:??7ios_base@std@@QBE_NXZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0330:?setprecision@std@@YA?AU?$_Smanip@H@1@H@Z,import,MSVCP90.dll,explicit_type_mention,std::_Smanip<int>,
+import:MSVCP90.dll:0x13F0334:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_N@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0334:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0338:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAF@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0338:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAF@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F033C:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAG@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F033C:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAG@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0340:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAJ@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0340:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAJ@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0344:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAK@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0344:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAK@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0348:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_J@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0348:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_J@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F034C:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAM@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F034C:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAM@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0350:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0350:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0354:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAI@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0354:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAI@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0358:??Bios_base@std@@QBEPAXXZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F035C:??$?5U?$char_traits@D@std@@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAC@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F035C:??$?5U?$char_traits@D@std@@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAC@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0360:??$?5U?$char_traits@D@std@@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAE@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F0360:??$?5U?$char_traits@D@std@@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAE@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0364:?max_size@?$allocator@G@std@@QBEIXZ,import,MSVCP90.dll,member_owner,std::allocator<unsigned short>,
+import:MSVCP90.dll:0x13F0368:??0?$allocator@G@std@@QAE@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,std::allocator<unsigned short>,
+import:MSVCP90.dll:0x13F0368:??0?$allocator@G@std@@QAE@ABV01@@Z,import,MSVCP90.dll,member_owner,std::allocator<unsigned short>,
+import:MSVCP90.dll:0x13F036C:?construct@?$allocator@G@std@@QAEXPAGABG@Z,import,MSVCP90.dll,member_owner,std::allocator<unsigned short>,
+import:MSVCP90.dll:0x13F0370:??0?$allocator@G@std@@QAE@XZ,import,MSVCP90.dll,member_owner,std::allocator<unsigned short>,
+import:MSVCP90.dll:0x13F0374:?max@?$numeric_limits@M@std@@SAMXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<float>,
+import:MSVCP90.dll:0x13F0378:?_Copy_s@?$char_traits@G@std@@SAPAGPAGIPBGI@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F037C:?_Move_s@?$char_traits@G@std@@SAPAGPAGIPBGI@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F0380:?assign@?$char_traits@G@std@@SAXAAGABG@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F0384:?length@?$char_traits@G@std@@SAIPBG@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F0388:?min@?$numeric_limits@N@std@@SANXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<double>,
+import:MSVCP90.dll:0x13F038C:?min@?$numeric_limits@H@std@@SAHXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<int>,
+import:MSVCP90.dll:0x13F0390:?assign@?$char_traits@G@std@@SAPAGPAGIG@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F0394:?max@?$numeric_limits@F@std@@SAFXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<short>,
+import:MSVCP90.dll:0x13F0398:?min@?$numeric_limits@F@std@@SAFXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<short>,
+import:MSVCP90.dll:0x13F039C:?max@?$numeric_limits@E@std@@SAEXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<unsigned char>,
+import:MSVCP90.dll:0x13F03A0:?min@?$numeric_limits@E@std@@SAEXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<unsigned char>,
+import:MSVCP90.dll:0x13F03A4:?max@?$numeric_limits@C@std@@SACXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<signed char>,
+import:MSVCP90.dll:0x13F03A8:?min@?$numeric_limits@C@std@@SACXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<signed char>,
+import:MSVCP90.dll:0x13F03AC:?compare@?$char_traits@G@std@@SAHPBG0I@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F03B0:?find@?$char_traits@G@std@@SAPBGPBGIABG@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F03B4:?min@?$numeric_limits@M@std@@SAMXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<float>,
+import:MSVCP90.dll:0x13F03B8:?max@?$numeric_limits@K@std@@SAKXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<unsigned long>,
+import:MSVCP90.dll:0x13F03BC:??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F03BC:??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F03BC:??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ,import,MSVCP90.dll,member_owner,"std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F03C0:?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F03C0:?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ,import,MSVCP90.dll,explicit_type_mention,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F03C0:?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F03C0:?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ,import,MSVCP90.dll,member_owner,"std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F03C4:??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F03C4:??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F03C4:??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z,import,MSVCP90.dll,member_owner,"std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F03C8:?_Decref@facet@locale@std@@QAEPAV123@XZ,import,MSVCP90.dll,explicit_type_mention,std::locale::facet,
+import:MSVCP90.dll:0x13F03C8:?_Decref@facet@locale@std@@QAEPAV123@XZ,import,MSVCP90.dll,member_owner,std::locale::facet,
+import:MSVCP90.dll:0x13F03CC:?max@?$numeric_limits@_K@std@@SA_KXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<unsigned __int64>,
+import:MSVCP90.dll:0x13F03D0:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAH@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_istream<char,struct std::char_traits<char> >",0x1700C28
+import:MSVCP90.dll:0x13F03D0:??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F03D4:?max@?$numeric_limits@N@std@@SANXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<double>,
+import:MSVCP90.dll:0x13F03D8:?lt@?$char_traits@G@std@@SA_NABG0@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F03DC:?eq@?$char_traits@G@std@@SA_NABG0@Z,import,MSVCP90.dll,member_owner,std::char_traits<unsigned short>,
+import:MSVCP90.dll:0x13F03E0:?max_size@?$allocator@D@std@@QBEIXZ,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03E4:?allocate@?$allocator@D@std@@QAEPADI@Z,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03E8:??0?$allocator@D@std@@QAE@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F03E8:??0?$allocator@D@std@@QAE@ABV01@@Z,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03EC:?destroy@?$allocator@D@std@@QAEXPAD@Z,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03F0:?construct@?$allocator@D@std@@QAEXPADABD@Z,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03F4:??0?$allocator@D@std@@QAE@XZ,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03F8:?deallocate@?$allocator@D@std@@QAEXPADI@Z,import,MSVCP90.dll,member_owner,std::allocator<char>,
+import:MSVCP90.dll:0x13F03FC:??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F03FC:??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F03FC:??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0400:?max@?$numeric_limits@I@std@@SAIXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<unsigned int>,
+import:MSVCP90.dll:0x13F0404:??0locale@std@@QAE@XZ,import,MSVCP90.dll,member_owner,std::locale,
+import:MSVCP90.dll:0x13F0408:??1locale@std@@QAE@XZ,import,MSVCP90.dll,member_owner,std::locale,
+import:MSVCP90.dll:0x13F040C:?epsilon@?$numeric_limits@M@std@@SAMXZ,import,MSVCP90.dll,member_owner,std::numeric_limits<float>,
+import:MSVCP90.dll:0x13F0410:?lt@?$char_traits@D@std@@SA_NABD0@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0414:?find@?$char_traits@D@std@@SAPBDPBDIABD@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0418:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F0418:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F0418:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0418:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z,import,MSVCP90.dll,member_owner,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F041C:?compare@?$char_traits@D@std@@SAHPBD0I@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0420:?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0420:?endl@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@1@AAV21@@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0424:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0424:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0428:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F0428:??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F042C:??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F042C:??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F0430:??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0430:??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0430:??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z,import,MSVCP90.dll,member_owner,"std::basic_iostream<char,struct std::char_traits<char> >",0x1669570
+import:MSVCP90.dll:0x13F0434:??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0434:??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F0438:?_Xlen@_String_base@std@@SAXXZ,import,MSVCP90.dll,member_owner,std::_String_base,
+import:MSVCP90.dll:0x13F043C:??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F043C:??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0440:??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0440:??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_iostream<char,struct std::char_traits<char> >",0x1669570
+import:MSVCP90.dll:0x13F0444:?_Xran@_String_base@std@@SAXXZ,import,MSVCP90.dll,member_owner,std::_String_base,
+import:MSVCP90.dll:0x13F0448:?length@?$char_traits@D@std@@SAIPBD@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F044C:?width@ios_base@std@@QBEHXZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0450:?flags@ios_base@std@@QBEHXZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0454:?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0454:?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0458:?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHPBDH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0458:?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHPBDH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F045C:?width@ios_base@std@@QAEHH@Z,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F0460:?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0460:?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F0464:?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0464:?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F046C:?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F046C:?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0470:?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0470:?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0474:?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0474:?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0478:?to_int_type@?$char_traits@D@std@@SAHABD@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F047C:?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F047C:?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0480:?eof@?$char_traits@D@std@@SAHXZ,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0484:?eq_int_type@?$char_traits@D@std@@SA_NABH0@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0488:?to_char_type@?$char_traits@D@std@@SADABH@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F048C:?eq@?$char_traits@D@std@@SA_NABD0@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0490:?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0490:?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0494:?not_eof@?$char_traits@D@std@@SAHABH@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0498:?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0498:?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z,import,MSVCP90.dll,explicit_type_mention,std::locale,
+import:MSVCP90.dll:0x13F0498:?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F049C:?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F049C:?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04A0:?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PADH@Z,import,MSVCP90.dll,explicit_type_mention,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04A0:?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PADH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04A0:?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PADH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04A4:?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPBDH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04A4:?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPBDH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04A8:?_Xsgetn_s@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPADIH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04A8:?_Xsgetn_s@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPADIH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04AC:?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPADH@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04AC:?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHPADH@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04B0:?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04B0:?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04B4:?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04B4:?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04B8:??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04B8:??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04C0:?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04C0:?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,member_owner,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F04C4:?good@ios_base@std@@QBE_NXZ,import,MSVCP90.dll,member_owner,std::ios_base,0x168AADC
+import:MSVCP90.dll:0x13F04C8:?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F04C8:?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04C8:?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F04CC:?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ,import,MSVCP90.dll,explicit_type_mention,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F04CC:?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04CC:?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ,import,MSVCP90.dll,member_owner,"std::basic_ostream<char,struct std::char_traits<char> >",0x1719488
+import:MSVCP90.dll:0x13F04D0:?assign@?$char_traits@D@std@@SAXAADABD@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04D4:?assign@?$char_traits@D@std@@SAPADPADID@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04D8:?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04D8:?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04DC:?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04DC:?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04E0:?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04E0:?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04E4:?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04E4:?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04E8:?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04E8:?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04EC:?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04EC:?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04F0:?_Move_s@?$char_traits@D@std@@SAPADPADIPBDI@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04F4:?_Copy_s@?$char_traits@D@std@@SAPADPADIPBDI@Z,import,MSVCP90.dll,member_owner,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04F8:?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04F8:?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04FC:?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ,import,MSVCP90.dll,explicit_type_mention,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F04FC:?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F04FC:?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCP90.dll:0x13F0500:?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0500:?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ,import,MSVCP90.dll,member_owner,"std::basic_streambuf<char,struct std::char_traits<char> >",0x167DC40
+import:MSVCP90.dll:0x13F0504:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F0504:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0504:??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z,import,MSVCP90.dll,member_owner,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F0508:?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F0508:?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0508:?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ,import,MSVCP90.dll,member_owner,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F050C:??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::allocator<char>,
+import:MSVCP90.dll:0x13F050C:??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F050C:??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ,import,MSVCP90.dll,member_owner,"std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >",
+import:MSVCP90.dll:0x13F0510:?imbue@?$basic_ios@DU?$char_traits@D@std@@@std@@QAE?AVlocale@2@ABV32@@Z,import,MSVCP90.dll,explicit_type_mention,std::char_traits<char>,
+import:MSVCP90.dll:0x13F0510:?imbue@?$basic_ios@DU?$char_traits@D@std@@@std@@QAE?AVlocale@2@ABV32@@Z,import,MSVCP90.dll,explicit_type_mention,std::locale,
+import:MSVCP90.dll:0x13F0510:?imbue@?$basic_ios@DU?$char_traits@D@std@@@std@@QAE?AVlocale@2@ABV32@@Z,import,MSVCP90.dll,member_owner,"std::basic_ios<char,struct std::char_traits<char> >",0x16ED008
+import:MSVCR90.dll:0x13F0530:??0exception@std@@QAE@ABQBDH@Z,import,MSVCR90.dll,member_owner,std::exception,0x1643CF8
+import:MSVCR90.dll:0x13F0538:??0bad_cast@std@@QAE@PBD@Z,import,MSVCR90.dll,member_owner,std::bad_cast,0x164167C
+import:MSVCR90.dll:0x13F053C:??1bad_cast@std@@UAE@XZ,import,MSVCR90.dll,member_owner,std::bad_cast,0x164167C
+import:MSVCR90.dll:0x13F0540:??0bad_cast@std@@QAE@ABV01@@Z,import,MSVCR90.dll,explicit_type_mention,std::bad_cast,0x164167C
+import:MSVCR90.dll:0x13F0540:??0bad_cast@std@@QAE@ABV01@@Z,import,MSVCR90.dll,member_owner,std::bad_cast,0x164167C
+import:MSVCR90.dll:0x13F0650:?_type_info_dtor_internal_method@type_info@@QAEXXZ,import,MSVCR90.dll,member_owner,type_info,0x1736BA0
+import:MSVCR90.dll:0x13F0680:??8type_info@@QBE_NABV0@@Z,import,MSVCR90.dll,explicit_type_mention,type_info,0x1736BA0
+import:MSVCR90.dll:0x13F0680:??8type_info@@QBE_NABV0@@Z,import,MSVCR90.dll,member_owner,type_info,0x1736BA0
+import:MSVCR90.dll:0x13F0684:??0exception@std@@QAE@ABV01@@Z,import,MSVCR90.dll,explicit_type_mention,std::exception,0x1643CF8
+import:MSVCR90.dll:0x13F0684:??0exception@std@@QAE@ABV01@@Z,import,MSVCR90.dll,member_owner,std::exception,0x1643CF8
+import:MSVCR90.dll:0x13F068C:??0exception@std@@QAE@XZ,import,MSVCR90.dll,member_owner,std::exception,0x1643CF8
+import:MSVCR90.dll:0x13F0690:??1exception@std@@UAE@XZ,import,MSVCR90.dll,member_owner,std::exception,0x1643CF8
+import:MSVCR90.dll:0x13F0694:?what@exception@std@@UBEPBDXZ,import,MSVCR90.dll,member_owner,std::exception,0x1643CF8
+import:MSVCR90.dll:0x13F0698:??0exception@std@@QAE@ABQBD@Z,import,MSVCR90.dll,member_owner,std::exception,0x1643CF8
+import:fmodex.dll:0x13F09E0:?getDriverCaps@System@FMOD@@QAG?AW4FMOD_RESULT@@HPAIPAH1PAW4FMOD_SPEAKERMODE@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09E4:?setSpeakerMode@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_SPEAKERMODE@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09E8:?setDSPBufferSize@System@FMOD@@QAG?AW4FMOD_RESULT@@IH@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09EC:?getDriverInfo@System@FMOD@@QAG?AW4FMOD_RESULT@@HPADHPAUFMOD_GUID@@@Z,import,fmodex.dll,explicit_type_mention,FMOD_GUID,
+import:fmodex.dll:0x13F09EC:?getDriverInfo@System@FMOD@@QAG?AW4FMOD_RESULT@@HPADHPAUFMOD_GUID@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09F0:?setSoftwareFormat@System@FMOD@@QAG?AW4FMOD_RESULT@@HW4FMOD_SOUND_FORMAT@@HHW4FMOD_DSP_RESAMPLER@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09F4:?getSoftwareFormat@System@FMOD@@QAG?AW4FMOD_RESULT@@PAHPAW4FMOD_SOUND_FORMAT@@00PAW4FMOD_DSP_RESAMPLER@@0@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09F8:?setOutput@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_OUTPUTTYPE@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F09FC:?init@System@FMOD@@QAG?AW4FMOD_RESULT@@HIPAX@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A04:?createDSPByType@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_DSP_TYPE@@PAPAVDSP@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::DSP,
+import:fmodex.dll:0x13F0A04:?createDSPByType@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_DSP_TYPE@@PAPAVDSP@2@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A08:?getInfo@DSP@FMOD@@QAG?AW4FMOD_RESULT@@PADPAIPAH22@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A0C:?getParameterInfo@DSP@FMOD@@QAG?AW4FMOD_RESULT@@HPAD00HPAM1@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A10:?setBypass@DSP@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A14:?setParameter@DSP@FMOD@@QAG?AW4FMOD_RESULT@@HM@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A18:?getBypass@DSP@FMOD@@QAG?AW4FMOD_RESULT@@PA_N@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A1C:?getParameter@DSP@FMOD@@QAG?AW4FMOD_RESULT@@HPAMPADH@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A20:?setSpeakerActive@DSP@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_SPEAKER@@_N@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A24:?getNumParameters@DSP@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A28:?getMemoryInfo@System@FMOD@@QAG?AW4FMOD_RESULT@@IIPAI0@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A2C:?getVersion@System@FMOD@@QAG?AW4FMOD_RESULT@@PAI@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A30:?setCallback@System@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW43@PAUFMOD_SYSTEM@@W4FMOD_SYSTEM_CALLBACKTYPE@@PAX2@Z@Z,import,fmodex.dll,explicit_type_mention,FMOD_SYSTEM,
+import:fmodex.dll:0x13F0A30:?setCallback@System@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW43@PAUFMOD_SYSTEM@@W4FMOD_SYSTEM_CALLBACKTYPE@@PAX2@Z@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A34:?setFileSystem@System@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW43@PBDHPAIPAPAX2@ZP6G?AW43@PAX4@ZP6G?AW43@44I14@ZP6G?AW43@4I4@ZH@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A38:?release@DSP@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A3C:?release@System@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A40:?update@System@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A44:?createDSP@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_DSP_DESCRIPTION@@PAPAVDSP@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::DSP,
+import:fmodex.dll:0x13F0A44:?createDSP@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_DSP_DESCRIPTION@@PAPAVDSP@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD_DSP_DESCRIPTION,
+import:fmodex.dll:0x13F0A44:?createDSP@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_DSP_DESCRIPTION@@PAPAVDSP@2@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A48:?setDefaults@DSP@FMOD@@QAG?AW4FMOD_RESULT@@MMMH@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A4C:?playDSP@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PAVDSP@2@_NPAPAVChannel@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::Channel,
+import:fmodex.dll:0x13F0A4C:?playDSP@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PAVDSP@2@_NPAPAVChannel@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::DSP,
+import:fmodex.dll:0x13F0A4C:?playDSP@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PAVDSP@2@_NPAPAVChannel@2@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A50:?getWaveData@System@FMOD@@QAG?AW4FMOD_RESULT@@PAMHH@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A54:?getCPUUsage@System@FMOD@@QAG?AW4FMOD_RESULT@@PAM0000@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A58:?getSpectrum@System@FMOD@@QAG?AW4FMOD_RESULT@@PAMHHW4FMOD_DSP_FFT_WINDOW@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A5C:?getOutput@System@FMOD@@QAG?AW4FMOD_RESULT@@PAW4FMOD_OUTPUTTYPE@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A60:?getOutputHandle@System@FMOD@@QAG?AW4FMOD_RESULT@@PAPAX@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A6C:?getName@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PADH@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A70:?getNumDrivers@System@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A74:?reset@DSP@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A78:?setPaused@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A7C:?getDSPHead@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVDSP@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::DSP,
+import:fmodex.dll:0x13F0A7C:?getDSPHead@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVDSP@2@@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A80:?setActive@DSP@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z,import,fmodex.dll,member_owner,FMOD::DSP,
+import:fmodex.dll:0x13F0A84:?getWaveData@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAMHH@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A88:?setStreamBufferSize@System@FMOD@@QAG?AW4FMOD_RESULT@@II@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A8C:?setPitch@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@M@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A90:?createChannelGroup@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDPAPAVChannelGroup@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A90:?createChannelGroup@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDPAPAVChannelGroup@2@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0A94:?getParentGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAPAV12@@Z,import,fmodex.dll,explicit_type_mention,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A94:?getParentGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAPAV12@@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A98:?addGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAV12@@Z,import,fmodex.dll,explicit_type_mention,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A98:?addGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAV12@@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0A9C:?getNumGroups@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AA0:?getGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAV12@@Z,import,fmodex.dll,explicit_type_mention,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AA0:?getGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAV12@@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AA4:?release@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AA8:?getPaused@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PA_N@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AAC:?getNumChannels@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AB0:?stop@Channel@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AB4:?getLoopPoints@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAII0I@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AB8:?setPriority@Channel@FMOD@@QAG?AW4FMOD_RESULT@@H@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0ABC:?setPaused@Channel@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AC0:?setPosition@Channel@FMOD@@QAG?AW4FMOD_RESULT@@II@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AC4:?getDefaults@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAM00PAH@Z,import,fmodex.dll,member_owner,FMOD::Sound,
+import:fmodex.dll:0x13F0AC8:?setFrequency@Channel@FMOD@@QAG?AW4FMOD_RESULT@@M@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0ACC:?setSpeakerMix@Channel@FMOD@@QAG?AW4FMOD_RESULT@@MMMMMMMM@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AD0:?getPriority@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AD4:?getPosition@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAII@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AD8:?getCurrentSound@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVSound@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::Sound,
+import:fmodex.dll:0x13F0AD8:?getCurrentSound@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVSound@2@@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0ADC:?isPlaying@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PA_N@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AE0:?getPaused@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PA_N@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AE4:?playSound@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PAVSound@2@_NPAPAVChannel@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::Channel,
+import:fmodex.dll:0x13F0AE4:?playSound@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PAVSound@2@_NPAPAVChannel@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::Sound,
+import:fmodex.dll:0x13F0AE4:?playSound@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PAVSound@2@_NPAPAVChannel@2@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0AE8:?setChannelGroup@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAVChannelGroup@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::ChannelGroup,
+import:fmodex.dll:0x13F0AE8:?setChannelGroup@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAVChannelGroup@2@@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AEC:?setLoopCount@Channel@FMOD@@QAG?AW4FMOD_RESULT@@H@Z,import,fmodex.dll,member_owner,FMOD::Channel,
+import:fmodex.dll:0x13F0AF0:?release@Sound@FMOD@@QAG?AW4FMOD_RESULT@@XZ,import,fmodex.dll,member_owner,FMOD::Sound,
+import:fmodex.dll:0x13F0AF4:?createSound@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDIPAUFMOD_CREATESOUNDEXINFO@@PAPAVSound@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::Sound,
+import:fmodex.dll:0x13F0AF4:?createSound@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDIPAUFMOD_CREATESOUNDEXINFO@@PAPAVSound@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD_CREATESOUNDEXINFO,
+import:fmodex.dll:0x13F0AF4:?createSound@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDIPAUFMOD_CREATESOUNDEXINFO@@PAPAVSound@2@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0AF8:?getLoopPoints@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAII0I@Z,import,fmodex.dll,member_owner,FMOD::Sound,
+import:fmodex.dll:0x13F0AFC:?getLength@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAII@Z,import,fmodex.dll,member_owner,FMOD::Sound,
+import:fmodex.dll:0x13F0B00:?getStreamBufferSize@System@FMOD@@QAG?AW4FMOD_RESULT@@PAI0@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0B04:?getOpenState@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAW4FMOD_OPENSTATE@@PAIPA_N@Z,import,fmodex.dll,member_owner,FMOD::Sound,
+import:fmodex.dll:0x13F0B08:?setAdvancedSettings@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_ADVANCEDSETTINGS@@@Z,import,fmodex.dll,explicit_type_mention,FMOD_ADVANCEDSETTINGS,
+import:fmodex.dll:0x13F0B08:?setAdvancedSettings@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_ADVANCEDSETTINGS@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0B0C:?getAdvancedSettings@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_ADVANCEDSETTINGS@@@Z,import,fmodex.dll,explicit_type_mention,FMOD_ADVANCEDSETTINGS,
+import:fmodex.dll:0x13F0B0C:?getAdvancedSettings@System@FMOD@@QAG?AW4FMOD_RESULT@@PAUFMOD_ADVANCEDSETTINGS@@@Z,import,fmodex.dll,member_owner,FMOD::System,
+import:fmodex.dll:0x13F0B10:?addDSP@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAVDSP@2@PAPAVDSPConnection@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::DSP,
+import:fmodex.dll:0x13F0B10:?addDSP@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAVDSP@2@PAPAVDSPConnection@2@@Z,import,fmodex.dll,explicit_type_mention,FMOD::DSPConnection,
+import:fmodex.dll:0x13F0B10:?addDSP@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAVDSP@2@PAPAVDSPConnection@2@@Z,import,fmodex.dll,member_owner,FMOD::ChannelGroup,

@@ -62,3 +62,7 @@ PYTHONPATH=tooling/python python -c 'import pefile, lief, capstone, unicorn, key
 ## Классы, связанные со скриптами
 
 Реестр RTTI-типов и кандидатов в 35 PE-секциях — [`analysis/script-classes/CLASSES.md`](analysis/script-classes/CLASSES.md); методика и ограничения — [`analysis/script-classes/REPORT.md`](analysis/script-classes/REPORT.md). Реестр воспроизводится командой `python tooling/extract_script_classes.py` при наличии проверенного EXE. Сравнение типов и reflection-прокси со справочником Lua API находится в [`analysis/script-api-comparison/REPORT.md`](analysis/script-api-comparison/REPORT.md); для воспроизведения предназначен `python tooling/compare_script_api.py`. Расширенный аудит всех записей, CFG-кандидаты и ручная проверка расхождений — [`analysis/script-api-audit/REPORT.md`](analysis/script-api-audit/REPORT.md), скрипты `python tooling/audit_script_api.py` и `python tooling/test_script_api_audit.py`.
+
+## Инвентарь C++ по всем секциям
+
+Общий указатель имён и кандидатов: [`analysis/cpp-classes/names.csv`](analysis/cpp-classes/names.csv). RTTI с адресами, иерархиями и кандидатами vtable, а также ссылки на типы из экспортов/импортов — в [`analysis/cpp-classes/REPORT.md`](analysis/cpp-classes/REPORT.md). Воспроизведение: `python tooling/inventory_cpp_classes.py`, проверка: `python tooling/verify_cpp_classes.py`; установка деманглера и ограничения подробно описаны в отчёте. Это статический инвентарь сохранившихся свидетельств, а не доказательство всех исходных классов.

@@ -1,0 +1,54 @@
+{
+  "sha256": "caa1f80d49da5dbadee3b1a44c470a87ffcb6afa8c0ed24af01741a155c326c2",
+  "file_size": 22411776,
+  "machine": "PE32 x86",
+  "image_base": "0x400000",
+  "section_count": 35,
+  "manifest_sections_verified_against_exe": 31,
+  "bytes_scanned_sum": 22409728,
+  "prefix_hits": 11951,
+  "name_status": {
+    "type_descriptor_candidate": 11951
+  },
+  "type_descriptors": 11951,
+  "combined_distinct_exact_name_spellings": 14961,
+  "kind": {
+    "class": 11832,
+    "struct": 119
+  },
+  "demangle_status": {
+    "unresolved": 1,
+    "wine_synthetic_vftable": 11950
+  },
+  "unique_decorated_names": 11951,
+  "col_candidates": 15473,
+  "hierarchies": 9656,
+  "base_descriptors_rows": 38310,
+  "base_rows_unmatched_type_descriptor": 0,
+  "vtable_status": {
+    "candidate": 15473,
+    "rejected_unaligned_and_in_executable_section": 1
+  },
+  "class_evidence": {
+    "COL_and_vtable_candidate": 9656,
+    "type_descriptor_candidate_only": 2295
+  },
+  "cpp_symbols": {
+    "export": 199,
+    "import": 258
+  },
+  "symbol_status": {
+    "demangled": 456,
+    "unresolved": 1
+  },
+  "symbol_type_references": {
+    "export:explicit_type_mention": 48,
+    "export:member_owner": 197,
+    "import:explicit_type_mention": 172,
+    "import:member_owner": 221
+  },
+  "symbol_only_distinct_names": 63,
+  "rtti_type_reference_rows": 18384,
+  "rtti_reference_names_without_descriptor": 2949,
+  "demangler": "undname 0.2 Wine-derived LGPL-2.1-or-later (synthetic vftable)"
+}
